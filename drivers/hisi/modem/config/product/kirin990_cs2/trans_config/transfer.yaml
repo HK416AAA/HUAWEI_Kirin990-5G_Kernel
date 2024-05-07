@@ -1,0 +1,38 @@
+transfer_dirs:
+    image:
+        - \*
+    lib: 
+        - \*
+    tool:
+        - \*
+    log:
+        - \*
+pack_to_burn_packages_dirs:
+    lib:
+        - balong_modem.bin
+        - balong_modem_hac.bin
+        - balong_modem_nrccpu.bin
+        - nr_phy.bin
+        - nr_phy_str.bin
+        - lr_phy.bin
+        - lr_phy_str.bin
+        - rfdsp_hf.bin
+        - rfdsp_sub6g.bin
+        - rfdsp_hf_es.bin
+        - rfdsp_sub6g_es.bin
+        - nv.db
+        - modemCert.cert
+        - modem_dt.img
+        - tool_logcfg/
+        - pde/
+        - rfdsp_bprint.a
+        - rfdsp_bprint.dll
+    image:
+        - nv_modem.bin
+        - mtp/
+        - push_mtp_phone.bat
+        - mtp.tar.gz
+        - kernel_system/
+    regex:
+        - image/\w*/nv_cust.bin
+        - lib/Hids_.*bin

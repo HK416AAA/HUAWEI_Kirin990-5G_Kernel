@@ -1,0 +1,8 @@
+#CT功能特性开关
+CFG_PAM_CT_ENABLED = NO
+
+#BT功能特性开关
+CFG_PAM_BT_ENABLED = NO
+
+#PAM组ENG特性宏开关
+CFG_PAM_ENG_ENABLED = NO

@@ -1,0 +1,38 @@
+#####################################################################
+# Copyright (C) 2011 Huawei Tech. Co., Ltd.
+# easyrf product define file
+# 
+# Author : hewei/00309869, 2019-4-7
+#####################################################################
+
+
+# RFIC平台形态定义，RFIC0和RFIC1各自定义，CFG_RFIC_SUB6G_BOARD_TYPE/CFG_RFIC_HF_BOARD_TYPE: FPGA=0 / SFT=1 / ASIC=2 / SDAT=3 / Porting RTT=4
+CFG_RFIC_BOARD_TYPE_FPGA                  = 0
+CFG_RFIC_BOARD_TYPE_SFT                   = 1
+CFG_RFIC_BOARD_TYPE_ASIC                  = 2
+CFG_RFIC_BOARD_TYPE_SDAT                  = 3
+CFG_RFIC_BOARD_TYPE_PORTING               = 4
+
+# RFIC芯片类型定义，RFIC0和RFIC1各自定义，CFG_RFIC_SUB6G_CHIP_TYPE/CFG_RFIC_HF_CHIP_TYPE: 6365=2 / 6370=3 / 6365CS=4 / 6370CS=5
+CFG_RFIC_CHIP_TYPE_6365                   = 2
+CFG_RFIC_CHIP_TYPE_6370                   = 3
+CFG_RFIC_CHIP_TYPE_6365CS                 = 4
+CFG_RFIC_CHIP_TYPE_6370CS                 = 5
+
+CFG_RFIC_SUB6G_XTENSA_CORE_SYSTEM = "RG-2017.7"  
+CFG_RFIC_SUB6G_XTENSA_CORE_CACHE  = Hi6365V100_Xten_fusion_P2
+CFG_RFIC_SUB6G_LSP_SCRIPT_PATH    = "6365"
+CFG_RFIC_SUB6G_CHIP_TYPE_PATH = "asic_hi6365"
+CFG_RFIC_SUB6G_CHIP_TYPE      = RFIC_CHIP_TYPE_6365
+CFG_RFIC_SUB6G_BOARD_TYPE     = RFIC_BOARD_TYPE_ASIC
+
+
+CFG_RFIC_HF_XTENSA_CORE_SYSTEM = "RG-2017.7"
+CFG_RFIC_HF_XTENSA_CORE_CACHE  = Hi6365V100_Xten_fusion_P2
+CFG_RFIC_HF_LSP_SCRIPT_PATH    = "6370"
+CFG_RFIC_HF_CHIP_TYPE_PATH = "asic_hi6370"
+CFG_RFIC_HF_CHIP_TYPE      = RFIC_CHIP_TYPE_6370
+CFG_RFIC_HF_BOARD_TYPE     = RFIC_BOARD_TYPE_ASIC
+
+CFG_RFIC_BOARD_TYPE    = RFIC_BOARD_TYPE_ASIC
+

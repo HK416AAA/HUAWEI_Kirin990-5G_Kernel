@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<HISI_DIRECT_REPORT>
+    <EVENT id="904220000" name="TDS_OOS_INFO_REPORT" desc="事件TDS_OOS_INFO_REPORT" engdesc="TDS_OOS_INFO_REPORT" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC" />
+    <EVENT id="904220064" name="TRRC_STATISTIC_COLLECTION" desc="事件TRRC_STATISTIC_INFO_COLLECTION" engdesc="TRRC_STATISTIC_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="TRRC_OUT_OF_SYNC_CELL_UPDATE" type="class" />
+        <PARAM name="TRRC_APP_COLLECT_TDS_FREQ" type="class" />
+        <PARAM name="TRRC_CS_CALL_EST_CNF" type="class" />
+        <PARAM name="TRRC_CS_CALL_CONN_REQ" type="class" />
+        <PARAM name="TRRC_CS_CALL_AIRMSG_INFO_STRU" type="class" />
+        <PARAM name="TRRC_APP_CONFIG_PCH_CELL" type="class" />
+    </EVENT>
+    <EVENT id="904220065" name="LRRC_STATISTIC1_COLLECTION" desc="事件LRRC_STATISTIC1_INFO_COLLECTION" engdesc="LRRC_STATISTIC1_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="LRRC_UE_CAP_FALL" type="class" />
+        <PARAM name="LRRC_USER_PLANE_REL" type="class" />
+    </EVENT>
+    <EVENT id="904220066" name="LRRC_STATISTIC2_COLLECTION" desc="事件LRRC_STATISTIC2_INFO_COLLECTION" engdesc="LRRC_STATISTIC2_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC" />
+    <EVENT id="904220067" name="LRRC_VOLTE_FAULT_AUTOAN_IND" desc="事件LRRC_VOLTE_FAULT_AUTOAN_IND" engdesc="LRRC_VOLTE_FAULT_AUTOAN_IND" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="LPS_VOLTE_FAULT_AUTOAN" type="class" />
+    </EVENT>
+    <EVENT id="904220068" name="LPS_VOLTE_STAT_IND" desc="事件LPS_VOLTE_STAT_IND" engdesc="LPS_VOLTE_STAT_IND" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="LPS_VOLTE_GENERAL_STAT" type="class" />
+    </EVENT>
+    <EVENT id="904220076" name="TMAC_STATISTIC_COLLECTION" desc="事件TMAC_STATISTIC_INFO_COLLECTION" engdesc="TMAC_STATISTIC_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC" />
+    <EVENT id="904220077" name="LL2_STATISTIC_INFO_COLLECTION" desc="事件LL2_STATISTIC_INFO_COLLECTION" engdesc="LL2_STATISTIC_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="LMAC_PREAMBLE_SPEC_NOT_MATCH" type="class" />
+    </EVENT>
+    <EVENT id="904220079" name="LNAS_STATISTIC_COLLECTION" desc="事件LNAS_STATISTIC_INFO_COLLECTION" engdesc="LNAS_STATISTIC_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="LEMM_DSDS_RRM_RF_CHECKIN" type="class" />
+        <PARAM name="LEMM_LTE_FAKE_NODEB" type="class" />
+        <PARAM name="LEMM_LOAD_BALANCE" type="class" />
+        <PARAM name="LEMM_DSDS_RF_RECOVER_RETRY" type="class" />
+        <PARAM name="LEMM_GRADUAL_FBDN_OPTIMIZE" type="class" />
+        <PARAM name="LEMM_VOLTE_TA_CHANGE" type="class" />
+        <PARAM name="LEMM_NO_RAU_TAU" type="class" />
+        <PARAM name="LEMM_IMS_BEARER_CN_MOD_CONFL" type="class" />
+        <PARAM name="LEMM_3440_TMO_NREL" type="class" />
+        <PARAM name="LIMSA_EMC_TCALL_TMO" type="class" />
+        <PARAM name="LIMSA_DSDS_WAIT_BEAR_REL_TMO" type="class" />
+        <PARAM name="LIMSA_DSDS_SMS_RF_OCCUPY" type="class" />
+        <PARAM name="LIMSA_WAIT_RETRY_START_SWITCH" type="class" />
+        <PARAM name="LIMSA_HANDOVER_INIT_PDN_CONN" type="class" />
+        <PARAM name="LIMSA_REG_REJ_WAIT_RECOVERY" type="class" />
+        <PARAM name="LEMM_CNMSG_DECODE_FAIL" type="class" />
+        <PARAM name="LEMM_SMC_FAIL" type="class" />
+        <PARAM name="LEMM_LOCAL_DETACH" type="class" />
+        <PARAM name="LEMM_T3402_DEACTIVED" type="class" />
+        <PARAM name="LEMM_ATT_FAIL_ESM_NEED_DIS_LTE" type="class" />
+        <PARAM name="LEMM_MMC_REL_DRGINIT" type="class" />
+        <PARAM name="LEMM_MO_BAR_ATTAMPT" type="class" />
+        <PARAM name="LNAS_ESM_SWITCH_APN" type="class" />
+        <PARAM name="LNAS_ESM_CNMSG_DECODE_FAIL" type="class" />
+        <PARAM name="LEMM_DETACH_NO_RF" type="class" />
+        <PARAM name="LEMM_PERIODIC_TAU_CAUSE" type="class" />
+        <PARAM name="LEMM_LANZHOU_CSFB_OPTIMIZE" type="class" />
+        <PARAM name="LEMM_START_3402_ADD_FORB_LIST" type="class" />
+        <PARAM name="LEMM_IMPROVE_CALL_SUCC_RATIO" type="class" />
+        <PARAM name="LEMM_TAU_EST_CELL_SRCHING_OPT" type="class" />
+        <PARAM name="LEMM_AUTH_REJ_OPT" type="class" />
+        <PARAM name="LEMM_TAU_CN_REL_NWAIT_3411_TMO" type="class" />
+        <PARAM name="LNAS_ESM_ESM_MSG_RETRANSMITE" type="class" />
+        <PARAM name="LEMM_EMC_DATA_REQ_TAU" type="class" />
+        <PARAM name="LEMM_EMC_BERER_CN_REJ_AC_SRCH" type="class" />
+        <PARAM name="LNAS_ERRLOG_CSS_BAND_LIST" type="class" />
+        <PARAM name="LEMM_CSFB_TAU_RCV_MT_DETACH" type="class" />
+        <PARAM name="LEMM_MT_DETACH_OPTIMIZE" type="class" />
+        <PARAM name="LEMM_MT_SERVICE_RETRY" type="class" />
+        <PARAM name="LEMM_DSDS_NO_RF_TAU_PUNISH" type="class" />
+        <PARAM name="LEMM_DSDS_BUFFER_NO_RF_TAU_REQ" type="class" />
+        <PARAM name="LEMM_RF_OCCUPY_MODEM1_TAU" type="class" />
+        <PARAM name="LEMM_REATTACH_PUNISH" type="class" />
+        <PARAM name="LEMM_INFO_DEEP_GAME" type="class" />
+        <PARAM name="LEMM_ATTACH_TAU_FAIL_MAXTIMES" type="class" />
+        <PARAM name="LNAS_ESM_INFO_ESM65" type="class" />
+        <PARAM name="LEMM_INFO_ESCAPE" type="class" />
+        <PARAM name="LNAS_ESM_INFO_LCSLPP_LEN" type="class" />
+        <PARAM name="LNAS_ESM_INFO_AIR_COMPATI" type="class" />
+        <PARAM name="LNAS_ERABM_INFO_BEAR_ACT_WITHO" type="class" />
+        <PARAM name="LEMM_INFO_HO_WITHIN_TAU_PROCES" type="class" />
+        <PARAM name="LNAS_LMM_DL_NASCOUNT" type="class" />
+        <PARAM name="LNAS_ESM_BEARER_STATUS_INCONSI" type="class" />
+        <PARAM name="LEMM_REPEATEDLY_CONN_RECOVER_T" type="class" />
+        <PARAM name="LIMSA_RELEASE_SIGNAL_BEAR" type="class" />
+        <PARAM name="LEMM_INFO_ESCAPE_DESCEND_CAP" type="class" />
+        <PARAM name="LEMM_INFO_ROBUST_OPTIMIZATION_" type="class" />
+        <PARAM name="LNAS_ESM_CHANGE_NULL_APN_OPT" type="class" />
+        <PARAM name="LEMM_LRRC_SMC_FAIL_CHR" type="class" />
+        <PARAM name="LNAS_ESM_INFO_5G_ESCAPE_DESCEN" type="class" />
+        <PARAM name="LEMM_COMPATIBILITY" type="class" />
+        <PARAM name="LNAS_ESM_ESM_STATUS_NOT_EQ_LMM" type="class" />
+        <PARAM name="LEMM_LTE_FAKE_NODEB_OPTIMIZATION_STATISTICS" type="class" />
+        <PARAM name="LEMM_INITIATE_TAU_OPTIMIZATION_STATISTICS" type="class" />
+        <PARAM name="LEMM_N2L_HO_ABNORMAL_REL_STATISTICS" type="class" />
+        <PARAM name="LIMSA_NR_EST_FAIL" type="class" />
+        <PARAM name="LIMSA_IMPLICIT_DETACH_EMC_REDIAL" type="class" />
+        <PARAM name="LIMSA_MEDIA_PDP_LOST_EVENT" type="class" />
+    </EVENT>
+    <EVENT id="904220084" name="GAS_STATISTIC_INFO_COLLECTION" desc="事件GAS_STATISTIC_INFO_COLLECTION" engdesc="GAS_STATISTIC_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GAS_NOT_SUPP_BSS_PAGING_COOR" type="class" />
+        <PARAM name="GAS_CUSTOM_C1_CELL" type="class" />
+        <PARAM name="GAS_LOG_EVT_NET_WORK_FEATURE" type="class" />
+        <PARAM name="GAS_LOG_EVT_GSM_CELL_CALL_TIME" type="class" />
+    </EVENT>
+    <EVENT id="904220055" name="PS_RADIO_RESOURCE_CHECK" desc="事件PS_RADIO_RESOURCE_CHECK" engdesc="PS_RADIO_RESOURCE_CHECK" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GUCNAS_RADIO_RESOURCE_CHECK" type="class" />
+        <PARAM name="CTTF_RADIO_RESOURCE_CHECK" type="class" />
+        <PARAM name="CAS_1X_RADIO_RESOURCE_CHECK" type="class" />
+        <PARAM name="CAS_HRPD_RADIO_RESOURCE_CHECK" type="class" />
+        <PARAM name="GAS_RADIO_RESOURCE_CHECK" type="class" />
+        <PARAM name="WAS_RADIO_RESOURCE_CHECK" type="class" />
+        <PARAM name="TRRC_RRM_RESOURCE_CHECK_LIST" type="class" />
+        <PARAM name="LRRC_RRM_RES_CHECK_LIST" type="class" />
+        <PARAM name="NRRC_RADIO_RES_CHECK" type="class" />
+    </EVENT>
+    <EVENT id="904220085" name="WAS_STATISTIC_INFO_COLLECTION" desc="事件WAS_STATISTIC_INFO_COLLECTION" engdesc="WAS_STATISTIC_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="WAS_RRC_ACCESS_LONG" type="class" />
+        <PARAM name="WAS_RRC_STATE_LAST_TIME" type="class" />
+        <PARAM name="WAS_WOOS_SEARCH_SECTION" type="class" />
+        <PARAM name="WAS_W2W_RESEL_SLOW" type="class" />
+        <PARAM name="WAS_NET_WORK_FEATURE" type="class" />
+        <PARAM name="WAS_DCH_TRIGGER_CU" type="class" />
+        <PARAM name="WAS_CS_END_CESSION_NOTIFY" type="class" />
+    </EVENT>
+    <EVENT id="904220086" name="GUCNAS_STATISTIC_COLLECTION" desc="事件GUCNAS_STATISTIC_INFO_COLLECTION" engdesc="GUCNAS_STATISTIC_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC" />
+    <EVENT id="904220087" name="GUNAS_STATISTIC_COLLECTION" desc="事件GUNAS_STATISTIC_INFO_COLLECTION" engdesc="GUNAS_STATISTIC_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GUNAS_SS_DECODE_EXCEPT" type="class" />
+        <PARAM name="GUNAS_SS_DECODE_EXCEPT" type="class" />
+        <PARAM name="GUNAS_RECEIVE_SMS_IN_ANTI_ATTA" type="class" />
+        <PARAM name="GUNAS_SMS_ANTI_ATTACK" type="class" />
+    </EVENT>
+    <EVENT id="904220088" name="CNAS_STATISTIC_COLLECTION" desc="事件CNAS_STATISTIC_INFO_COLLECTION" engdesc="CNAS_STATISTIC_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC" />
+    <EVENT id="904220089" name="COMM_ERRORLOG" desc="事件COMM_ERRORLOG" engdesc="COMM_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC" />
+    <EVENT id="904220128" name="NRRC_STATISTIC_COLLECTION" desc="事件NRRC_STATISTIC_INFO_COLLECTION" engdesc="NRRC_STATISTIC_INFO_COLLECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NRRC_OTA_CHECK_FAIL" type="class" />
+        <PARAM name="NRRC_OUT_OF_SYNC" type="class" />
+        <PARAM name="NRRC_CHR_DIRECT_RA_FAIL_STRU" type="class" />
+        <PARAM name="NRRC_BAND_CNT_OVER_LMT" type="class" />
+        <PARAM name="NRRC_NW_PARA_ABNORMAL" type="class" />
+        <PARAM name="NRRC_EXTREME_SCENE" type="class" />
+    </EVENT>
+    <SUBEVENT id="904222001" size="136" name="CAS_1X_RADIO_RESOURCE_CHECK" desc="事件CAS_1X_RADIO_RESOURCE_CHECK_CHR_RPT_STRU" engdesc="CAS_1X_RADIO_RESOURCE_CHECK_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulLastRptSlice" type="int" size="4" desc="数值ulLastRptSlice" engdesc="ulLastRptSlice" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enIsFirstRpt" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="ucTaskExceptNum" type="tinyint" size="1" desc="数值ucTaskExceptNum" engdesc="ucTaskExceptNum" />
+        <PARAM name="aucReserve_1" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+        <PARAM name="CAS_RESOURCE_EXCEPTION" type="classArray" size="16" />
+    </SUBEVENT>
+    <SUBEVENT id="904222002" size="136" name="CAS_HRPD_RADIO_RESOURCE_CHECK" desc="事件CAS_HRPD_RADIO_RESOURCE_CHECK_CHR_RPT_STRU" engdesc="CAS_HRPD_RADIO_RESOURCE_CHECK_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulLastRptSlice" type="int" size="4" desc="数值ulLastRptSlice" engdesc="ulLastRptSlice" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enIsFirstRpt" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="ucTaskExceptNum" type="tinyint" size="1" desc="数值ucTaskExceptNum" engdesc="ucTaskExceptNum" />
+        <PARAM name="aucReserve_1" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+        <PARAM name="CAS_RESOURCE_EXCEPTION" type="classArray" size="16" />
+    </SUBEVENT>
+    <SUBEVENT id="904222003" name="CAS_ERRORLOG" desc="事件CAS_ERRORLOG" engdesc="CAS_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulLastRptSlice" type="int" size="4" desc="数值ulLastRptSlice" engdesc="ulLastRptSlice" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enIsFirstRpt" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="ucTaskExceptNum" type="tinyint" size="1" desc="数值ucTaskExceptNum" engdesc="ucTaskExceptNum" />
+        <PARAM name="aucReserve_1" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+        <PARAM name="CAS_RESOURCE_EXCEPTION" type="classArray" size="16" />
+    </SUBEVENT>
+    <SUBEVENT id="904224501" size="244" name="GAS_NOT_SUPP_BSS_PAGING_COOR" desc="事件GAS_NOT_SUPP_BSS_PAGING_COOR_CHR_RPT_STRU" engdesc="GAS_NOT_SUPP_BSS_PAGING_COOR_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucCellNum" type="tinyint" size="1" desc="数值ucCellNum" engdesc="ucCellNum" />
+        <PARAM name="aucReserved_2" type="tinyint" size="1" desc="字符串aucReserved" engdesc="aucReserved" />
+        <PARAM name="GAS_MNTN_GSM_CELL_AREA_IDENTIF" type="classArray" size="10" />
+    </SUBEVENT>
+    <SUBEVENT id="904224502" size="106" name="GAS_RADIO_RESOURCE_CHECK" desc="事件GAS_RADIO_RESOURCE_CHECK_CHR_RPT_STRU" engdesc="GAS_RADIO_RESOURCE_CHECK_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucExcpRecCnt" type="tinyint" size="1" desc="数值ucExcpRecCnt" engdesc="ucExcpRecCnt" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="GAS_MNTN_RSRC_CHECK_EXCP_TASK" type="classArray" size="3" />
+    </SUBEVENT>
+    <SUBEVENT id="904224503" size="164" name="GAS_CUSTOM_C1_CELL" desc="事件GAS_CUSTOM_C1_CELL_CHR_RPT_STRU" engdesc="GAS_CUSTOM_C1_CELL_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucCustomC1CellCnt" type="tinyint" size="1" desc="数值ucCustomC1CellCnt" engdesc="ucCustomC1CellCnt" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="GAS_MNTN_CUSTOM_C1_CELL" type="classArray" size="10" />
+    </SUBEVENT>
+    <SUBEVENT id="904224504" size="28" name="GAS_LOG_EVT_NET_WORK_FEATURE" desc="事件GAS_ERR_LOG_EVT_NET_WORK_FEATURE_RPT_STRU" engdesc="GAS_ERR_LOG_EVT_NET_WORK_FEATURE_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GAS_ERR_LOG_NET_WORK_FEATURE_TYPE_ENUM" type="enum" size="2" desc="枚举enFeatureType" engdesc="GAS_ERR_LOG_NET_WORK_FEATURE_TYPE_ENUM" />
+        <PARAM name="ucRsv_1" type="tinyint" size="1" desc="字符串ucRsv" engdesc="ucRsv" />
+        <PARAM name="GAS_MNTN_GSM_CELL_AREA_IDENTIF" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904224505" size="244" name="GAS_LOG_EVT_GSM_CELL_CALL_TIME" desc="事件GAS_ERR_LOG_EVT_GSM_CELL_CALL_TIMES_RPT_STRU" engdesc="GAS_ERR_LOG_EVT_GSM_CELL_CALL_TIMES_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulOtherCellTimes" type="int" size="4" desc="数值ulOtherCellTimes" engdesc="ulOtherCellTimes" />
+        <PARAM name="GAS_MNTN_GSM_CELL_CALL_TIMES" type="classArray" size="30" />
+    </SUBEVENT>
+    <SUBEVENT id="904224506" name="GAS_ERRORLOG" desc="事件GAS_ERRORLOG" engdesc="GAS_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulOtherCellTimes" type="int" size="4" desc="数值ulOtherCellTimes" engdesc="ulOtherCellTimes" />
+        <PARAM name="GAS_MNTN_GSM_CELL_CALL_TIMES" type="classArray" size="30" />
+    </SUBEVENT>
+    <SUBEVENT id="904221251" size="304" name="GUCNAS_RADIO_RESOURCE_CHECK" desc="事件GUCNAS_RADIO_RESOURCE_CHECK_CHR_RPT_STRU" engdesc="GUCNAS_RADIO_RESOURCE_CHECK_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GUCNAS_RESOURCE_CHECK_SESSION" type="classArray" size="38" />
+    </SUBEVENT>
+    <SUBEVENT id="904221502" size="164" name="GUNAS_SS_DECODE_EXCEPT" desc="事件GUNAS_SS_DECODE_EXCEPT_CHR_RPT_STRU" engdesc="GUNAS_SS_DECODE_EXCEPT_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucDecodeFailNum" type="tinyint" size="1" desc="数值ucDecodeFailNum" engdesc="ucDecodeFailNum" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="TAF_SSA_DECODE_FAIL_INFO_STRU" type="classArray" size="20" />
+    </SUBEVENT>
+    <SUBEVENT id="904221504" name="GUCNAS_ERRORLOG" desc="事件GUCNAS_ERRORLOG" engdesc="GUCNAS_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucDecodeFailNum" type="tinyint" size="1" desc="数值ucDecodeFailNum" engdesc="ucDecodeFailNum" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="TAF_SSA_DECODE_FAIL_INFO_STRU" type="classArray" size="20" />
+    </SUBEVENT>
+    <SUBEVENT id="904223001" size="32" name="TRRC_OUT_OF_SYNC_CELL_UPDATE" desc="事件TRRC_OUT_OF_SYNC_CELL_UPDATE_INFO_STRU" engdesc="TRRC_OUT_OF_SYNC_CELL_UPDATE_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucCellUpdateRscp" type="tinyint" size="1" desc="数值ucCellUpdateRscp" engdesc="ucCellUpdateRscp" />
+        <PARAM name="ucOutOfSyncRscp" type="tinyint" size="1" desc="数值ucOutOfSyncRscp" engdesc="ucOutOfSyncRscp" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enRrcConnRelFlag" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="Reserved" type="tinyint" size="1" desc="数值Reserved" engdesc="Reserved" />
+        <PARAM name="usOutOfSyncFreq" type="smallint" size="2" desc="数值usOutOfSyncFreq" engdesc="usOutOfSyncFreq" />
+        <PARAM name="usOutOfSyncParaId" type="smallint" size="2" desc="数值usOutOfSyncParaId" engdesc="usOutOfSyncParaId" />
+        <PARAM name="usCellUpdateFreq" type="smallint" size="2" desc="数值usCellUpdateFreq" engdesc="usCellUpdateFreq" />
+        <PARAM name="usCellUpdateParaId" type="smallint" size="2" desc="数值usCellUpdateParaId" engdesc="usCellUpdateParaId" />
+        <PARAM name="ulAsyToCellUpdtTimeDiff" type="int" size="4" desc="数值ulAsyToCellUpdtTimeDiff" engdesc="ulAsyToCellUpdtTimeDiff" />
+        <PARAM name="ulOutOfSyncIdentityId" type="int" size="4" desc="数值ulOutOfSyncIdentityId" engdesc="ulOutOfSyncIdentityId" />
+        <PARAM name="ulCellUpdtIdentityId" type="int" size="4" desc="数值ulCellUpdtIdentityId" engdesc="ulCellUpdtIdentityId" />
+        <PARAM name="ulTrrcT314Length" type="int" size="4" desc="数值ulTrrcT314Length" engdesc="ulTrrcT314Length" />
+        <PARAM name="ulTrrcT315Length" type="int" size="4" desc="数值ulTrrcT315Length" engdesc="ulTrrcT315Length" />
+    </SUBEVENT>
+    <SUBEVENT id="904223002" size="40" name="TRRC_OOS_INFO_STRU" desc="事件TRRC_OOS_INFO_STRU" engdesc="TRRC_OOS_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="enOutOfSyncCause_1" type="tinyint" size="1" desc="枚举数组enOutOfSyncCause" engdesc="TRRC_CHR_OUT_OF_SYNC_CAUSE_ENUM" />
+        <PARAM name="ucIntraFreqRscp" type="varchar" size="2" desc="字符串ucIntraFreqRscp" engdesc="ucIntraFreqRscp" />
+        <PARAM name="ulAsyMsgBitmap" type="int" size="4" desc="数值ulAsyMsgBitmap" engdesc="ulAsyMsgBitmap" />
+        <PARAM name="ulAsyAssistMsgBitmap" type="int" size="4" desc="数值ulAsyAssistMsgBitmap" engdesc="ulAsyAssistMsgBitmap" />
+        <PARAM name="ulTrrcT314Length" type="int" size="4" desc="数值ulTrrcT314Length" engdesc="ulTrrcT314Length" />
+        <PARAM name="ulTrrcT315Length" type="int" size="4" desc="数值ulTrrcT315Length" engdesc="ulTrrcT315Length" />
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+        <PARAM name="usServFreq" type="smallint" size="2" desc="数值usServFreq" engdesc="usServFreq" />
+        <PARAM name="usServParaId" type="smallint" size="2" desc="数值usServParaId" engdesc="usServParaId" />
+        <PARAM name="ucServRscp" type="varchar" size="2" desc="字符串ucServRscp" engdesc="ucServRscp" />
+        <PARAM name="ulServIdentityId" type="int" size="4" desc="数值ulServIdentityId" engdesc="ulServIdentityId" />
+    </SUBEVENT>
+    <SUBEVENT id="904223003" size="100" name="TRRC_APP_COLLECT_TDS_FREQ" desc="事件TRRC_APP_COLLECT_TDS_FREQ_REPORT_STRU" engdesc="TRRC_APP_COLLECT_TDS_FREQ_REPORT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="aulFreqList_49" type="smallint" size="2" desc="字符串aulFreqList" engdesc="aulFreqList" />
+    </SUBEVENT>
+    <SUBEVENT id="904223004" size="36" name="TRRC_CS_CALL_EST_CNF" desc="事件TRRC_CS_CALL_EST_CNF_INFO_STRU" engdesc="TRRC_CS_CALL_EST_CNF_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usCellId" type="smallint" size="2" desc="数值usCellId" engdesc="usCellId" />
+        <PARAM name="usFrequency" type="smallint" size="2" desc="数值usFrequency" engdesc="usFrequency" />
+        <PARAM name="TDS_APP_FREQ_BAND_LIST_ENUM" type="enum" size="1" desc="枚举enBandInfo" engdesc="TDS_APP_FREQ_BAND_LIST_ENUM" />
+        <PARAM name="cRscp" type="tinyint" size="1" desc="数值cRscp" engdesc="cRscp" />
+        <PARAM name="aucResv_1" type="tinyint" size="1" desc="字符串aucResv" engdesc="aucResv" />
+        <PARAM name="ulTimeStamp" type="int" size="4" desc="数值ulTimeStamp" engdesc="ulTimeStamp" />
+        <PARAM name="ulCsCallChrFlowBitmap" type="int" size="4" desc="数值ulCsCallChrFlowBitmap" engdesc="ulCsCallChrFlowBitmap" />
+        <PARAM name="ulCsCallChrCodeBitmap" type="int" size="4" desc="数值ulCsCallChrCodeBitmap" engdesc="ulCsCallChrCodeBitmap" />
+        <PARAM name="ulOpId" type="int" size="4" desc="数值ulOpId" engdesc="ulOpId" />
+        <PARAM name="aulEstSignallingType_1" type="int" size="4" desc="字符串aulEstSignallingType" engdesc="aulEstSignallingType" />
+        <PARAM name="RRC_NAS_EST_RESULT_ENUM" type="enum" size="4" desc="枚举ulResult" engdesc="RRC_NAS_EST_RESULT_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT id="904223005" size="48" name="TRRC_CS_CALL_CONN_REQ" desc="事件TRRC_CS_CALL_CONN_REQ_INFO_STRU" engdesc="TRRC_CS_CALL_CONN_REQ_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="TRRC_APP_STATE_INFO_STRU" type="class" />
+        <PARAM name="TRRC_APP_CS_RELEASE_CELL" type="class" />
+        <PARAM name="ulTimeStamp" type="int" size="4" desc="数值ulTimeStamp" engdesc="ulTimeStamp" />
+        <PARAM name="TRRC_APP_EST_CAUSE_ENUM" type="enum" size="4" desc="枚举enEstCause" engdesc="TRRC_APP_EST_CAUSE_ENUM" />
+        <PARAM name="aulEstSignallingType_1" type="int" size="4" desc="字符串aulEstSignallingType" engdesc="aulEstSignallingType" />
+        <PARAM name="ulCsCallChrFlowBitmap" type="int" size="4" desc="数值ulCsCallChrFlowBitmap" engdesc="ulCsCallChrFlowBitmap" />
+        <PARAM name="ulCsCallChrCodeBitmap" type="int" size="4" desc="数值ulCsCallChrCodeBitmap" engdesc="ulCsCallChrCodeBitmap" />
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+        <PARAM name="aucResv_1" type="tinyint" size="1" desc="字符串aucResv" engdesc="aucResv" />
+    </SUBEVENT>
+    <SUBEVENT id="904223006" size="36" name="TRRC_CS_CALL_AIRMSG_INFO_STRU" desc="事件TRRC_CS_CALL_AIRMSG_INFO_STRU" engdesc="TRRC_CS_CALL_AIRMSG_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="TRRC_APP_STATE_INFO_STRU" type="class" />
+        <PARAM name="TRRC_APP_CS_RELEASE_CELL" type="class" />
+        <PARAM name="TRRC_CS_CALL_MM_INFO_STRU" type="class" />
+        <PARAM name="ulTimeStamp" type="int" size="4" desc="数值ulTimeStamp" engdesc="ulTimeStamp" />
+        <PARAM name="ulCsCallChrFlowBitmap" type="int" size="4" desc="数值ulCsCallChrFlowBitmap" engdesc="ulCsCallChrFlowBitmap" />
+        <PARAM name="ulCsCallChrCodeBitmap" type="int" size="4" desc="数值ulCsCallChrCodeBitmap" engdesc="ulCsCallChrCodeBitmap" />
+    </SUBEVENT>
+    <SUBEVENT id="904223007" size="44" name="TRRC_APP_CONFIG_PCH_CELL" desc="事件TRRC_APP_CONFIG_PCH_CELL_INFO_REPORT_STRU" engdesc="TRRC_APP_CONFIG_PCH_CELL_INFO_REPORT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulConfigPchCellNum" type="int" size="4" desc="数值ulConfigPchCellNum" engdesc="ulConfigPchCellNum" />
+        <PARAM name="PCH_CELL_INFO_REPORT_STRU" type="classArray" size="10" />
+    </SUBEVENT>
+    <SUBEVENT id="904223008" name="TRRC_RRM_RESOURCE_CHECK_LIST" desc="事件TRRC_CHR_RRM_RESOURCE_CHECK_INFO_LIST_STRU" engdesc="TRRC_CHR_RRM_RESOURCE_CHECK_INFO_LIST_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulConfigPchCellNum" type="int" size="4" desc="数值ulConfigPchCellNum" engdesc="ulConfigPchCellNum" />
+        <PARAM name="PCH_CELL_INFO_REPORT_STRU" type="classArray" size="10" />
+    </SUBEVENT>
+    <SUBEVENT id="904223009" name="TRRC_ERRORLOG" desc="事件TRRC_ERRORLOG" engdesc="TRRC_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulConfigPchCellNum" type="int" size="4" desc="数值ulConfigPchCellNum" engdesc="ulConfigPchCellNum" />
+        <PARAM name="PCH_CELL_INFO_REPORT_STRU" type="classArray" size="10" />
+    </SUBEVENT>
+    <SUBEVENT id="904222251" size="1712" name="LPS_VOLTE_FAULT_AUTOAN" desc="事件LPS_OM_VOLTE_FAULT_AUTOAN_INFO_STRU" engdesc="LPS_OM_VOLTE_FAULT_AUTOAN_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+        <PARAM name="ulGci" type="int" size="4" desc="数值ulGci" engdesc="ulGci" />
+        <PARAM name="LRRC_OM_TAC_STRU" type="class" />
+        <PARAM name="LRRC_LPDCP_VOLTE_FAULT_TRIG_ENUM" type="enum" size="1" desc="枚举enTrigSrc" engdesc="LRRC_LPDCP_VOLTE_FAULT_TRIG_ENUM" />
+        <PARAM name="ucIfMOCall" type="tinyint" size="1" desc="数值ucIfMOCall" engdesc="ucIfMOCall" />
+        <PARAM name="LPS_OM_VOLTE_FAULT_CAUSE_ENUM" type="enum" size="2" desc="枚举enFaultCause" engdesc="LPS_OM_VOLTE_FAULT_CAUSE_ENUM" />
+        <PARAM name="ulCallActiveMsTstmp" type="int" size="4" desc="数值ulCallActiveMsTstmp" engdesc="ulCallActiveMsTstmp" />
+        <PARAM name="ulFaultMsTstmp" type="int" size="4" desc="数值ulFaultMsTstmp" engdesc="ulFaultMsTstmp" />
+        <PARAM name="ulAbnormlType" type="int" size="4" desc="数值ulAbnormlType" engdesc="ulAbnormlType" />
+        <PARAM name="ulRsv1" type="int" size="4" desc="数值ulRsv1" engdesc="ulRsv1" />
+        <PARAM name="LPS_LOW_QUILITY_ABNORMAL_STRU" type="class" />
+        <PARAM name="enGoodSigRlError" type="tinyint" size="1" desc="数值enGoodSigRlError" engdesc="enGoodSigRlError" />
+        <PARAM name="enGoodSigOutofSync" type="tinyint" size="1" desc="数值enGoodSigOutofSync" engdesc="enGoodSigOutofSync" />
+        <PARAM name="enGoodSigBler" type="tinyint" size="1" desc="数值enGoodSigBler" engdesc="enGoodSigBler" />
+        <PARAM name="enNotMaxTxPwrRl" type="tinyint" size="1" desc="数值enNotMaxTxPwrRl" engdesc="enNotMaxTxPwrRl" />
+        <PARAM name="enSrvccFail" type="tinyint" size="1" desc="数值enSrvccFail" engdesc="enSrvccFail" />
+        <PARAM name="enSrvccDelayAbnormal" type="tinyint" size="1" desc="数值enSrvccDelayAbnormal" engdesc="enSrvccDelayAbnormal" />
+        <PARAM name="enSrvccSucc" type="tinyint" size="1" desc="数值enSrvccSucc" engdesc="enSrvccSucc" />
+        <PARAM name="enAirMsgCheckFail" type="tinyint" size="1" desc="数值enAirMsgCheckFail" engdesc="enAirMsgCheckFail" />
+        <PARAM name="enInteVeriFail" type="tinyint" size="1" desc="数值enInteVeriFail" engdesc="enInteVeriFail" />
+        <PARAM name="enIntraHoFail" type="tinyint" size="1" desc="数值enIntraHoFail" engdesc="enIntraHoFail" />
+        <PARAM name="enIntraHoSucc" type="tinyint" size="1" desc="数值enIntraHoSucc" engdesc="enIntraHoSucc" />
+        <PARAM name="enReestHappen" type="tinyint" size="1" desc="数值enReestHappen" engdesc="enReestHappen" />
+        <PARAM name="enOutOfSync" type="tinyint" size="1" desc="数值enOutOfSync" engdesc="enOutOfSync" />
+        <PARAM name="enNotReasonableHoInd" type="tinyint" size="1" desc="数值enNotReasonableHoInd" engdesc="enNotReasonableHoInd" />
+        <PARAM name="enLowQuilBeforeHo" type="tinyint" size="1" desc="数值enLowQuilBeforeHo" engdesc="enLowQuilBeforeHo" />
+        <PARAM name="enLowQuilBeforeSrvcc" type="tinyint" size="1" desc="数值enLowQuilBeforeSrvcc" engdesc="enLowQuilBeforeSrvcc" />
+        <PARAM name="enLowQuilty" type="tinyint" size="1" desc="数值enLowQuilty" engdesc="enLowQuilty" />
+        <PARAM name="LRRC_OM_REEST_TRIG_ENUM" type="enum" size="1" desc="枚举enReesTrig" engdesc="LRRC_OM_REEST_TRIG_ENUM" />
+        <PARAM name="enFastFading" type="tinyint" size="1" desc="数值enFastFading" engdesc="enFastFading" />
+        <PARAM name="enSrsRelInd" type="tinyint" size="1" desc="数值enSrsRelInd" engdesc="enSrsRelInd" />
+        <PARAM name="LL2_OM_VOLTE_AUTOAN_EVENT_ENUM" type="enum" size="1" desc="枚举enL2FaultEvent" engdesc="LL2_OM_VOLTE_AUTOAN_EVENT_ENUM" />
+        <PARAM name="enDecipherFail" type="tinyint" size="1" desc="数值enDecipherFail" engdesc="enDecipherFail" />
+        <PARAM name="enRohcFail" type="tinyint" size="1" desc="数值enRohcFail" engdesc="enRohcFail" />
+        <PARAM name="enRtpPktLostPdcpNoLost" type="tinyint" size="1" desc="数值enRtpPktLostPdcpNoLost" engdesc="enRtpPktLostPdcpNoLost" />
+        <PARAM name="usRtpConPktLostnum" type="int" size="4" desc="数值usRtpConPktLostnum" engdesc="usRtpConPktLostnum" />
+        <PARAM name="usRtpPktTotalLostnum" type="int" size="4" desc="数值usRtpPktTotalLostnum" engdesc="usRtpPktTotalLostnum" />
+        <PARAM name="enJitterFlg" type="tinyint" size="1" desc="数值enJitterFlg" engdesc="enJitterFlg" />
+        <PARAM name="enJitterOrPktLostReachThre" type="tinyint" size="1" desc="数值enJitterOrPktLostReachThre" engdesc="enJitterOrPktLostReachThre" />
+        <PARAM name="usJitterTime" type="smallint" size="2" desc="数值usJitterTime" engdesc="usJitterTime" />
+        <PARAM name="enRsv2" type="tinyint" size="1" desc="数值enRsv2" engdesc="enRsv2" />
+        <PARAM name="enRsv3" type="tinyint" size="1" desc="数值enRsv3" engdesc="enRsv3" />
+        <PARAM name="enRsv4" type="tinyint" size="1" desc="数值enRsv4" engdesc="enRsv4" />
+        <PARAM name="enRsv5" type="tinyint" size="1" desc="数值enRsv5" engdesc="enRsv5" />
+        <PARAM name="ulRsv2" type="int" size="4" desc="数值ulRsv2" engdesc="ulRsv2" />
+        <PARAM name="ulRsv3" type="int" size="4" desc="数值ulRsv3" engdesc="ulRsv3" />
+        <PARAM name="ulSigDbNum" type="int" size="4" desc="数值ulSigDbNum" engdesc="ulSigDbNum" />
+        <PARAM name="LRRC_OM_AIR_SIGNAL_INFO_STRU" type="classArray" size="20" />
+        <PARAM name="ulEvtNum" type="int" size="4" desc="数值ulEvtNum" engdesc="ulEvtNum" />
+        <PARAM name="LRRC_OM_LAYER_EVENT_INFO_STRU" type="classArray" size="56" />
+        <PARAM name="ulMeasRptNum" type="int" size="4" desc="数值ulMeasRptNum" engdesc="ulMeasRptNum" />
+        <PARAM name="LRRC_OM_MEASRPT_INFO" type="classArray" size="16" />
+        <PARAM name="usFaultIndex" type="smallint" size="2" desc="数值usFaultIndex" engdesc="usFaultIndex" />
+        <PARAM name="usValidPktRptNum" type="smallint" size="2" desc="数值usValidPktRptNum" engdesc="usValidPktRptNum" />
+        <PARAM name="LL2_OM_VOLTE_STAT_INFO_STRU" type="classArray" size="6" />
+    </SUBEVENT>
+    <SUBEVENT id="904222252" size="576" name="LPS_VOLTE_GENERAL_STAT" desc="事件LPS_OM_VOLTE_GENERAL_STAT_INFO_STRU" engdesc="LPS_OM_VOLTE_GENERAL_STAT_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+        <PARAM name="usYear" type="smallint" size="2" desc="数值usYear" engdesc="usYear" />
+        <PARAM name="ucMon" type="tinyint" size="1" desc="数值ucMon" engdesc="ucMon" />
+        <PARAM name="ucDayOfMon" type="tinyint" size="1" desc="数值ucDayOfMon" engdesc="ucDayOfMon" />
+        <PARAM name="usVolteCallNum" type="smallint" size="2" desc="数值usVolteCallNum" engdesc="usVolteCallNum" />
+        <PARAM name="usMoCallNum" type="smallint" size="2" desc="数值usMoCallNum" engdesc="usMoCallNum" />
+        <PARAM name="ulTotalTimeLenInSec" type="int" size="4" desc="数值ulTotalTimeLenInSec" engdesc="ulTotalTimeLenInSec" />
+        <PARAM name="usBsdFaultTimes" type="smallint" size="2" desc="数值usBsdFaultTimes" engdesc="usBsdFaultTimes" />
+        <PARAM name="usAutoFaultTimes" type="smallint" size="2" desc="数值usAutoFaultTimes" engdesc="usAutoFaultTimes" />
+        <PARAM name="usPktLostMoreThan50Times" type="smallint" size="2" desc="数值usPktLostMoreThan50Times" engdesc="usPktLostMoreThan50Times" />
+        <PARAM name="usPktLostBet30and50Times" type="smallint" size="2" desc="数值usPktLostBet30and50Times" engdesc="usPktLostBet30and50Times" />
+        <PARAM name="usPktLostBet20and30Times" type="smallint" size="2" desc="数值usPktLostBet20and30Times" engdesc="usPktLostBet20and30Times" />
+        <PARAM name="usPktLostBet10and20Times" type="smallint" size="2" desc="数值usPktLostBet10and20Times" engdesc="usPktLostBet10and20Times" />
+        <PARAM name="usPktLostBet5and10Times" type="smallint" size="2" desc="数值usPktLostBet5and10Times" engdesc="usPktLostBet5and10Times" />
+        <PARAM name="usJitterMoreThan3SecTimes" type="smallint" size="2" desc="数值usJitterMoreThan3SecTimes" engdesc="usJitterMoreThan3SecTimes" />
+        <PARAM name="usJitterMoreBet2and3SecTimes" type="smallint" size="2" desc="数值usJitterMoreBet2and3SecTimes" engdesc="usJitterMoreBet2and3SecTimes" />
+        <PARAM name="usJitterMoreBet1and2SecTimes" type="smallint" size="2" desc="数值usJitterMoreBet1and2SecTimes" engdesc="usJitterMoreBet1and2SecTimes" />
+        <PARAM name="usJitterMoreBet500msand1SecTimes" type="smallint" size="2" desc="数值usJitterMoreBet500msand1SecTimes" engdesc="usJitterMoreBet500msand1SecTimes" />
+        <PARAM name="usJitterMoreBet300and500msTimes" type="smallint" size="2" desc="数值usJitterMoreBet300and500msTimes" engdesc="usJitterMoreBet300and500msTimes" />
+        <PARAM name="usStartHour" type="smallint" size="2" desc="数值usStartHour" engdesc="usStartHour" />
+        <PARAM name="usStartDay" type="smallint" size="2" desc="数值usStartDay" engdesc="usStartDay" />
+        <PARAM name="usDurationLenInMin" type="smallint" size="2" desc="数值usDurationLenInMin" engdesc="usDurationLenInMin" />
+        <PARAM name="usRsv3" type="smallint" size="2" desc="数值usRsv3" engdesc="usRsv3" />
+        <PARAM name="usNoPktTimes" type="smallint" size="2" desc="数值usNoPktTimes" engdesc="usNoPktTimes" />
+        <PARAM name="usLessPktTimes" type="smallint" size="2" desc="数值usLessPktTimes" engdesc="usLessPktTimes" />
+        <PARAM name="ulFaultCallNum" type="int" size="4" desc="数值ulFaultCallNum" engdesc="ulFaultCallNum" />
+        <PARAM name="LRRC_VOLTE_SINGLE_CALL" type="classArray" size="16" />
+        <PARAM name="ulFaultInfoNum" type="int" size="4" desc="数值ulFaultInfoNum" engdesc="ulFaultInfoNum" />
+        <PARAM name="LRRC_VOLTE_SINGLE_FAULT" type="classArray" size="40" />
+    </SUBEVENT>
+    <SUBEVENT id="904222253" size="40" name="LRRC_UE_CAP_FALL" desc="事件LRRC_OM_UE_CAP_FALL_REPORT_STRU" engdesc="LRRC_OM_UE_CAP_FALL_REPORT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucAsRelBitmap" type="tinyint" size="1" desc="数值ucAsRelBitmap" engdesc="ucAsRelBitmap" />
+        <PARAM name="LRRC_APP_UE_CAP_FALL_TYPE_ENUM" type="enum" size="1" desc="枚举enUeCapFallType" engdesc="LRRC_APP_UE_CAP_FALL_TYPE_ENUM" />
+        <PARAM name="ucRsv0_1" type="tinyint" size="1" desc="字符串ucRsv0" engdesc="ucRsv0" />
+        <PARAM name="ulLrrcCaCount" type="int" size="4" desc="数值ulLrrcCaCount" engdesc="ulLrrcCaCount" />
+        <PARAM name="ulCapErrorCount" type="int" size="4" desc="数值ulCapErrorCount" engdesc="ulCapErrorCount" />
+        <PARAM name="ulDl256QamCapFallCnt" type="int" size="4" desc="数值ulDl256QamCapFallCnt" engdesc="ulDl256QamCapFallCnt" />
+        <PARAM name="LRRC_OM_SCELL_ID" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904222254" size="36" name="LRRC_USER_PLANE_REL" desc="事件LRRC_OM_USER_PLANE_ERR_REL_REPORT_STRU" engdesc="LRRC_OM_USER_PLANE_ERR_REL_REPORT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="LRRC_OM_COMM_RELALL_REASON_ENUM" type="enum" size="2" desc="枚举usRrcRelallReason" engdesc="LRRC_OM_COMM_RELALL_REASON_ENUM" />
+        <PARAM name="usErrorCount" type="smallint" size="2" desc="数值usErrorCount" engdesc="usErrorCount" />
+        <PARAM name="ulRsv1" type="int" size="4" desc="数值ulRsv1" engdesc="ulRsv1" />
+        <PARAM name="ulRsv2" type="int" size="4" desc="数值ulRsv2" engdesc="ulRsv2" />
+        <PARAM name="LRRC_OM_SCELL_ID" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904222255" size="724" name="LRRC_RRM_RES_CHECK_LIST" desc="事件LRRC_CHR_RRM_RES_CHECK_INFO_LIST_STRU" engdesc="LRRC_CHR_RRM_RES_CHECK_INFO_LIST_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usCnt" type="smallint" size="2" desc="数值usCnt" engdesc="usCnt" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="LRRC_RRM_RES_CHECK" type="classArray" size="10" />
+    </SUBEVENT>
+    <SUBEVENT id="904222256" name="LRRC_ERRORLOG" desc="事件LRRC_ERRORLOG" engdesc="LRRC_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usCnt" type="smallint" size="2" desc="数值usCnt" engdesc="usCnt" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="LRRC_RRM_RES_CHECK" type="classArray" size="10" />
+    </SUBEVENT>
+    <SUBEVENT id="904223251" size="4" name="TLL2_OOS_INFO_STRU" desc="事件TLL2_OOS_INFO_STRU" engdesc="TLL2_OOS_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="uccause" type="tinyint" size="1" desc="数值uccause" engdesc="uccause" />
+        <PARAM name="ucinActivationTime" type="tinyint" size="1" desc="数值ucinActivationTime" engdesc="ucinActivationTime" />
+        <PARAM name="uctfcsIdentity" type="tinyint" size="1" desc="数值uctfcsIdentity" engdesc="uctfcsIdentity" />
+        <PARAM name="ucReserved" type="tinyint" size="1" desc="数值ucReserved" engdesc="ucReserved" />
+    </SUBEVENT>
+    <SUBEVENT id="904223252" size="260" name="LMAC_PREAMBLE_SPEC_NOT_MATCH" desc="事件LMAC_OM_PREAMBLE_SPEC_NOT_MATCH_INFO_STRU" engdesc="LMAC_OM_PREAMBLE_SPEC_NOT_MATCH_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucRecordNum" type="tinyint" size="1" desc="数值ucRecordNum" engdesc="ucRecordNum" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="TLL2_LMAC_PREAMBLE_SPEC_NOT_MA" type="classArray" size="8" />
+    </SUBEVENT>
+    <SUBEVENT id="904223253" name="TLL2_ERRORLOG" desc="事件TLL2_ERRORLOG" engdesc="TLL2_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucRecordNum" type="tinyint" size="1" desc="数值ucRecordNum" engdesc="ucRecordNum" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="TLL2_LMAC_PREAMBLE_SPEC_NOT_MA" type="classArray" size="8" />
+    </SUBEVENT>
+    <SUBEVENT id="904221001" size="4" name="LEMM_DSDS_RRM_RF_CHECKIN" desc="事件LNAS_EMM_ERR_INFO_DSDS_RRM_RF_CHECKIN_STRU" engdesc="LNAS_EMM_ERR_INFO_DSDS_RRM_RF_CHECKIN_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="RRM_PS_TASK_TYPE_ENUM" type="enum" size="2" desc="枚举enCheckSessionType" engdesc="RRM_PS_TASK_TYPE_ENUM" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221002" size="120" name="LEMM_LTE_FAKE_NODEB" desc="事件LNAS_EMM_ERR_INFO_LTE_FAKE_NODEB_STRU" engdesc="LNAS_EMM_ERR_INFO_LTE_FAKE_NODEB_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NAS_MM_PLMN_ID_STRU" type="class" />
+        <PARAM name="NAS_MM_LAC_STRU" type="class" />
+        <PARAM name="NAS_MM_TAC_STRU" type="class" />
+        <PARAM name="ulCellId" type="int" size="4" desc="数值ulCellId" engdesc="ulCellId" />
+        <PARAM name="ulFakeNodeBDuration" type="int" size="4" desc="数值ulFakeNodeBDuration" engdesc="ulFakeNodeBDuration" />
+        <PARAM name="NAS_LMM_ERR_LOG_CN_CAUSE_ENUM" type="enum" size="1" desc="枚举enCnCause" engdesc="NAS_LMM_ERR_LOG_CN_CAUSE_ENUM" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="aulLteBand_7" type="int" size="4" desc="字符串aulLteBand" engdesc="aulLteBand" />
+        <PARAM name="ulArfcn" type="int" size="4" desc="数值ulArfcn" engdesc="ulArfcn" />
+        <PARAM name="physCellId" type="smallint" size="2" desc="数值physCellId" engdesc="physCellId" />
+        <PARAM name="bandWidth" type="tinyint" size="1" desc="数值bandWidth" engdesc="bandWidth" />
+        <PARAM name="isFakeNodeBHandled" type="tinyint" size="1" desc="数值isFakeNodeBHandled" engdesc="isFakeNodeBHandled" />
+        <PARAM name="FAKE_NODEB_INFO_STRU" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221003" size="4" name="LEMM_LOAD_BALANCE" desc="事件LNAS_EMM_ERR_INFO_LOAD_BALANCE_STRU" engdesc="LNAS_EMM_ERR_INFO_LOAD_BALANCE_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221004" name="LEMM_DSDS_RF_RECOVER_RETRY" desc="事件LNAS_EMM_ERR_INFO_DSDS_RF_RECOVER_RETRY_STRU" engdesc="LNAS_EMM_ERR_INFO_DSDS_RF_RECOVER_RETRY_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221005" size="60" name="LEMM_GRADUAL_FBDN_OPTIMIZE" desc="事件LNAS_EMM_ERR_INFO_GRADUAL_FORBIDDEN_OPTIMIZE_STRU" engdesc="LNAS_EMM_ERR_INFO_GRADUAL_FORBIDDEN_OPTIMIZE_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulGradualForbTaIsTrueCnt" type="int" size="4" desc="数值ulGradualForbTaIsTrueCnt" engdesc="ulGradualForbTaIsTrueCnt" />
+        <PARAM name="ulGradualForbTaIsFalseCnt" type="int" size="4" desc="数值ulGradualForbTaIsFalseCnt" engdesc="ulGradualForbTaIsFalseCnt" />
+        <PARAM name="LNAS_ERRLOG_POSITION" type="class" />
+        <PARAM name="EMM_OM_ERRLOG_GRADUAL_FORB_TA_TYPE_ENUM" type="enum" size="1" desc="枚举enTaType" engdesc="EMM_OM_ERRLOG_GRADUAL_FORB_TA_TYPE_ENUM" />
+        <PARAM name="auc_2" type="tinyint" size="1" desc="字符串auc" engdesc="auc" />
+    </SUBEVENT>
+    <SUBEVENT id="904221006" size="4" name="LEMM_VOLTE_TA_CHANGE" desc="事件LNAS_EMM_ERR_INFO_VOLTE_WITH_TA_CHANGE_STRU" engdesc="LNAS_EMM_ERR_INFO_VOLTE_WITH_TA_CHANGE_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221007" size="8" name="LEMM_NO_RAU_TAU" desc="事件LNAS_EMM_ERR_INFO_NO_RAU_WITH_TAU_STRU" engdesc="LNAS_EMM_ERR_INFO_NO_RAU_WITH_TAU_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRauTotolCnt" type="int" size="4" desc="数值ulRauTotolCnt" engdesc="ulRauTotolCnt" />
+        <PARAM name="ulNoRauWithTauCnt" type="int" size="4" desc="数值ulNoRauWithTauCnt" engdesc="ulNoRauWithTauCnt" />
+    </SUBEVENT>
+    <SUBEVENT id="904221008" size="4" name="LEMM_IMS_BEARER_CN_MOD_CONFL" desc="事件LNAS_EMM_ERR_INFO_IMS_BEARER_WITH_CN_MOD_CONFLICT_STRU" engdesc="LNAS_EMM_ERR_INFO_IMS_BEARER_WITH_CN_MOD_CONFLICT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221009" size="4" name="LEMM_3440_TMO_NREL" desc="事件LNAS_EMM_ERR_INFO_3440_TIMEOUT_DO_NOT_REL_STRU" engdesc="LNAS_EMM_ERR_INFO_3440_TIMEOUT_DO_NOT_REL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221010" size="60" name="LEMM_CNMSG_DECODE_FAIL" desc="事件LNAS_EMM_ERR_INFO_CNMSG_DECODE_FAIL_STRU" engdesc="LNAS_EMM_ERR_INFO_CNMSG_DECODE_FAIL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NAS_EMM_OM_CN_MSG_IE_TYPE_ENUM" type="enum" size="4" desc="枚举enEmmIeType" engdesc="NAS_EMM_OM_CN_MSG_IE_TYPE_ENUM" />
+        <PARAM name="NAS_EMM_OM_CN_MSG_DECODE_FAIL_CAUSE_ENUM" type="enum" size="4" desc="枚举enEmmCause" engdesc="NAS_EMM_OM_CN_MSG_DECODE_FAIL_CAUSE_ENUM" />
+        <PARAM name="ulValue" type="int" size="4" desc="数值ulValue" engdesc="ulValue" />
+        <PARAM name="LNAS_ERRLOG_POSITION" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221011" size="56" name="LEMM_SMC_FAIL" desc="事件LNAS_EMM_ERR_INFO_SMC_FAIL_STRU" engdesc="LNAS_EMM_ERR_INFO_SMC_FAIL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="EMM_OM_LOG_SECU_FAIL_TYPE_ENUM" type="enum" size="4" desc="枚举enSecuFailType" engdesc="EMM_OM_LOG_SECU_FAIL_TYPE_ENUM" />
+        <PARAM name="ulValue" type="int" size="4" desc="数值ulValue" engdesc="ulValue" />
+        <PARAM name="LNAS_ERRLOG_POSITION" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221012" size="20" name="LEMM_LOCAL_DETACH" desc="事件LNAS_EMM_ERR_INFO_LOCAL_DETACH_STRU" engdesc="LNAS_EMM_ERR_INFO_LOCAL_DETACH_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="EMM_OM_LOCAL_DETACH_CAUSE_ENUM" type="enum" size="4" desc="枚举enDetCause" engdesc="EMM_OM_LOCAL_DETACH_CAUSE_ENUM" />
+        <PARAM name="EMM_OM_EST_RESULT_ENUM" type="enum" size="4" desc="枚举enEstResult" engdesc="EMM_OM_EST_RESULT_ENUM" />
+        <PARAM name="EMM_OM_SEND_RSLT_ENUM" type="enum" size="4" desc="枚举enSendResult" engdesc="EMM_OM_SEND_RSLT_ENUM" />
+        <PARAM name="EMM_OM_ERRLOG_MS_STATE_ENUM" type="enum" size="2" desc="枚举enMainState" engdesc="EMM_OM_ERRLOG_MS_STATE_ENUM" />
+        <PARAM name="EMM_OM_ERRLOG_SS_STATE_ENUM" type="enum" size="2" desc="枚举enSubState" engdesc="EMM_OM_ERRLOG_SS_STATE_ENUM" />
+        <PARAM name="ulSwitchOffFlag" type="int" size="4" desc="数值ulSwitchOffFlag" engdesc="ulSwitchOffFlag" />
+    </SUBEVENT>
+    <SUBEVENT id="904221013" size="52" name="LEMM_T3402_DEACTIVED" desc="事件LNAS_EMM_ERR_INFO_T3402_DEACTIVED_STRU" engdesc="LNAS_EMM_ERR_INFO_T3402_DEACTIVED_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="EMM_OM_T3402_DEACTIVED_MSG_TYPE_ENUM" type="enum" size="4" desc="枚举enMsgType" engdesc="EMM_OM_T3402_DEACTIVED_MSG_TYPE_ENUM" />
+        <PARAM name="LNAS_ERRLOG_POSITION" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221014" size="4" name="LEMM_ATT_FAIL_ESM_NEED_DIS_LTE" desc="事件LNAS_EMM_ERR_INFO_ATT_FAIL_ESM_NEED_DISABLE_LTE_STRU" engdesc="LNAS_EMM_ERR_INFO_ATT_FAIL_ESM_NEED_DISABLE_LTE_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="EMM_OM_ATT_FAIL_ESM_RESULT_ENUM" type="enum" size="4" desc="枚举enEsmRult" engdesc="EMM_OM_ATT_FAIL_ESM_RESULT_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT id="904221015" size="4" name="LEMM_MMC_REL_DRGINIT" desc="事件LNAS_EMM_ERR_INFO_MMC_REL_DRGINIT_STRU" engdesc="LNAS_EMM_ERR_INFO_MMC_REL_DRGINIT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="EMM_OM_MMC_REL_DRGINIT_TYPE_ENUM" type="enum" size="4" desc="枚举enType" engdesc="EMM_OM_MMC_REL_DRGINIT_TYPE_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT id="904221016" size="4" name="LEMM_MO_BAR_ATTAMPT" desc="事件LNAS_EMM_ERR_INFO_MO_BAR_ATTAMPT_STRU" engdesc="LNAS_EMM_ERR_INFO_MO_BAR_ATTAMPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="EMM_OM_MO_BAR_ATTEMPT_CAUSE_ENUM" type="enum" size="4" desc="枚举enAttemptCause" engdesc="EMM_OM_MO_BAR_ATTEMPT_CAUSE_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT id="904221017" size="4" name="LNAS_ESM_SWITCH_APN" desc="事件LNAS_ESM_ERR_INFO_SWITCH_APN_STRU" engdesc="LNAS_ESM_ERR_INFO_SWITCH_APN_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221018" size="60" name="LNAS_ESM_CNMSG_DECODE_FAIL" desc="事件LNAS_ESM_ERR_INFO_CNMSG_DECODE_FAIL_STRU" engdesc="LNAS_ESM_ERR_INFO_CNMSG_DECODE_FAIL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NAS_ESM_OM_CN_MSG_IE_TYPE_ENUM" type="enum" size="4" desc="枚举enEsmIeType" engdesc="NAS_ESM_OM_CN_MSG_IE_TYPE_ENUM" />
+        <PARAM name="NAS_ESM_OM_DECODE_CN_MSG_FAIL_CAUSE_ENUM" type="enum" size="4" desc="枚举enEsmCause" engdesc="NAS_ESM_OM_DECODE_CN_MSG_FAIL_CAUSE_ENUM" />
+        <PARAM name="ulValue" type="int" size="4" desc="数值ulValue" engdesc="ulValue" />
+        <PARAM name="LNAS_ERRLOG_POSITION" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221019" size="8" name="LIMSA_EMC_TCALL_TMO" desc="事件LNAS_IMSA_ERR_INFO_EMC_TCALL_TIMEOUT_STRU" engdesc="LNAS_IMSA_ERR_INFO_EMC_TCALL_TIMEOUT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulEmcCallSumNum" type="int" size="4" desc="数值ulEmcCallSumNum" engdesc="ulEmcCallSumNum" />
+        <PARAM name="ulEmcTcalTimeoutToCsfbNum" type="int" size="4" desc="数值ulEmcTcalTimeoutToCsfbNum" engdesc="ulEmcTcalTimeoutToCsfbNum" />
+    </SUBEVENT>
+    <SUBEVENT id="904221020" size="4" name="LIMSA_DSDS_WAIT_BEAR_REL_TMO" desc="事件LNAS_IMSA_ERR_INFO_DSDS_WAIT_BEAR_REL_TIMEOUT_STRU" engdesc="LNAS_IMSA_ERR_INFO_DSDS_WAIT_BEAR_REL_TIMEOUT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="RRM_PS_TASK_TYPE_ENUM" type="enum" size="2" desc="枚举enCheckSessionType" engdesc="RRM_PS_TASK_TYPE_ENUM" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221021" size="8" name="LIMSA_DSDS_SMS_RF_OCCUPY" desc="事件LNAS_IMSA_ERR_INFO_DSDS_SMS_RF_OCCUPY_STRU" engdesc="LNAS_IMSA_ERR_INFO_DSDS_SMS_RF_OCCUPY_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMoSmsFailNum" type="int" size="4" desc="数值ulMoSmsFailNum" engdesc="ulMoSmsFailNum" />
+        <PARAM name="ulMtSmsFailNum" type="int" size="4" desc="数值ulMtSmsFailNum" engdesc="ulMtSmsFailNum" />
+    </SUBEVENT>
+    <SUBEVENT id="904221022" size="4" name="LIMSA_WAIT_RETRY_START_SWITCH" desc="事件LNAS_IMSA_ERR_INFO_WAIT_RETRY_START_SWITCH_STRU" engdesc="LNAS_IMSA_ERR_INFO_WAIT_RETRY_START_SWITCH_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="IMSA_ERR_INFO_HANDOVER_DIRECTION_ENUM" type="enum" size="1" desc="枚举enHoDir" engdesc="IMSA_ERR_INFO_HANDOVER_DIRECTION_ENUM" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221023" size="5" name="LIMSA_HANDOVER_INIT_PDN_CONN" desc="事件LNAS_IMSA_ERR_INFO_HANDOVER_INITIAL_PDN_CONN_STRU" engdesc="LNAS_IMSA_ERR_INFO_HANDOVER_INITIAL_PDN_CONN_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulCause" type="int" size="4" desc="数值ulCause" engdesc="ulCause" />
+        <PARAM name="IMSA_ERR_INFO_HANDOVER_DIRECTION_ENUM" type="enum" size="1" desc="枚举enHoDir" engdesc="IMSA_ERR_INFO_HANDOVER_DIRECTION_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT id="904221024" size="4" name="LIMSA_REG_REJ_WAIT_RECOVERY" desc="事件LNAS_IMSA_ERR_INFO_REG_REJ_WAIT_RECOVERY_STRU" engdesc="LNAS_IMSA_ERR_INFO_REG_REJ_WAIT_RECOVERY_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="IMSA_ERR_INFO_REG_REJ_RECOVERY_STATUS_ENUM" type="enum" size="1" desc="枚举enRecoveryStatus" engdesc="IMSA_ERR_INFO_REG_REJ_RECOVERY_STATUS_ENUM" />
+        <PARAM name="IMSA_ERR_INFO_AIR_MSG_ENUM" type="enum" size="1" desc="枚举enAirMsgName" engdesc="IMSA_ERR_INFO_AIR_MSG_ENUM" />
+        <PARAM name="IMSA_ERR_INFO_REG_CAUSE_ENUM" type="enum" size="1" desc="枚举enLmmCause" engdesc="IMSA_ERR_INFO_REG_CAUSE_ENUM" />
+        <PARAM name="aucRsv_0" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221025" name="LEMM_DETACH_NO_RF" desc="事件LNAS_EMM_ERR_INFO_DETACH_NO_RF_STRU" engdesc="LNAS_EMM_ERR_INFO_DETACH_NO_RF_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="IMSA_ERR_INFO_REG_REJ_RECOVERY_STATUS_ENUM" type="enum" size="1" desc="枚举enRecoveryStatus" engdesc="IMSA_ERR_INFO_REG_REJ_RECOVERY_STATUS_ENUM" />
+        <PARAM name="IMSA_ERR_INFO_AIR_MSG_ENUM" type="enum" size="1" desc="枚举enAirMsgName" engdesc="IMSA_ERR_INFO_AIR_MSG_ENUM" />
+        <PARAM name="IMSA_ERR_INFO_REG_CAUSE_ENUM" type="enum" size="1" desc="枚举enLmmCause" engdesc="IMSA_ERR_INFO_REG_CAUSE_ENUM" />
+        <PARAM name="aucRsv_0" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221026" name="LEMM_PERIODIC_TAU_CAUSE" desc="事件LNAS_EMM_ERR_INFO_PERIODIC_TAU_WITH_CAUSE_STRU" engdesc="LNAS_EMM_ERR_INFO_PERIODIC_TAU_WITH_CAUSE_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="IMSA_ERR_INFO_REG_REJ_RECOVERY_STATUS_ENUM" type="enum" size="1" desc="枚举enRecoveryStatus" engdesc="IMSA_ERR_INFO_REG_REJ_RECOVERY_STATUS_ENUM" />
+        <PARAM name="IMSA_ERR_INFO_AIR_MSG_ENUM" type="enum" size="1" desc="枚举enAirMsgName" engdesc="IMSA_ERR_INFO_AIR_MSG_ENUM" />
+        <PARAM name="IMSA_ERR_INFO_REG_CAUSE_ENUM" type="enum" size="1" desc="枚举enLmmCause" engdesc="IMSA_ERR_INFO_REG_CAUSE_ENUM" />
+        <PARAM name="aucRsv_0" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221027" size="4" name="LEMM_LANZHOU_CSFB_OPTIMIZE" desc="事件LNAS_EMM_ERR_INFO_LANZHOU_CSFB_OPTIMIZE_STRU" engdesc="LNAS_EMM_ERR_INFO_LANZHOU_CSFB_OPTIMIZE_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221028" size="4" name="LEMM_START_3402_ADD_FORB_LIST" desc="事件LNAS_EMM_ERR_INFO_START_3402_ADD_FORB_LIST_STRU" engdesc="LNAS_EMM_ERR_INFO_START_3402_ADD_FORB_LIST_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221029" size="4" name="LEMM_IMPROVE_CALL_SUCC_RATIO" desc="事件LNAS_EMM_ERR_INFO_IMPROVE_CALL_SUCC_RATIO_STRU" engdesc="LNAS_EMM_ERR_INFO_IMPROVE_CALL_SUCC_RATIO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="enImproveCallRatioType" type="smallint" size="2" desc="数值enImproveCallRatioType" engdesc="enImproveCallRatioType" />
+        <PARAM name="EMM_OM_ERRLOG_CN_CAUSE_ENUM" type="enum" size="2" desc="枚举enCnCause" engdesc="EMM_OM_ERRLOG_CN_CAUSE_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT id="904221030" size="4" name="LEMM_TAU_EST_CELL_SRCHING_OPT" desc="事件LNAS_EMM_ERR_INFO_TAU_EST_WITH_CELL_SEARCHING_OPT_STRU" engdesc="LNAS_EMM_ERR_INFO_TAU_EST_WITH_CELL_SEARCHING_OPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221031" size="4" name="LEMM_AUTH_REJ_OPT" desc="事件LNAS_EMM_ERR_INFO_AUTH_REJ_OPT_STRU" engdesc="LNAS_EMM_ERR_INFO_AUTH_REJ_OPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="enAuthRejPlmnType" type="smallint" size="2" desc="数值enAuthRejPlmnType" engdesc="enAuthRejPlmnType" />
+        <PARAM name="usRsv" type="smallint" size="2" desc="数值usRsv" engdesc="usRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221032" size="4" name="LEMM_TAU_CN_REL_NWAIT_3411_TMO" desc="事件LNAS_EMM_ERR_INFO_TAU_WITH_CONN_REL_DO_NOT_WAIT_3411_TIMEOUT_STRU" engdesc="LNAS_EMM_ERR_INFO_TAU_WITH_CONN_REL_DO_NOT_WAIT_3411_TIMEOUT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221033" size="4" name="LNAS_ESM_ESM_MSG_RETRANSMITE" desc="事件LNAS_ESM_ERR_INFO_ESM_MSG_RETRANSMITE_STRU" engdesc="LNAS_ESM_ERR_INFO_ESM_MSG_RETRANSMITE_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ESM_OM_ESM_DATA_REQ_RETRANSMIT_TYPE_ENUM" type="enum" size="4" desc="枚举enRetransType" engdesc="ESM_OM_ESM_DATA_REQ_RETRANSMIT_TYPE_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT id="904221034" size="4" name="LEMM_EMC_DATA_REQ_TAU" desc="事件LNAS_EMM_ERR_INFO_EMC_DATA_REQ_TAU_STRU" engdesc="LNAS_EMM_ERR_INFO_EMC_DATA_REQ_TAU_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221035" size="4" name="LEMM_EMC_BERER_CN_REJ_AC_SRCH" desc="事件LNAS_EMM_ERR_INFO_EMC_BERER_CN_REJ_ANYCELL_SRCH_STRU" engdesc="LNAS_EMM_ERR_INFO_EMC_BERER_CN_REJ_ANYCELL_SRCH_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221036" size="48" name="LNAS_ERRLOG_CSS_BAND_LIST" desc="事件LNAS_OM_ERRLOG_CSS_BAND_LIST_INFO_STRU" engdesc="LNAS_OM_ERRLOG_CSS_BAND_LIST_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucBandNum" type="tinyint" size="1" desc="数值ucBandNum" engdesc="ucBandNum" />
+        <PARAM name="aucReserve_2" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+        <PARAM name="usBandInd_21" type="smallint" size="2" desc="字符串usBandInd" engdesc="usBandInd" />
+    </SUBEVENT>
+    <SUBEVENT id="904221037" size="4" name="LEMM_CSFB_TAU_RCV_MT_DETACH" desc="事件LNAS_EMM_ERR_INFO_CSFB_TAU_RCV_MT_DETACH_STRU" engdesc="LNAS_EMM_ERR_INFO_CSFB_TAU_RCV_MT_DETACH_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221038" size="4" name="LEMM_MT_DETACH_OPTIMIZE" desc="事件LNAS_EMM_ERR_INFO_MT_DETACH_OPTIMIZE_STRU" engdesc="LNAS_EMM_ERR_INFO_MT_DETACH_OPTIMIZE_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="enMtDetachOptSwith" type="smallint" size="2" desc="数值enMtDetachOptSwith" engdesc="enMtDetachOptSwith" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221039" size="12" name="LEMM_MT_SERVICE_RETRY" desc="事件LNAS_EMM_ERR_INFO_MT_SERVICE_RETRY_STRU" engdesc="LNAS_EMM_ERR_INFO_MT_SERVICE_RETRY_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMtServiceRetryTotalTimes" type="int" size="4" desc="数值ulMtServiceRetryTotalTimes" engdesc="ulMtServiceRetryTotalTimes" />
+        <PARAM name="ulMtServiceRetrySuccTimes" type="int" size="4" desc="数值ulMtServiceRetrySuccTimes" engdesc="ulMtServiceRetrySuccTimes" />
+        <PARAM name="ulMtServiceRetryFailTimes" type="int" size="4" desc="数值ulMtServiceRetryFailTimes" engdesc="ulMtServiceRetryFailTimes" />
+    </SUBEVENT>
+    <SUBEVENT id="904221040" size="4" name="LEMM_DSDS_NO_RF_TAU_PUNISH" desc="事件LNAS_EMM_ERR_INFO_DSDS_NO_RF_TAU_PUNISH_STRU" engdesc="LNAS_EMM_ERR_INFO_DSDS_NO_RF_TAU_PUNISH_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221041" size="4" name="LEMM_DSDS_BUFFER_NO_RF_TAU_REQ" desc="事件LNAS_EMM_ERR_INFO_DSDS_BUFFER_NO_RF_TAU_REQ_STRU" engdesc="LNAS_EMM_ERR_INFO_DSDS_BUFFER_NO_RF_TAU_REQ_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulRsv" type="int" size="4" desc="数值ulRsv" engdesc="ulRsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221042" size="4" name="LEMM_RF_OCCUPY_MODEM1_TAU" desc="事件LNAS_EMM_ERR_INFO_RF_OCCUPY_MODEM1_TAU_STRU" engdesc="LNAS_EMM_ERR_INFO_RF_OCCUPY_MODEM1_TAU_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulIsNWAbnormalSetUpDrb" type="int" size="4" desc="数值ulIsNWAbnormalSetUpDrb" engdesc="ulIsNWAbnormalSetUpDrb" />
+    </SUBEVENT>
+    <SUBEVENT id="904221043" size="4" name="LEMM_REATTACH_PUNISH" desc="事件LNAS_EMM_ERR_INFO_REATTACH_PUNISH_CHR_STRU" engdesc="LNAS_EMM_ERR_INFO_REATTACH_PUNISH_CHR_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulReattachPunishCounter" type="int" size="4" desc="数值ulReattachPunishCounter" engdesc="ulReattachPunishCounter" />
+    </SUBEVENT>
+    <SUBEVENT id="904221044" size="8" name="LEMM_INFO_DEEP_GAME" desc="事件LNAS_EMM_ERR_INFO_DEEP_GAME_CHR_INFO_STRU" engdesc="LNAS_EMM_ERR_INFO_DEEP_GAME_CHR_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulInterceptCallNum" type="int" size="4" desc="数值ulInterceptCallNum" engdesc="ulInterceptCallNum" />
+        <PARAM name="ulDeepGameDuration" type="int" size="4" desc="数值ulDeepGameDuration" engdesc="ulDeepGameDuration" />
+    </SUBEVENT>
+    <SUBEVENT id="904221045" size="72" name="LEMM_ATTACH_TAU_FAIL_MAXTIMES" desc="事件LNAS_EMM_ERR_INFO_ATTACH_TAU_FAIL_MAXTIMES_CHR_STRU" engdesc="LNAS_EMM_ERR_INFO_ATTACH_TAU_FAIL_MAXTIMES_CHR_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="LNAS_OM_FAIL_PROCEDR_TYPE_ENUM" type="enum" size="1" desc="枚举ucFailProcedureType" engdesc="LNAS_OM_FAIL_PROCEDR_TYPE_ENUM" />
+        <PARAM name="nrSysFlag" type="tinyint" size="1" desc="数值nrSysFlag" engdesc="nrSysFlag" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="aucRsv_3" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="LEMM_INFO_ATTACH_TAU_FAIL" type="classArray" size="5" />
+        <PARAM name="LNAS_ERRLOG_POSITION" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221046" size="164" name="LNAS_ESM_INFO_ESM65" desc="事件LNAS_ESM_ERR_INFO_ESM65_CHR_INFO_STRU" engdesc="LNAS_ESM_ERR_INFO_ESM65_CHR_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucDataListNum" type="tinyint" size="1" desc="数值ucDataListNum" engdesc="ucDataListNum" />
+        <PARAM name="ucReserved1" type="tinyint" size="1" desc="数值ucReserved1" engdesc="ucReserved1" />
+        <PARAM name="ucReserved2" type="tinyint" size="1" desc="数值ucReserved2" engdesc="ucReserved2" />
+        <PARAM name="ucReserved3" type="tinyint" size="1" desc="数值ucReserved3" engdesc="ucReserved3" />
+        <PARAM name="uc1IsAttachIng" type="tinyint" size="1" desc="数值uc1IsAttachIng" engdesc="uc1IsAttachIng" />
+        <PARAM name="uc1ActivecBearnUm" type="tinyint" size="1" desc="数值uc1ActivecBearnUm" engdesc="uc1ActivecBearnUm" />
+        <PARAM name="uc1Rserved1" type="tinyint" size="1" desc="数值uc1Rserved1" engdesc="uc1Rserved1" />
+        <PARAM name="uc1Rserved2" type="tinyint" size="1" desc="数值uc1Rserved2" engdesc="uc1Rserved2" />
+        <PARAM name="uc1PlmnId1" type="tinyint" size="1" desc="数值uc1PlmnId1" engdesc="uc1PlmnId1" />
+        <PARAM name="uc1PlmnId2" type="tinyint" size="1" desc="数值uc1PlmnId2" engdesc="uc1PlmnId2" />
+        <PARAM name="uc1PlmnId3" type="tinyint" size="1" desc="数值uc1PlmnId3" engdesc="uc1PlmnId3" />
+        <PARAM name="uc1Rsv" type="tinyint" size="1" desc="数值uc1Rsv" engdesc="uc1Rsv" />
+        <PARAM name="ucTac" type="tinyint" size="1" desc="数值ucTac" engdesc="ucTac" />
+        <PARAM name="ucTacCnt" type="tinyint" size="1" desc="数值ucTacCnt" engdesc="ucTacCnt" />
+        <PARAM name="uc1Rsv1" type="tinyint" size="1" desc="数值uc1Rsv1" engdesc="uc1Rsv1" />
+        <PARAM name="uc1Rsv2" type="tinyint" size="1" desc="数值uc1Rsv2" engdesc="uc1Rsv2" />
+        <PARAM name="ulCellId" type="int" size="4" desc="数值ulCellId" engdesc="ulCellId" />
+        <PARAM name="uc2IsAttachIng" type="tinyint" size="1" desc="数值uc2IsAttachIng" engdesc="uc2IsAttachIng" />
+        <PARAM name="uc2ActivecBearnUm" type="tinyint" size="1" desc="数值uc2ActivecBearnUm" engdesc="uc2ActivecBearnUm" />
+        <PARAM name="uc2Rserved1" type="tinyint" size="1" desc="数值uc2Rserved1" engdesc="uc2Rserved1" />
+        <PARAM name="uc2Rserved2" type="tinyint" size="1" desc="数值uc2Rserved2" engdesc="uc2Rserved2" />
+        <PARAM name="uc2PlmnId1" type="tinyint" size="1" desc="数值uc2PlmnId1" engdesc="uc2PlmnId1" />
+        <PARAM name="uc2PlmnId2" type="tinyint" size="1" desc="数值uc2PlmnId2" engdesc="uc2PlmnId2" />
+        <PARAM name="uc2PlmnId3" type="tinyint" size="1" desc="数值uc2PlmnId3" engdesc="uc2PlmnId3" />
+        <PARAM name="uc2Rsv" type="tinyint" size="1" desc="数值uc2Rsv" engdesc="uc2Rsv" />
+        <PARAM name="uc2Tac" type="tinyint" size="1" desc="数值uc2Tac" engdesc="uc2Tac" />
+        <PARAM name="uc2TacCnt" type="tinyint" size="1" desc="数值uc2TacCnt" engdesc="uc2TacCnt" />
+        <PARAM name="uc2Rsv1" type="tinyint" size="1" desc="数值uc2Rsv1" engdesc="uc2Rsv1" />
+        <PARAM name="uc2Rsv2" type="tinyint" size="1" desc="数值uc2Rsv2" engdesc="uc2Rsv2" />
+        <PARAM name="ul2CellId" type="int" size="4" desc="数值ul2CellId" engdesc="ul2CellId" />
+        <PARAM name="uc3IsAttachIng" type="tinyint" size="1" desc="数值uc3IsAttachIng" engdesc="uc3IsAttachIng" />
+        <PARAM name="uc3ActivecBearnUm" type="tinyint" size="1" desc="数值uc3ActivecBearnUm" engdesc="uc3ActivecBearnUm" />
+        <PARAM name="uc3Rserved1" type="tinyint" size="1" desc="数值uc3Rserved1" engdesc="uc3Rserved1" />
+        <PARAM name="uc3Rserved2" type="tinyint" size="1" desc="数值uc3Rserved2" engdesc="uc3Rserved2" />
+        <PARAM name="uc3PlmnId1" type="tinyint" size="1" desc="数值uc3PlmnId1" engdesc="uc3PlmnId1" />
+        <PARAM name="uc3PlmnId2" type="tinyint" size="1" desc="数值uc3PlmnId2" engdesc="uc3PlmnId2" />
+        <PARAM name="uc3PlmnId3" type="tinyint" size="1" desc="数值uc3PlmnId3" engdesc="uc3PlmnId3" />
+        <PARAM name="uc3Rsv" type="tinyint" size="1" desc="数值uc3Rsv" engdesc="uc3Rsv" />
+        <PARAM name="uc3Tac" type="tinyint" size="1" desc="数值uc3Tac" engdesc="uc3Tac" />
+        <PARAM name="uc3TacCnt" type="tinyint" size="1" desc="数值uc3TacCnt" engdesc="uc3TacCnt" />
+        <PARAM name="uc3Rsv1" type="tinyint" size="1" desc="数值uc3Rsv1" engdesc="uc3Rsv1" />
+        <PARAM name="uc3Rsv2" type="tinyint" size="1" desc="数值uc3Rsv2" engdesc="uc3Rsv2" />
+        <PARAM name="ul3CellId" type="int" size="4" desc="数值ul3CellId" engdesc="ul3CellId" />
+        <PARAM name="uc4IsAttachIng" type="tinyint" size="1" desc="数值uc4IsAttachIng" engdesc="uc4IsAttachIng" />
+        <PARAM name="uc4ActivecBearnUm" type="tinyint" size="1" desc="数值uc4ActivecBearnUm" engdesc="uc4ActivecBearnUm" />
+        <PARAM name="uc4Rserved1" type="tinyint" size="1" desc="数值uc4Rserved1" engdesc="uc4Rserved1" />
+        <PARAM name="uc4Rserved2" type="tinyint" size="1" desc="数值uc4Rserved2" engdesc="uc4Rserved2" />
+        <PARAM name="uc4PlmnId1" type="tinyint" size="1" desc="数值uc4PlmnId1" engdesc="uc4PlmnId1" />
+        <PARAM name="uc4PlmnId2" type="tinyint" size="1" desc="数值uc4PlmnId2" engdesc="uc4PlmnId2" />
+        <PARAM name="uc4PlmnId3" type="tinyint" size="1" desc="数值uc4PlmnId3" engdesc="uc4PlmnId3" />
+        <PARAM name="uc4Rsv" type="tinyint" size="1" desc="数值uc4Rsv" engdesc="uc4Rsv" />
+        <PARAM name="uc4Tac" type="tinyint" size="1" desc="数值uc4Tac" engdesc="uc4Tac" />
+        <PARAM name="uc4TacCnt" type="tinyint" size="1" desc="数值uc4TacCnt" engdesc="uc4TacCnt" />
+        <PARAM name="uc4Rsv1" type="tinyint" size="1" desc="数值uc4Rsv1" engdesc="uc4Rsv1" />
+        <PARAM name="uc4Rsv2" type="tinyint" size="1" desc="数值uc4Rsv2" engdesc="uc4Rsv2" />
+        <PARAM name="ul4CellId" type="int" size="4" desc="数值ul4CellId" engdesc="ul4CellId" />
+        <PARAM name="uc5IsAttachIng" type="tinyint" size="1" desc="数值uc5IsAttachIng" engdesc="uc5IsAttachIng" />
+        <PARAM name="uc5ActivecBearnUm" type="tinyint" size="1" desc="数值uc5ActivecBearnUm" engdesc="uc5ActivecBearnUm" />
+        <PARAM name="uc5Rserved1" type="tinyint" size="1" desc="数值uc5Rserved1" engdesc="uc5Rserved1" />
+        <PARAM name="uc5Rserved2" type="tinyint" size="1" desc="数值uc5Rserved2" engdesc="uc5Rserved2" />
+        <PARAM name="uc5PlmnId1" type="tinyint" size="1" desc="数值uc5PlmnId1" engdesc="uc5PlmnId1" />
+        <PARAM name="uc5PlmnId2" type="tinyint" size="1" desc="数值uc5PlmnId2" engdesc="uc5PlmnId2" />
+        <PARAM name="uc5PlmnId3" type="tinyint" size="1" desc="数值uc5PlmnId3" engdesc="uc5PlmnId3" />
+        <PARAM name="uc5Rsv" type="tinyint" size="1" desc="数值uc5Rsv" engdesc="uc5Rsv" />
+        <PARAM name="uc5Tac" type="tinyint" size="1" desc="数值uc5Tac" engdesc="uc5Tac" />
+        <PARAM name="uc5TacCnt" type="tinyint" size="1" desc="数值uc5TacCnt" engdesc="uc5TacCnt" />
+        <PARAM name="uc5Rsv1" type="tinyint" size="1" desc="数值uc5Rsv1" engdesc="uc5Rsv1" />
+        <PARAM name="uc5Rsv2" type="tinyint" size="1" desc="数值uc5Rsv2" engdesc="uc5Rsv2" />
+        <PARAM name="ul5CellId" type="int" size="4" desc="数值ul5CellId" engdesc="ul5CellId" />
+        <PARAM name="uc6IsAttachIng" type="tinyint" size="1" desc="数值uc6IsAttachIng" engdesc="uc6IsAttachIng" />
+        <PARAM name="uc6ActivecBearnUm" type="tinyint" size="1" desc="数值uc6ActivecBearnUm" engdesc="uc6ActivecBearnUm" />
+        <PARAM name="uc6Rserved1" type="tinyint" size="1" desc="数值uc6Rserved1" engdesc="uc6Rserved1" />
+        <PARAM name="uc6Rserved2" type="tinyint" size="1" desc="数值uc6Rserved2" engdesc="uc6Rserved2" />
+        <PARAM name="uc6PlmnId1" type="tinyint" size="1" desc="数值uc6PlmnId1" engdesc="uc6PlmnId1" />
+        <PARAM name="uc6PlmnId2" type="tinyint" size="1" desc="数值uc6PlmnId2" engdesc="uc6PlmnId2" />
+        <PARAM name="uc6PlmnId3" type="tinyint" size="1" desc="数值uc6PlmnId3" engdesc="uc6PlmnId3" />
+        <PARAM name="uc6Rsv" type="tinyint" size="1" desc="数值uc6Rsv" engdesc="uc6Rsv" />
+        <PARAM name="uc6Tac" type="tinyint" size="1" desc="数值uc6Tac" engdesc="uc6Tac" />
+        <PARAM name="uc6TacCnt" type="tinyint" size="1" desc="数值uc6TacCnt" engdesc="uc6TacCnt" />
+        <PARAM name="uc6Rsv1" type="tinyint" size="1" desc="数值uc6Rsv1" engdesc="uc6Rsv1" />
+        <PARAM name="uc6Rsv2" type="tinyint" size="1" desc="数值uc6Rsv2" engdesc="uc6Rsv2" />
+        <PARAM name="ul6CellId" type="int" size="4" desc="数值ul6CellId" engdesc="ul6CellId" />
+        <PARAM name="uc7IsAttachIng" type="tinyint" size="1" desc="数值uc7IsAttachIng" engdesc="uc7IsAttachIng" />
+        <PARAM name="uc7ActivecBearnUm" type="tinyint" size="1" desc="数值uc7ActivecBearnUm" engdesc="uc7ActivecBearnUm" />
+        <PARAM name="uc7Rserved1" type="tinyint" size="1" desc="数值uc7Rserved1" engdesc="uc7Rserved1" />
+        <PARAM name="uc7Rserved2" type="tinyint" size="1" desc="数值uc7Rserved2" engdesc="uc7Rserved2" />
+        <PARAM name="uc7PlmnId1" type="tinyint" size="1" desc="数值uc7PlmnId1" engdesc="uc7PlmnId1" />
+        <PARAM name="uc7PlmnId2" type="tinyint" size="1" desc="数值uc7PlmnId2" engdesc="uc7PlmnId2" />
+        <PARAM name="uc7PlmnId3" type="tinyint" size="1" desc="数值uc7PlmnId3" engdesc="uc7PlmnId3" />
+        <PARAM name="uc7Rsv" type="tinyint" size="1" desc="数值uc7Rsv" engdesc="uc7Rsv" />
+        <PARAM name="uc7Tac" type="tinyint" size="1" desc="数值uc7Tac" engdesc="uc7Tac" />
+        <PARAM name="uc7TacCnt" type="tinyint" size="1" desc="数值uc7TacCnt" engdesc="uc7TacCnt" />
+        <PARAM name="uc7Rsv1" type="tinyint" size="1" desc="数值uc7Rsv1" engdesc="uc7Rsv1" />
+        <PARAM name="uc7Rsv2" type="tinyint" size="1" desc="数值uc7Rsv2" engdesc="uc7Rsv2" />
+        <PARAM name="ul7CellId" type="int" size="4" desc="数值ul7CellId" engdesc="ul7CellId" />
+        <PARAM name="uc8IsAttachIng" type="tinyint" size="1" desc="数值uc8IsAttachIng" engdesc="uc8IsAttachIng" />
+        <PARAM name="uc8ActivecBearnUm" type="tinyint" size="1" desc="数值uc8ActivecBearnUm" engdesc="uc8ActivecBearnUm" />
+        <PARAM name="uc8Rserved1" type="tinyint" size="1" desc="数值uc8Rserved1" engdesc="uc8Rserved1" />
+        <PARAM name="uc8Rserved2" type="tinyint" size="1" desc="数值uc8Rserved2" engdesc="uc8Rserved2" />
+        <PARAM name="uc8PlmnId1" type="tinyint" size="1" desc="数值uc8PlmnId1" engdesc="uc8PlmnId1" />
+        <PARAM name="uc8PlmnId2" type="tinyint" size="1" desc="数值uc8PlmnId2" engdesc="uc8PlmnId2" />
+        <PARAM name="uc8PlmnId3" type="tinyint" size="1" desc="数值uc8PlmnId3" engdesc="uc8PlmnId3" />
+        <PARAM name="uc8Rsv" type="tinyint" size="1" desc="数值uc8Rsv" engdesc="uc8Rsv" />
+        <PARAM name="uc8Tac" type="tinyint" size="1" desc="数值uc8Tac" engdesc="uc8Tac" />
+        <PARAM name="uc8TacCnt" type="tinyint" size="1" desc="数值uc8TacCnt" engdesc="uc8TacCnt" />
+        <PARAM name="uc8Rsv1" type="tinyint" size="1" desc="数值uc8Rsv1" engdesc="uc8Rsv1" />
+        <PARAM name="uc8Rsv2" type="tinyint" size="1" desc="数值uc8Rsv2" engdesc="uc8Rsv2" />
+        <PARAM name="ul8CellId" type="int" size="4" desc="数值ul8CellId" engdesc="ul8CellId" />
+        <PARAM name="uc9IsAttachIng" type="tinyint" size="1" desc="数值uc9IsAttachIng" engdesc="uc9IsAttachIng" />
+        <PARAM name="uc9ActivecBearnUm" type="tinyint" size="1" desc="数值uc9ActivecBearnUm" engdesc="uc9ActivecBearnUm" />
+        <PARAM name="uc9Rserved1" type="tinyint" size="1" desc="数值uc9Rserved1" engdesc="uc9Rserved1" />
+        <PARAM name="uc9Rserved2" type="tinyint" size="1" desc="数值uc9Rserved2" engdesc="uc9Rserved2" />
+        <PARAM name="uc9PlmnId1" type="tinyint" size="1" desc="数值uc9PlmnId1" engdesc="uc9PlmnId1" />
+        <PARAM name="uc9PlmnId2" type="tinyint" size="1" desc="数值uc9PlmnId2" engdesc="uc9PlmnId2" />
+        <PARAM name="uc9PlmnId3" type="tinyint" size="1" desc="数值uc9PlmnId3" engdesc="uc9PlmnId3" />
+        <PARAM name="uc9Rsv" type="tinyint" size="1" desc="数值uc9Rsv" engdesc="uc9Rsv" />
+        <PARAM name="uc9Tac" type="tinyint" size="1" desc="数值uc9Tac" engdesc="uc9Tac" />
+        <PARAM name="uc9TacCnt" type="tinyint" size="1" desc="数值uc9TacCnt" engdesc="uc9TacCnt" />
+        <PARAM name="uc9Rsv1" type="tinyint" size="1" desc="数值uc9Rsv1" engdesc="uc9Rsv1" />
+        <PARAM name="uc9Rsv2" type="tinyint" size="1" desc="数值uc9Rsv2" engdesc="uc9Rsv2" />
+        <PARAM name="ul9CellId" type="int" size="4" desc="数值ul9CellId" engdesc="ul9CellId" />
+        <PARAM name="ucaIsAttachIng" type="tinyint" size="1" desc="数值ucaIsAttachIng" engdesc="ucaIsAttachIng" />
+        <PARAM name="ucaActivecBearnUm" type="tinyint" size="1" desc="数值ucaActivecBearnUm" engdesc="ucaActivecBearnUm" />
+        <PARAM name="ucaRserved1" type="tinyint" size="1" desc="数值ucaRserved1" engdesc="ucaRserved1" />
+        <PARAM name="ucaRserved2" type="tinyint" size="1" desc="数值ucaRserved2" engdesc="ucaRserved2" />
+        <PARAM name="ucaPlmnId1" type="tinyint" size="1" desc="数值ucaPlmnId1" engdesc="ucaPlmnId1" />
+        <PARAM name="ucaPlmnId2" type="tinyint" size="1" desc="数值ucaPlmnId2" engdesc="ucaPlmnId2" />
+        <PARAM name="ucaPlmnId3" type="tinyint" size="1" desc="数值ucaPlmnId3" engdesc="ucaPlmnId3" />
+        <PARAM name="ucaRsv" type="tinyint" size="1" desc="数值ucaRsv" engdesc="ucaRsv" />
+        <PARAM name="ucaTac" type="tinyint" size="1" desc="数值ucaTac" engdesc="ucaTac" />
+        <PARAM name="ucaTacCnt" type="tinyint" size="1" desc="数值ucaTacCnt" engdesc="ucaTacCnt" />
+        <PARAM name="ucaRsv1" type="tinyint" size="1" desc="数值ucaRsv1" engdesc="ucaRsv1" />
+        <PARAM name="ucaRsv2" type="tinyint" size="1" desc="数值ucaRsv2" engdesc="ucaRsv2" />
+        <PARAM name="ulaCellId" type="int" size="4" desc="数值ulaCellId" engdesc="ulaCellId" />
+    </SUBEVENT>
+    <SUBEVENT id="904221047" size="280" name="LEMM_INFO_ESCAPE" desc="事件LNAS_EMM_ERR_INFO_ESCAPE_CHR_INFO_STRU" engdesc="LNAS_EMM_ERR_INFO_ESCAPE_CHR_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucAllCondNum" type="tinyint" size="1" desc="数值ucAllCondNum" engdesc="ucAllCondNum" />
+        <PARAM name="ucT3410T3430CondNum" type="tinyint" size="1" desc="数值ucT3410T3430CondNum" engdesc="ucT3410T3430CondNum" />
+        <PARAM name="ucAttTauRelCondNum" type="tinyint" size="1" desc="数值ucAttTauRelCondNum" engdesc="ucAttTauRelCondNum" />
+        <PARAM name="ucAttTauRejReAttCondNum" type="tinyint" size="1" desc="数值ucAttTauRejReAttCondNum" engdesc="ucAttTauRejReAttCondNum" />
+        <PARAM name="ucAttTauRejNotReAttCondNum" type="tinyint" size="1" desc="数值ucAttTauRejNotReAttCondNum" engdesc="ucAttTauRejNotReAttCondNum" />
+        <PARAM name="ucAttCmpSndFailCondNum" type="tinyint" size="1" desc="数值ucAttCmpSndFailCondNum" engdesc="ucAttCmpSndFailCondNum" />
+        <PARAM name="ucSmcFailCondNum" type="tinyint" size="1" desc="数值ucSmcFailCondNum" engdesc="ucSmcFailCondNum" />
+        <PARAM name="ucSerRelCondNum" type="tinyint" size="1" desc="数值ucSerRelCondNum" engdesc="ucSerRelCondNum" />
+        <PARAM name="ucSerRejCondNum" type="tinyint" size="1" desc="数值ucSerRejCondNum" engdesc="ucSerRejCondNum" />
+        <PARAM name="ucDecOrIntFailCondNum" type="tinyint" size="1" desc="数值ucDecOrIntFailCondNum" engdesc="ucDecOrIntFailCondNum" />
+        <PARAM name="ucEea0DecFailCondNum" type="tinyint" size="1" desc="数值ucEea0DecFailCondNum" engdesc="ucEea0DecFailCondNum" />
+        <PARAM name="ucSysInfoTimeoutCondNum" type="tinyint" size="1" desc="数值ucSysInfoTimeoutCondNum" engdesc="ucSysInfoTimeoutCondNum" />
+        <PARAM name="ucAttTauRej1315CondNum" type="tinyint" size="1" desc="数值ucAttTauRej1315CondNum" engdesc="ucAttTauRej1315CondNum" />
+        <PARAM name="serExpCondNum" type="tinyint" size="1" desc="数值serExpCondNum" engdesc="serExpCondNum" />
+        <PARAM name="tauRelCondSecLevelNum" type="tinyint" size="1" desc="数值tauRelCondSecLevelNum" engdesc="tauRelCondSecLevelNum" />
+        <PARAM name="serRelCondSecLevelNum" type="tinyint" size="1" desc="数值serRelCondSecLevelNum" engdesc="serRelCondSecLevelNum" />
+        <PARAM name="customRegNwRejCondNum" type="tinyint" size="1" desc="数值customRegNwRejCondNum" engdesc="customRegNwRejCondNum" />
+        <PARAM name="serExpCondSecLevelNum" type="tinyint" size="1" desc="数值serExpCondSecLevelNum" engdesc="serExpCondSecLevelNum" />
+        <PARAM name="reAttachInquiryCapNum" type="tinyint" size="1" desc="数值reAttachInquiryCapNum" engdesc="reAttachInquiryCapNum" />
+        <PARAM name="n2lSecuFailNum" type="tinyint" size="1" desc="数值n2lSecuFailNum" engdesc="n2lSecuFailNum" />
+        <PARAM name="LEMM_INFO_ESCAPE_CONDITION" type="classArray" size="5" />
+    </SUBEVENT>
+    <SUBEVENT id="904221048" size="8" name="LNAS_ESM_INFO_LCSLPP_LEN" desc="事件LNAS_ESM_ERR_INFO_LCSLPP_LEN_CHR_INFO_STRU" engdesc="LNAS_ESM_ERR_INFO_LCSLPP_LEN_CHR_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulLcsMsgMaxLen" type="int" size="4" desc="数值ulLcsMsgMaxLen" engdesc="ulLcsMsgMaxLen" />
+        <PARAM name="ulLppMsgMaxLen" type="int" size="4" desc="数值ulLppMsgMaxLen" engdesc="ulLppMsgMaxLen" />
+    </SUBEVENT>
+    <SUBEVENT id="904221049" size="68" name="LNAS_ESM_INFO_AIR_COMPATI" desc="事件LNAS_ESM_ERR_INFO_AIR_COMPATI_CHR_INFO_STRU" engdesc="LNAS_ESM_ERR_INFO_AIR_COMPATI_CHR_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucEsmInfoReqEpsbIdNotZeroNum" type="tinyint" size="1" desc="数值ucEsmInfoReqEpsbIdNotZeroNum" engdesc="ucEsmInfoReqEpsbIdNotZeroNum" />
+        <PARAM name="ucEsmNtfPtiInvalidNum" type="tinyint" size="1" desc="数值ucEsmNtfPtiInvalidNum" engdesc="ucEsmNtfPtiInvalidNum" />
+        <PARAM name="ucEsmNtfEpsbIdInvalidNum" type="tinyint" size="1" desc="数值ucEsmNtfEpsbIdInvalidNum" engdesc="ucEsmNtfEpsbIdInvalidNum" />
+        <PARAM name="ucPdnTypeInvalidNum" type="tinyint" size="1" desc="数值ucPdnTypeInvalidNum" engdesc="ucPdnTypeInvalidNum" />
+        <PARAM name="ucEsmInfoEpsbId" type="tinyint" size="1" desc="数值ucEsmInfoEpsbId" engdesc="ucEsmInfoEpsbId" />
+        <PARAM name="uc1Rserved1" type="tinyint" size="1" desc="数值uc1Rserved1" engdesc="uc1Rserved1" />
+        <PARAM name="uc1Rserved2" type="tinyint" size="1" desc="数值uc1Rserved2" engdesc="uc1Rserved2" />
+        <PARAM name="uc1Rserved3" type="tinyint" size="1" desc="数值uc1Rserved3" engdesc="uc1Rserved3" />
+        <PARAM name="uc1PlmnId1" type="tinyint" size="1" desc="数值uc1PlmnId1" engdesc="uc1PlmnId1" />
+        <PARAM name="uc1PlmnId2" type="tinyint" size="1" desc="数值uc1PlmnId2" engdesc="uc1PlmnId2" />
+        <PARAM name="uc1PlmnId3" type="tinyint" size="1" desc="数值uc1PlmnId3" engdesc="uc1PlmnId3" />
+        <PARAM name="uc1Rsv" type="tinyint" size="1" desc="数值uc1Rsv" engdesc="uc1Rsv" />
+        <PARAM name="uc1Tac" type="tinyint" size="1" desc="数值uc1Tac" engdesc="uc1Tac" />
+        <PARAM name="uc1TacCnt" type="tinyint" size="1" desc="数值uc1TacCnt" engdesc="uc1TacCnt" />
+        <PARAM name="uc1Rsv1" type="tinyint" size="1" desc="数值uc1Rsv1" engdesc="uc1Rsv1" />
+        <PARAM name="uc1Rsv2" type="tinyint" size="1" desc="数值uc1Rsv2" engdesc="uc1Rsv2" />
+        <PARAM name="ul1CellId" type="int" size="4" desc="数值ul1CellId" engdesc="ul1CellId" />
+        <PARAM name="ucEsmNtfPti" type="tinyint" size="1" desc="数值ucEsmNtfPti" engdesc="ucEsmNtfPti" />
+        <PARAM name="uc2Rserved1" type="tinyint" size="1" desc="数值uc2Rserved1" engdesc="uc2Rserved1" />
+        <PARAM name="uc2Rserved2" type="tinyint" size="1" desc="数值uc2Rserved2" engdesc="uc2Rserved2" />
+        <PARAM name="uc2Rserved3" type="tinyint" size="1" desc="数值uc2Rserved3" engdesc="uc2Rserved3" />
+        <PARAM name="uc2PlmnId1" type="tinyint" size="1" desc="数值uc2PlmnId1" engdesc="uc2PlmnId1" />
+        <PARAM name="uc2PlmnId2" type="tinyint" size="1" desc="数值uc2PlmnId2" engdesc="uc2PlmnId2" />
+        <PARAM name="uc2PlmnId3" type="tinyint" size="1" desc="数值uc2PlmnId3" engdesc="uc2PlmnId3" />
+        <PARAM name="uc2Rsv" type="tinyint" size="1" desc="数值uc2Rsv" engdesc="uc2Rsv" />
+        <PARAM name="uc2Tac" type="tinyint" size="1" desc="数值uc2Tac" engdesc="uc2Tac" />
+        <PARAM name="uc2TacCnt" type="tinyint" size="1" desc="数值uc2TacCnt" engdesc="uc2TacCnt" />
+        <PARAM name="uc2Rsv1" type="tinyint" size="1" desc="数值uc2Rsv1" engdesc="uc2Rsv1" />
+        <PARAM name="uc2Rsv2" type="tinyint" size="1" desc="数值uc2Rsv2" engdesc="uc2Rsv2" />
+        <PARAM name="ul2CellId" type="int" size="4" desc="数值ul2CellId" engdesc="ul2CellId" />
+        <PARAM name="ucEsmNtfEpsbId" type="tinyint" size="1" desc="数值ucEsmNtfEpsbId" engdesc="ucEsmNtfEpsbId" />
+        <PARAM name="uc3Rserved1" type="tinyint" size="1" desc="数值uc3Rserved1" engdesc="uc3Rserved1" />
+        <PARAM name="uc3Rserved2" type="tinyint" size="1" desc="数值uc3Rserved2" engdesc="uc3Rserved2" />
+        <PARAM name="uc3Rserved3" type="tinyint" size="1" desc="数值uc3Rserved3" engdesc="uc3Rserved3" />
+        <PARAM name="uc3PlmnId1" type="tinyint" size="1" desc="数值uc3PlmnId1" engdesc="uc3PlmnId1" />
+        <PARAM name="uc3PlmnId2" type="tinyint" size="1" desc="数值uc3PlmnId2" engdesc="uc3PlmnId2" />
+        <PARAM name="uc3PlmnId3" type="tinyint" size="1" desc="数值uc3PlmnId3" engdesc="uc3PlmnId3" />
+        <PARAM name="uc3Rsv" type="tinyint" size="1" desc="数值uc3Rsv" engdesc="uc3Rsv" />
+        <PARAM name="uc3Tac" type="tinyint" size="1" desc="数值uc3Tac" engdesc="uc3Tac" />
+        <PARAM name="uc3TacCnt" type="tinyint" size="1" desc="数值uc3TacCnt" engdesc="uc3TacCnt" />
+        <PARAM name="uc3Rsv1" type="tinyint" size="1" desc="数值uc3Rsv1" engdesc="uc3Rsv1" />
+        <PARAM name="uc3Rsv2" type="tinyint" size="1" desc="数值uc3Rsv2" engdesc="uc3Rsv2" />
+        <PARAM name="ul3CellId" type="int" size="4" desc="数值ul3CellId" engdesc="ul3CellId" />
+        <PARAM name="ucPdnType" type="tinyint" size="1" desc="数值ucPdnType" engdesc="ucPdnType" />
+        <PARAM name="uc4Rserved1" type="tinyint" size="1" desc="数值uc4Rserved1" engdesc="uc4Rserved1" />
+        <PARAM name="uc4Rserved2" type="tinyint" size="1" desc="数值uc4Rserved2" engdesc="uc4Rserved2" />
+        <PARAM name="uc4Rserved3" type="tinyint" size="1" desc="数值uc4Rserved3" engdesc="uc4Rserved3" />
+        <PARAM name="uc4PlmnId1" type="tinyint" size="1" desc="数值uc4PlmnId1" engdesc="uc4PlmnId1" />
+        <PARAM name="uc4PlmnId2" type="tinyint" size="1" desc="数值uc4PlmnId2" engdesc="uc4PlmnId2" />
+        <PARAM name="uc4PlmnId3" type="tinyint" size="1" desc="数值uc4PlmnId3" engdesc="uc4PlmnId3" />
+        <PARAM name="uc4Rsv" type="tinyint" size="1" desc="数值uc4Rsv" engdesc="uc4Rsv" />
+        <PARAM name="uc4Tac" type="tinyint" size="1" desc="数值uc4Tac" engdesc="uc4Tac" />
+        <PARAM name="uc4TacCnt" type="tinyint" size="1" desc="数值uc4TacCnt" engdesc="uc4TacCnt" />
+        <PARAM name="uc4Rsv1" type="tinyint" size="1" desc="数值uc4Rsv1" engdesc="uc4Rsv1" />
+        <PARAM name="uc4Rsv2" type="tinyint" size="1" desc="数值uc4Rsv2" engdesc="uc4Rsv2" />
+        <PARAM name="ul4CellId" type="int" size="4" desc="数值ul4CellId" engdesc="ul4CellId" />
+    </SUBEVENT>
+    <SUBEVENT id="904221050" size="16" name="LNAS_ERABM_INFO_BEAR_ACT_WITHO" desc="事件LNAS_ERABM_ERR_INFO_BEAR_ACT_WITHOUT_DRB_INFO_STRU" engdesc="LNAS_ERABM_ERR_INFO_BEAR_ACT_WITHOUT_DRB_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usOccurTimes" type="smallint" size="2" desc="数值usOccurTimes" engdesc="usOccurTimes" />
+        <PARAM name="usLrrcExistDrbTimes" type="smallint" size="2" desc="数值usLrrcExistDrbTimes" engdesc="usLrrcExistDrbTimes" />
+        <PARAM name="usTimerOutTimes" type="smallint" size="2" desc="数值usTimerOutTimes" engdesc="usTimerOutTimes" />
+        <PARAM name="ucReserved1" type="smallint" size="2" desc="数值ucReserved1" engdesc="ucReserved1" />
+        <PARAM name="LNAS_OM_ERRLOG_TAC_STRU" type="class" />
+        <PARAM name="ulCellId" type="int" size="4" desc="数值ulCellId" engdesc="ulCellId" />
+    </SUBEVENT>
+    <SUBEVENT id="904221051" size="16" name="LEMM_INFO_HO_WITHIN_TAU_PROCES" desc="事件LNAS_EMM_ERR_INFO_HO_WITHIN_TAU_PROCESS_INFO_STRU" engdesc="LNAS_EMM_ERR_INFO_HO_WITHIN_TAU_PROCESS_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usRcvTwoTauAcpCnt" type="smallint" size="2" desc="数值usRcvTwoTauAcpCnt" engdesc="usRcvTwoTauAcpCnt" />
+        <PARAM name="usRcvRejAfterTauAcpCnt" type="smallint" size="2" desc="数值usRcvRejAfterTauAcpCnt" engdesc="usRcvRejAfterTauAcpCnt" />
+        <PARAM name="usRcvAcpAfterTauRejCnt" type="smallint" size="2" desc="数值usRcvAcpAfterTauRejCnt" engdesc="usRcvAcpAfterTauRejCnt" />
+        <PARAM name="usRcvFirstTauAcpCnt" type="smallint" size="2" desc="数值usRcvFirstTauAcpCnt" engdesc="usRcvFirstTauAcpCnt" />
+        <PARAM name="LNAS_OM_ERRLOG_TAC_STRU" type="class" />
+        <PARAM name="ulCellId" type="int" size="4" desc="数值ulCellId" engdesc="ulCellId" />
+    </SUBEVENT>
+    <SUBEVENT id="904221052" size="8" name="LNAS_LMM_DL_NASCOUNT" desc="事件LNAS_LMM_OM_DL_NASCOUNT_ERR_CHR_STRU" engdesc="LNAS_LMM_OM_DL_NASCOUNT_ERR_CHR_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucCnDlCount" type="tinyint" size="1" desc="数值ucCnDlCount" engdesc="ucCnDlCount" />
+        <PARAM name="ucRsv1" type="tinyint" size="1" desc="数值ucRsv1" engdesc="ucRsv1" />
+        <PARAM name="ucRsv2" type="tinyint" size="1" desc="数值ucRsv2" engdesc="ucRsv2" />
+        <PARAM name="ucRsv3" type="tinyint" size="1" desc="数值ucRsv3" engdesc="ucRsv3" />
+        <PARAM name="ulLoacalDlCount" type="int" size="4" desc="数值ulLoacalDlCount" engdesc="ulLoacalDlCount" />
+    </SUBEVENT>
+    <SUBEVENT id="904221053" size="4" name="LNAS_ESM_BEARER_STATUS_INCONSI" desc="事件LNAS_ESM_ERR_INFO_BEARER_STATUS_INCONSISTENT_STRU" engdesc="LNAS_ESM_ERR_INFO_BEARER_STATUS_INCONSISTENT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulTimes" type="int" size="4" desc="数值ulTimes" engdesc="ulTimes" />
+    </SUBEVENT>
+    <SUBEVENT id="904221054" size="4" name="LEMM_REPEATEDLY_CONN_RECOVER_T" desc="事件LNAS_EMM_ERR_INFO_REPEATEDLY_CONN_RECOVER_TAU_EFFECT_STRU" engdesc="LNAS_EMM_ERR_INFO_REPEATEDLY_CONN_RECOVER_TAU_EFFECT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usConnStaSyncSuccTimes" type="smallint" size="2" desc="数值usConnStaSyncSuccTimes" engdesc="usConnStaSyncSuccTimes" />
+        <PARAM name="usConnStaSyncFailTimes" type="smallint" size="2" desc="数值usConnStaSyncFailTimes" engdesc="usConnStaSyncFailTimes" />
+    </SUBEVENT>
+    <SUBEVENT id="904221055" size="8" name="LIMSA_RELEASE_SIGNAL_BEAR" desc="事件LNAS_IMSA_ERR_INFO_RELEASE_SIGNAL_BEAR_STRU" engdesc="LNAS_IMSA_ERR_INFO_RELEASE_SIGNAL_BEAR_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulCount" type="int" size="4" desc="数值ulCount" engdesc="ulCount" />
+        <PARAM name="ulCause" type="int" size="4" desc="数值ulCause" engdesc="ulCause" />
+    </SUBEVENT>    
+    <SUBEVENT id="904221056" size="20" name="LEMM_INFO_ESCAPE_DESCEND_CAP" desc="事件LNAS_EMM_ERR_INFO_ESCAPE_DESCEND_CAP_INFO_STRU" engdesc="LNAS_EMM_ERR_INFO_ESCAPE_DESCEND_CAP_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usDescendCapTotalTimes" type="smallint" size="2" desc="数值usDescendCapTotalTimes" engdesc="usDescendCapTotalTimes" />
+        <PARAM name="usDescendCapVaildTimes" type="smallint" size="2" desc="数值usDescendCapVaildTimes" engdesc="usDescendCapVaildTimes" />
+        <PARAM name="LNAS_OM_ERRLOG_PLMN_ID_STRU" type="class" />
+        <PARAM name="LNAS_OM_ERRLOG_TAC_STRU" type="class" />
+        <PARAM name="ulCellId" type="int" size="4" desc="数值ulCellId" engdesc="ulCellId" />
+        <PARAM name="ucDescendCapType" type="tinyint" size="1" desc="数值ucDescendCapType" engdesc="ucDescendCapType" />
+        <PARAM name="descendCapScene" type="tinyint" size="1" desc="降能力场景" engdesc="descendScene" />
+        <PARAM name="descendCapEmmCause" type="tinyint" size="1" desc="EMM原因值" engdesc="descendCapEmmCause" />
+        <PARAM name="descendCapEsmCause" type="tinyint" size="1" desc="ESM原因值" engdesc="descendCapEsmCause" />
+    </SUBEVENT>
+        <SUBEVENT id="904221057" size="4" name="LEMM_INFO_ROBUST_OPTIMIZATION_" desc="事件LNAS_EMM_ERR_INFO_ROBUST_OPTIMIZATION_STATISTICS_INFO_STRU" engdesc="LNAS_EMM_ERR_INFO_ROBUST_OPTIMIZATION_STATISTICS_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucReAttTotalTimes" type="tinyint" size="1" desc="数值ucReAttTotalTimes" engdesc="ucReAttTotalTimes" />
+        <PARAM name="ucReAttVaildTimes" type="tinyint" size="1" desc="数值ucReAttVaildTimes" engdesc="ucReAttVaildTimes" />
+        <PARAM name="ucBackUpSecuValidtimes" type="tinyint" size="1" desc="数值ucBackUpSecuValidtimes" engdesc="ucBackUpSecuValidtimes" />
+        <PARAM name="ucRsved" type="tinyint" size="1" desc="数值ucRsved" engdesc="ucRsved" />
+    </SUBEVENT>
+    <SUBEVENT id="904221058" size="8" name="LNAS_ESM_CHANGE_NULL_APN_OPT" desc="事件LNAS_ESM_ERR_INFO_CHANGE_NULL_APN_OPT_STRU" engdesc="LNAS_ESM_ERR_INFO_CHANGE_NULL_APN_OPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usTotalCnt" type="smallint" size="2" desc="数值usTotalCnt" engdesc="usTotalCnt" />
+        <PARAM name="usTempRejCnt" type="smallint" size="2" desc="数值usTempRejCnt" engdesc="usTempRejCnt" />
+        <PARAM name="usEscpFailCnt" type="smallint" size="2" desc="数值usEscpFailCnt" engdesc="usEscpFailCnt" />
+        <PARAM name="usEscpSuccCnt" type="smallint" size="2" desc="数值usEscpSuccCnt" engdesc="usEscpSuccCnt" />
+    </SUBEVENT>
+    <SUBEVENT id="904223751" size="184" name="WAS_RRC_ACCESS_LONG" desc="事件WAS_RRC_ACCESS_LONG_CHR_RPT_STRU" engdesc="WAS_RRC_ACCESS_LONG_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usAccessLongTimes" type="smallint" size="2" desc="数值usAccessLongTimes" engdesc="usAccessLongTimes" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="WAS_MNTN_LOG_ACCESS_LONG" type="classArray" size="5" />
+    </SUBEVENT>
+    <SUBEVENT id="904223752" size="208" name="WAS_RADIO_RESOURCE_CHECK" desc="事件WAS_RADIO_RESOURCE_CHECK_CHR_RPT_STRU" engdesc="WAS_RADIO_RESOURCE_CHECK_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucExceptionRecordCnt" type="tinyint" size="1" desc="数值ucExceptionRecordCnt" engdesc="ucExceptionRecordCnt" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="WAS_MNTN_LOG_RESOURCE_CHECK_EX" type="classArray" size="3" />
+    </SUBEVENT>
+    <SUBEVENT id="904223753" size="24" name="WAS_RRC_STATE_LAST_TIME" desc="事件WAS_RRC_STATE_LAST_TIME_CHR_RPT_STRU" engdesc="WAS_RRC_STATE_LAST_TIME_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulFachTimeLength" type="int" size="4" desc="数值ulFachTimeLength" engdesc="ulFachTimeLength" />
+        <PARAM name="ulUraPchTimeLength" type="int" size="4" desc="数值ulUraPchTimeLength" engdesc="ulUraPchTimeLength" />
+        <PARAM name="ulCellPchTimeLength" type="int" size="4" desc="数值ulCellPchTimeLength" engdesc="ulCellPchTimeLength" />
+        <PARAM name="ulDchTimeLength" type="int" size="4" desc="数值ulDchTimeLength" engdesc="ulDchTimeLength" />
+        <PARAM name="ulIdleTimeLength" type="int" size="4" desc="数值ulIdleTimeLength" engdesc="ulIdleTimeLength" />
+        <PARAM name="ulTotalTimeLength" type="int" size="4" desc="数值ulTotalTimeLength" engdesc="ulTotalTimeLength" />
+    </SUBEVENT>
+    <SUBEVENT id="904223754" size="324" name="WAS_WOOS_SEARCH_SECTION" desc="事件WAS_WOOS_SEARCH_SECTION_CHR_RPT_STRU" engdesc="WAS_WOOS_SEARCH_SECTION_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucSectionCnt" type="tinyint" size="1" desc="数值ucSectionCnt" engdesc="ucSectionCnt" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="WAS_MNTN_LOG_WOOS_SRCH_SECTION" type="classArray" size="20" />
+    </SUBEVENT>
+    <SUBEVENT id="904223755" size="164" name="WAS_W2W_RESEL_SLOW" desc="事件WAS_W2W_RESEL_SLOW_CHR_RPT_STRU" engdesc="WAS_W2W_RESEL_SLOW_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulReselSlowTimes" type="int" size="4" desc="数值ulReselSlowTimes" engdesc="ulReselSlowTimes" />
+        <PARAM name="WAS_MNTN_LOG_W2W_RESEL_SLOW" type="classArray" size="10" />
+    </SUBEVENT>
+    <SUBEVENT id="904223756" size="36" name="WAS_NET_WORK_FEATURE" desc="事件WAS_NET_WORK_FEATURE_CHR_RPT_STRU" engdesc="WAS_NET_WORK_FEATURE_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="WAS_MNTN_NET_WORK_FEATURE_TYPE_ENUM" type="enum" size="1" desc="枚举enFeatureType" engdesc="WAS_MNTN_NET_WORK_FEATURE_TYPE_ENUM" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="WAS_MNTN_LOG_SERV_CELL_WHOLE" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904223757" size="16" name="WAS_DCH_TRIGGER_CU" desc="事件WAS_DCH_TRIGGER_CU_CHR_RPT_STRU" engdesc="WAS_DCH_TRIGGER_CU_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulCuTotalCnt" type="int" size="4" desc="数值ulCuTotalCnt" engdesc="ulCuTotalCnt" />
+        <PARAM name="ulCuWithDiffRncCnt" type="int" size="4" desc="数值ulCuWithDiffRncCnt" engdesc="ulCuWithDiffRncCnt" />
+        <PARAM name="ulCuSuccCnt" type="int" size="4" desc="数值ulCuSuccCnt" engdesc="ulCuSuccCnt" />
+        <PARAM name="ulCuSuccWithDiffRncCnt" type="int" size="4" desc="数值ulCuSuccWithDiffRncCnt" engdesc="ulCuSuccWithDiffRncCnt" />
+    </SUBEVENT>
+    <SUBEVENT id="904223758" size="248" name="WAS_CS_END_CESSION_NOTIFY" desc="事件WAS_CS_END_CESSION_NOTIFY_CHR_RPT_STRU" engdesc="WAS_CS_END_CESSION_NOTIFY_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulCampedCellNum" type="int" size="4" desc="数值ulCampedCellNum" engdesc="ulCampedCellNum" />
+        <PARAM name="WAS_MNTN_LOG_END_SESSION_CELL" type="classArray" size="30" />
+        <PARAM name="ulCSEndSessionOthersCnt" type="int" size="4" desc="数值ulCSEndSessionOthersCnt" engdesc="ulCSEndSessionOthersCnt" />
+    </SUBEVENT>
+    <SUBEVENT id="904223759" name="WAS_ERRORLOG" desc="事件WAS_ERRORLOG" engdesc="WAS_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulCampedCellNum" type="int" size="4" desc="数值ulCampedCellNum" engdesc="ulCampedCellNum" />
+        <PARAM name="WAS_MNTN_LOG_END_SESSION_CELL" type="classArray" size="30" />
+        <PARAM name="ulCSEndSessionOthersCnt" type="int" size="4" desc="数值ulCSEndSessionOthersCnt" engdesc="ulCSEndSessionOthersCnt" />
+    </SUBEVENT>
+    <SUBEVENT id="904225501" size="16" name="CTTF_RADIO_RESOURCE_CHECK" desc="事件CTTF_RADIO_RESOURCE_CHECK_CHR_DIRECT_RPT_STRU" engdesc="CTTF_RADIO_RESOURCE_CHECK_CHR_DIRECT_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulOccurTick" type="int" size="4" desc="数值ulOccurTick" engdesc="ulOccurTick" />
+        <PARAM name="ulSysTimeLow32Bits" type="int" size="4" desc="数值ulSysTimeLow32Bits" engdesc="ulSysTimeLow32Bits" />
+        <PARAM name="ulSysTimeHigh32Bits" type="int" size="4" desc="数值ulSysTimeHigh32Bits" engdesc="ulSysTimeHigh32Bits" />
+        <PARAM name="usTaskType" type="smallint" size="2" desc="数值usTaskType" engdesc="usTaskType" />
+        <PARAM name="ucResourceState" type="tinyint" size="1" desc="数值ucResourceState" engdesc="ucResourceState" />
+        <PARAM name="aucReserve_0" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+    </SUBEVENT>
+    <SUBEVENT id="904225502" name="CTTF_ERRORLOG" desc="事件CTTF_ERRORLOG" engdesc="CTTF_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulOccurTick" type="int" size="4" desc="数值ulOccurTick" engdesc="ulOccurTick" />
+        <PARAM name="ulSysTimeLow32Bits" type="int" size="4" desc="数值ulSysTimeLow32Bits" engdesc="ulSysTimeLow32Bits" />
+        <PARAM name="ulSysTimeHigh32Bits" type="int" size="4" desc="数值ulSysTimeHigh32Bits" engdesc="ulSysTimeHigh32Bits" />
+        <PARAM name="usTaskType" type="smallint" size="2" desc="数值usTaskType" engdesc="usTaskType" />
+        <PARAM name="ucResourceState" type="tinyint" size="1" desc="数值ucResourceState" engdesc="ucResourceState" />
+        <PARAM name="aucReserve_0" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+    </SUBEVENT>
+    <SUBEVENT id="904224506" size="44" name="GAS_AP_G2L_RESEL_HIT_STATISTIC" desc="事件GAS_AP_G2L_RESEL_HIT_STATISTICS_STRU" engdesc="GAS_AP_G2L_RESEL_HIT_STATISTICS_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GAS_AP_G2L_FAST_RESEL_HIT_STAT" type="class" />
+        <PARAM name="GAS_AP_G2L_NORMAL_RESEL_HIT_ST" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221503" size="4" name="GUNAS_SEARCHED_PLMN" desc="事件GUNAS_SEARCHED_PLMN_INFO_CHR_RPT_STRU" engdesc="GUNAS_SEARCHED_PLMN_INFO_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GUCNAS_ERR_LOG_SEARCHED_PLMN_INFO_ENUM" type="enum" size="4" desc="枚举ulPlmnErrorType" engdesc="GUCNAS_ERR_LOG_SEARCHED_PLMN_INFO_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT id="904224507" size="164" name="GAS_AP_G2L_PING_PONG_RESTRAIN_" desc="事件GAS_AP_G2L_PING_PONG_RESTRAIN_RECORD_RPT_STRU" engdesc="GAS_AP_G2L_PING_PONG_RESTRAIN_RECORD_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucRecordNum" type="tinyint" size="1" desc="数值ucRecordNum" engdesc="ucRecordNum" />
+        <PARAM name="ucRsv" type="tinyint" size="1" desc="数值ucRsv" engdesc="ucRsv" />
+        <PARAM name="usRestrainTotalNum" type="smallint" size="2" desc="数值usRestrainTotalNum" engdesc="usRestrainTotalNum" />
+        <PARAM name="GAS_AP_G2L_PING_PONG_RESTRAIN_" type="classArray" size="5" />
+    </SUBEVENT>
+    <SUBEVENT id="904224508" size="232" name="GAS_AP_GSM_AIR_MSG_ABNORMAL" desc="事件GAS_AP_GSM_AIR_MSG_ABNORMAL_STRU" engdesc="GAS_AP_GSM_AIR_MSG_ABNORMAL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GAS_AP_GSM_ABNORMAL_AIR_DESC" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221504" size="28" name="GUNAS_SILENT_SMS" desc="事件GUNAS_SILENT_SMS_INFO_CHR_RPT_STRU" engdesc="GUNAS_SILENT_SMS_INFO_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucTppidType0MsgTimes" type="tinyint" size="1" desc="数值ucTppidType0MsgTimes" engdesc="ucTppidType0MsgTimes" />
+        <PARAM name="ucTpdcsDiscardMsgTimes" type="tinyint" size="1" desc="数值ucTpdcsDiscardMsgTimes" engdesc="ucTpdcsDiscardMsgTimes" />
+        <PARAM name="ucTpdcsStoreMsgTimes" type="tinyint" size="1" desc="数值ucTpdcsStoreMsgTimes" engdesc="ucTpdcsStoreMsgTimes" />
+        <PARAM name="ucTpdcsNoneMsgTimes" type="tinyint" size="1" desc="数值ucTpdcsNoneMsgTimes" engdesc="ucTpdcsNoneMsgTimes" />
+        <PARAM name="ucTpdcsAutoDeleteMsgTimes" type="tinyint" size="1" desc="数值ucTpdcsAutoDeleteMsgTimes" engdesc="ucTpdcsAutoDeleteMsgTimes" />
+        <PARAM name="ucPpdownloadMsgTimes" type="tinyint" size="1" desc="数值ucPpdownloadMsgTimes" engdesc="ucPpdownloadMsgTimes" />
+        <PARAM name="GUNAS_INFO_SILENT_SMS_TYEP_ENUM" type="enum" size="1" desc="枚举enLastSilentSmsMsgType" engdesc="GUNAS_INFO_SILENT_SMS_TYEP_ENUM" />
+        <PARAM name="ucReserved" type="tinyint" size="1" desc="数值ucReserved" engdesc="ucReserved" />
+        <PARAM name="NAS_MNTN_POSITION_INFO_STRU" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221505" size="360" name="GUNAS_APS_PS_CALL_ENTITY" desc="事件GUNAS_APS_PS_CALL_ENTITY_CHR_RPT_STRU" engdesc="GUNAS_APS_PS_CALL_ENTITY_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GUNAS_APS_PS_CALL_ENTITY" type="classArray" size="30" />
+    </SUBEVENT>
+    <SUBEVENT id="904221506" size="4" name="GUNAS_SRVCC_TIFLAG" desc="事件GUNAS_SRVCC_TIFLAG_ERR_CHR_RPT_STRU" engdesc="GUNAS_SRVCC_TIFLAG_ERR_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucNwTi" type="tinyint" size="1" desc="数值ucNwTi" engdesc="ucNwTi" />
+        <PARAM name="ucCallsCount" type="tinyint" size="1" desc="数值ucCallsCount" engdesc="ucCallsCount" />
+        <PARAM name="GUNAS_ERRLOG_SRVCC_TIFLAG_ERR_CAUSE_ENUM" type="enum" size="1" desc="枚举enTiFlgErrCause" engdesc="GUNAS_ERRLOG_SRVCC_TIFLAG_ERR_CAUSE_ENUM" />
+        <PARAM name="ucMsgType" type="tinyint" size="1" desc="数值ucMsgType" engdesc="ucMsgType" />
+    </SUBEVENT>
+    <SUBEVENT id="904221507" size="20" name="GUNAS_RECEIVE_SMS_IN_ANTI_ATTA" desc="事件GUNAS_RECEIVE_SMS_IN_ANTI_ATTACK_INFO_CHR_RPT_STRU" engdesc="GUNAS_RECEIVE_SMS_IN_ANTI_ATTACK_INFO_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="flag" type="tinyint" size="1" desc="数值flag" engdesc="flag" />
+        <PARAM name="rat" type="tinyint" size="1" desc="数值rat" engdesc="rat" />
+        <PARAM name="rsv1" type="tinyint" size="1" desc="数值rsv1" engdesc="rsv1" />
+        <PARAM name="rsv2" type="tinyint" size="1" desc="数值rsv2" engdesc="rsv2" />
+        <PARAM name="cellId" type="int" size="4" desc="数值cellId" engdesc="cellId" />
+        <PARAM name="MNTN_RAI_INFO_STRU" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221508" size="20" name="GUNAS_SMS_ANTI_ATTACK" desc="事件GUNAS_SMS_ANTI_ATTACK_INFO_CHR_RPT_STRU" engdesc="GUNAS_SMS_ANTI_ATTACK_INFO_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="flag" type="tinyint" size="1" desc="数值flag" engdesc="flag" />
+        <PARAM name="rat" type="tinyint" size="1" desc="数值rat" engdesc="rat" />
+        <PARAM name="rsv1" type="tinyint" size="1" desc="数值rsv1" engdesc="rsv1" />
+        <PARAM name="rsv2" type="tinyint" size="1" desc="数值rsv2" engdesc="rsv2" />
+        <PARAM name="cellId" type="int" size="4" desc="数值cellId" engdesc="cellId" />
+        <PARAM name="MNTN_RAI_INFO_STRU" type="class" />
+	    </SUBEVENT>
+    <SUBEVENT id="904221059" size="52" name="LEMM_LRRC_SMC_FAIL_CHR" desc="事件LNAS_EMM_ERR_INFO_LRRC_SMC_FAIL_CHR" engdesc="LNAS_EMM_ERR_INFO_LRRC_SMC_FAIL_CHR" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="lrrcSmcFailNum" type="tinyint" size="1" desc="数值lrrcSmcFailNum" engdesc="lrrcSmcFailNum" />
+        <PARAM name="rsv1" type="tinyint" size="1" desc="数值rsv1" engdesc="rsv1" />
+        <PARAM name="rsv2" type="tinyint" size="1" desc="数值rsv2" engdesc="rsv2" />
+        <PARAM name="rsv3" type="tinyint" size="1" desc="数值rsv3" engdesc="rsv3" />
+        <PARAM name="LNAS_ERRLOG_POSITION" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904221060" size="8" name="LNAS_ESM_INFO_5G_ESCAPE_DESCEN" desc="事件LNAS_ESM_ERR_INFO_5G_ESCAPE_DESCEND_CAP_INFO_STRU" engdesc="LNAS_ESM_ERR_INFO_5G_ESCAPE_DESCEND_CAP_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="descendCapCnt" type="smallint" size="2" desc="数值descendCapCnt" engdesc="descendCapCnt" />
+        <PARAM name="escapeSuccCnt" type="smallint" size="2" desc="数值escapeSuccCnt" engdesc="escapeSuccCnt" />
+        <PARAM name="escapeFailCnt" type="smallint" size="2" desc="数值escapeFailCnt" engdesc="escapeFailCnt" />
+        <PARAM name="rsv" type="smallint" size="2" desc="数值rsv" engdesc="rsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221061" size="8" name="LEMM_COMPATIBILITY" desc="事件LNAS_EMM_ERR_INFO_COMPATIBILITY_STRU" engdesc="LNAS_EMM_ERR_INFO_COMPATIBILITY_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="condition" type="tinyint" size="1" desc="数值condition" engdesc="condition" />
+        <PARAM name="rsv" type="tinyint" size="1" desc="数值rsv" engdesc="rsv" />
+        <PARAM name="value" type="smallint" size="2" desc="数值value" engdesc="value" />
+        <PARAM name="emmMainState" type="smallint" size="2" desc="数值emmMainState" engdesc="emmMainState" />
+        <PARAM name="emmSubState" type="smallint" size="2" desc="数值emmSubState" engdesc="emmSubState" />
+    </SUBEVENT>
+    <SUBEVENT id="904221062" size="4" name="LNAS_ESM_ESM_STATUS_NOT_EQ_LMM" desc="事件LNAS_ESM_ERR_INFO_ESM_STATUS_NOT_EQ_LMM_STRU" engdesc="LNAS_ESM_ERR_INFO_ESM_STATUS_NOT_EQ_LMM_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="event" type="tinyint" size="1" desc="数值event" engdesc="event" />
+        <PARAM name="esmRegisterStatus" type="tinyint" size="1" desc="数值esmRegisterStatus" engdesc="esmRegisterStatus" />
+        <PARAM name="lModeStatus" type="tinyint" size="1" desc="数值lModeStatus" engdesc="lModeStatus" />
+        <PARAM name="rsv" type="tinyint" size="1" desc="数值rsv" engdesc="rsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221063" size="16" name="LEMM_LTE_FAKE_NODEB_OPTIMIZATION_STATISTICS" desc="事件LNAS_EMM_ERR_INFO_LTE_FAKE_NODEB_OPTIMIZATION_STATISTICS_STRU" engdesc="LNAS_EMM_ERR_INFO_LTE_FAKE_NODEB_OPTIMIZATION_STATISTICS_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="lnasRelConnSuccTimes" type="smallint" size="2" desc="数值lnasRelConnSuccTimes" engdesc="lnasRelConnSuccTimes" />
+        <PARAM name="fakeEnbDetectTotalTimes" type="smallint" size="2" desc="数值fakeEnbDetectTotalTimes" engdesc="fakeEnbDetectTotalTimes" />
+        <PARAM name="fakeEnbErrDetectTimes" type="smallint" size="2" desc="数值fakeEnbErrDetectTimes" engdesc="fakeEnbErrDetectTimes" />
+        <PARAM name="fakeEnbRejCause" type="smallint" size="2" desc="数值fakeEnbRejCause" engdesc="fakeEnbRejCause" />
+        <PARAM name="fakeEnbInCallDetectTimes" type="smallint" size="2" desc="数值fakeEnbInCallDetectTimes" engdesc="fakeEnbInCallDetectTimes" />
+        <PARAM name="fakeEnbInCallSuccTimes" type="smallint" size="2" desc="数值fakeEnbInCallSuccTimes" engdesc="fakeEnbInCallSuccTimes" />
+        <PARAM name="rsv1" type="smallint" size="2" desc="数值rsv1" engdesc="rsv1" />
+        <PARAM name="rsv2" type="smallint" size="2" desc="数值rsv2" engdesc="rsv2" />
+    </SUBEVENT>
+    <SUBEVENT id="904221064" size="16" name="LEMM_INITIATE_TAU_OPTIMIZATION_STATISTICS" desc="事件LNAS_EMM_ERR_INFO_INITIATE_TAU_OPTIMIZATION_STATISTICS_STRU" engdesc="LNAS_EMM_ERR_INFO_INITIATE_TAU_OPTIMIZATION_STATISTICS_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="taInTaListTauSuccTimes" type="smallint" size="2" desc="数值taInTaListTauSuccTimes" engdesc="taInTaListTauSuccTimes" />
+        <PARAM name="taInTaListTauTotalTimes" type="smallint" size="2" desc="数值taInTaListTauTotalTimes" engdesc="taInTaListTauTotalTimes" />
+        <PARAM name="taNotInTaListTauSuccTimes" type="smallint" size="2" desc="数值taNotInTaListTauSuccTimes" engdesc="taNotInTaListTauSuccTimes" />
+        <PARAM name="taNotInTaListTauTotalTimes" type="smallint" size="2" desc="数值taNotInTaListTauTotalTimes" engdesc="taNotnTaListTauTotalTimes" />
+        <PARAM name="rsv1" type="smallint" size="2" desc="数值rsv1" engdesc="rsv1" />
+        <PARAM name="rsv2" type="smallint" size="2" desc="数值rsv2" engdesc="rsv2" />
+        <PARAM name="rsv3" type="smallint" size="2" desc="数值rsv3" engdesc="rsv3" />
+        <PARAM name="rsv4" type="smallint" size="2" desc="数值rsv4" engdesc="rsv4" />
+    </SUBEVENT>
+    <SUBEVENT id="904221065" size="24" name="LIMSA_NR_EST_FAIL" desc="事件LNAS_IMSA_ERR_INFO_NR_EST_FAIL_EVENT_STRU" engdesc="LNAS_IMSA_ERR_INFO_NR_EST_FAIL_EVENT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="finalResult" type="tinyint" size="1" desc="数值finalResult" engdesc="finalResult" />
+        <PARAM name="rsv" type="tinyint" size="1" desc="字符串rsv" engdesc="rsv" />
+        <PARAM name="failReasonCount" type="tinyint" size="1" desc="字符串failReasonCount" engdesc="failReasonCount" />
+    </SUBEVENT>
+    <SUBEVENT id="904221066" size="4" name="LIMSA_IMPLICIT_DETACH_EMC_REDIAL" desc="事件LNAS_IMSA_ERR_INFO_IMPLICIT_DETACH_EMC_REDIAL_STRU" engdesc="LNAS_IMSA_ERR_INFO_IMPLICIT_DETACH_EMC_REDIAL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="emcRedialResult" type="tinyint" size="1" desc="数值emcRedialResult" engdesc="emcRedialResult" />
+        <PARAM name="rsv" type="tinyint" size="1" desc="字符串rsv" engdesc="rsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221067" size="4" name="LIMSA_MEDIA_PDP_LOST_EVENT" desc="事件LNAS_IMSA_ERR_INFO_MEDIA_PDP_LOST_EVENT_STRU" engdesc="LNAS_IMSA_ERR_INFO_MEDIA_PDP_LOST_EVENT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="mediaPdpRecoverFalg" type="tinyint" size="1" desc="数值mediaPdpRecoverFalg" engdesc="mediaPdpRecoverFalg" />
+        <PARAM name="rsv" type="tinyint" size="1" desc="字符串rsv" engdesc="rsv" />
+    </SUBEVENT>
+    <SUBEVENT id="904221078" size="20" name="LEMM_N2L_HO_ABNORMAL_REL_STATISTICS" desc="事件LNAS_EMM_ERR_INFO_N2L_HO_ABNORMAL_REL_STATISTICS_STRU" engdesc="LNAS_EMM_ERR_INFO_N2L_HO_ABNORMAL_REL_STATISTICS_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="tauSuccTimes" type="smallint" size="2" desc="数值tauSuccTimes" engdesc="tauSuccTimes" />
+        <PARAM name="attachSuccTimes" type="smallint" size="2" desc="数值attachSuccTimes" engdesc="attachSuccTimes" />
+        <PARAM name="voiceCallN2lHoAbnormalRelTimes" type="smallint" size="2" desc="数值voiceCallN2lHoAbnormalRelTimes" engdesc="voiceCallN2lHoAbnormalRelTimes" />
+        <PARAM name="notVoiceCallN2lHoAbnormalRelTimes" type="smallint" size="2" desc="数值notVoiceCallN2lHoAbnormalRelTimes" engdesc="notVoiceCallN2lHoAbnormalRelTimes" />
+        <PARAM name="plmnId1" type="tinyint" size="1" desc="数值plmnId1" engdesc="plmnId1" />
+        <PARAM name="plmnId2" type="tinyint" size="1" desc="数值plmnId2" engdesc="plmnId2" />
+        <PARAM name="plmnId3" type="tinyint" size="1" desc="数值plmnId3" engdesc="plmnId3" />
+        <PARAM name="rsv" type="tinyint" size="1" desc="数值rsv" engdesc="rsv" />
+        <PARAM name="tac" type="tinyint" size="1" desc="数值tac" engdesc="tac" />
+        <PARAM name="tacCnt" type="tinyint" size="1" desc="数值tacCnt" engdesc="tacCnt" />
+        <PARAM name="rsv1" type="tinyint" size="1" desc="数值rsv1" engdesc="rsv1" />
+        <PARAM name="rsv2" type="tinyint" size="1" desc="数值rsv2" engdesc="rsv2" />
+        <PARAM name="cellId" type="int" size="4" desc="数值cellId" engdesc="cellId" />
+    </SUBEVENT>
+    <SUBEVENT id="904226001" size="768" name="NRRC_OTA_CHECK_FAIL" desc="事件NRRC_CHR_DIRECT_OTA_CHECK_FAIL_STRU" engdesc="NRRC_CHR_DIRECT_OTA_CHECK_FAIL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NRRC_CHR_PCELL_INFO_STRU" type="class" />
+        <PARAM name="NRRC_CONNCTRL_CHR_ERROR_CODE_ENUM" type="enum" size="2" desc="枚举enErrorCode" engdesc="NRRC_CONNCTRL_CHR_ERROR_CODE_ENUM" />
+        <PARAM name="NRRC_CONNCTRL_OTA_MSG_TYPE_ENUM" type="enum" size="2" desc="枚举enFailAirMsgType" engdesc="NRRC_CONNCTRL_OTA_MSG_TYPE_ENUM" />
+        <PARAM name="NRRC_CCB_NET_DEPLOY_TYPE_ENUM" type="enum" size="1" desc="枚举enNetDeployType" engdesc="NRRC_CCB_NET_DEPLOY_TYPE_ENUM" />
+        <PARAM name="aucReserved_2" type="tinyint" size="1" desc="字符串aucReserved" engdesc="aucReserved" />
+        <PARAM name="ulScgConfigDataLen" type="int" size="4" desc="数值ulScgConfigDataLen" engdesc="ulScgConfigDataLen" />
+        <PARAM name="ulRbConfig1DataLen" type="int" size="4" desc="数值ulRbConfig1DataLen" engdesc="ulRbConfig1DataLen" />
+        <PARAM name="ulRbConfig2DataLen" type="int" size="4" desc="数值ulRbConfig2DataLen" engdesc="ulRbConfig2DataLen" />
+        <PARAM name="ulOtaMsgDataLen" type="int" size="4" desc="数值ulOtaMsgDataLen" engdesc="ulOtaMsgDataLen" />
+        <PARAM name="aucBuf_719" type="tinyint" size="1" desc="字符串aucBuf" engdesc="aucBuf" />
+    </SUBEVENT>
+    <SUBEVENT id="904226002" size="36" name="NRRC_OUT_OF_SYNC" desc="事件NRRC_CHR_DIRECT_OUT_OF_SYNC_STRU" engdesc="NRRC_CHR_DIRECT_OUT_OF_SYNC_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucCgId" type="tinyint" size="1" desc="数值ucCgId" engdesc="ucCgId" />
+        <PARAM name="aucReserved_2" type="tinyint" size="1" desc="字符串aucReserved" engdesc="aucReserved" />
+        <PARAM name="NRRC_CONNCTRL_OUT_OF_SYNC_INFO" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904226003" size="52" name="NRRC_CHR_DIRECT_RA_FAIL_STRU" desc="事件NRRC_CHR_DIRECT_RA_FAIL_STRU" engdesc="NRRC_CHR_DIRECT_RA_FAIL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NRRC_CONNCTRL_CHR_ERROR_CODE_ENUM" type="enum" size="2" desc="枚举enErrorCode" engdesc="NRRC_CONNCTRL_CHR_ERROR_CODE_ENUM" />
+        <PARAM name="NRRC_CCB_NET_DEPLOY_TYPE_ENUM" type="enum" size="1" desc="枚举enCurNetDeployType" engdesc="NRRC_CCB_NET_DEPLOY_TYPE_ENUM" />
+        <PARAM name="ucRsv" type="tinyint" size="1" desc="数值ucRsv" engdesc="ucRsv" />
+        <PARAM name="sRsrpThreshold" type="smallint" size="2" desc="数值sRsrpThreshold" engdesc="sRsrpThreshold" />
+        <PARAM name="sRsrqThreshold" type="smallint" size="2" desc="数值sRsrqThreshold" engdesc="sRsrqThreshold" />
+        <PARAM name="ulRaFailTotalCnt" type="int" size="4" desc="数值ulRaFailTotalCnt" engdesc="ulRaFailTotalCnt" />
+        <PARAM name="NRRC_CHR_PCELL_INFO_STRU" type="class" />
+        <PARAM name="NRRC_MEAS_CELL_RESULT" type="class" />
+        <PARAM name="NRRC_CONNCTRL_RA" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904226004" size="196" name="NRRC_RADIO_RES_CHECK" desc="事件NRRC_CHR_DIRECT_RADIO_RES_CHECK_STRU" engdesc="NRRC_CHR_DIRECT_RADIO_RES_CHECK_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NRRC_CONNCTRL_RF_EXCEPT_TASK" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904226005" size="12" name="NRRC_BAND_CNT_OVER_LMT" desc="事件NRRC_CHR_DIRECT_BAND_CNT_OVER_LMT_STRU" engdesc="NRRC_CHR_DIRECT_BAND_CNT_OVER_LMT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NRRC_CONNCTRL_CHR_ERROR_CODE_ENUM" type="enum" size="2" desc="枚举enErrorCode" engdesc="NRRC_CONNCTRL_CHR_ERROR_CODE_ENUM" />
+        <PARAM name="NRRC_UECAP_SCENARIO_TYPE_ENUM" type="enum" size="1" desc="枚举enScenarioType" engdesc="NRRC_UECAP_SCENARIO_TYPE_ENUM" />
+        <PARAM name="aucRsv_2" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="usUeSuppMaxBandNum" type="smallint" size="2" desc="数值usUeSuppMaxBandNum" engdesc="usUeSuppMaxBandNum" />
+        <PARAM name="usReqFreqBandNum" type="smallint" size="2" desc="数值usReqFreqBandNum" engdesc="usReqFreqBandNum" />
+        <PARAM name="usUuNrMaxBandNum" type="smallint" size="2" desc="数值usUuNrMaxBandNum" engdesc="usUuNrMaxBandNum" />
+    </SUBEVENT>
+    <SUBEVENT id="904226006" size="56" name="NRRC_NW_PARA_ABNORMAL" desc="事件NRRC_CHR_DIRECT_NW_PARA_ABNORMAL_STRU" engdesc="NRRC_CHR_DIRECT_NW_PARA_ABNORMAL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NRRC_CONNCTRL_CHR_MSG_TYPE_ENUM" type="enum" size="1" desc="枚举enMsgType" engdesc="NRRC_CONNCTRL_CHR_MSG_TYPE_ENUM" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enProcRlt" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="aucRsv_0" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="ucAbnormalItemCnt" type="tinyint" size="1" desc="数值ucAbnormalItemCnt" engdesc="ucAbnormalItemCnt" />
+        <PARAM name="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" type="enum" size="1" desc="枚举enAbnormalType0" engdesc="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" />
+        <PARAM name="ucAbnormalType0" type="tinyint" size="1" desc="数值ucAbnormalType0" engdesc="ucAbnormalType0" />
+        <PARAM name="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" type="enum" size="1" desc="枚举enAbnormalType1" engdesc="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" />
+        <PARAM name="ucAbnormalType1" type="tinyint" size="1" desc="数值ucAbnormalType1" engdesc="ucAbnormalType1" />
+        <PARAM name="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" type="enum" size="1" desc="枚举enAbnormalType2" engdesc="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" />
+        <PARAM name="ucAbnormalType2" type="tinyint" size="1" desc="数值ucAbnormalType2" engdesc="ucAbnormalType2" />
+        <PARAM name="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" type="enum" size="1" desc="枚举enAbnormalType3" engdesc="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" />
+        <PARAM name="ucAbnormalType3" type="tinyint" size="1" desc="数值ucAbnormalType3" engdesc="ucAbnormalType3" />
+        <PARAM name="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" type="enum" size="1" desc="枚举enAbnormalType4" engdesc="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" />
+        <PARAM name="ucAbnormalType4" type="tinyint" size="1" desc="数值ucAbnormalType4" engdesc="ucAbnormalType4" />
+        <PARAM name="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" type="enum" size="1" desc="枚举enAbnormalType5" engdesc="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" />
+        <PARAM name="ucAbnormalType5" type="tinyint" size="1" desc="数值ucAbnormalType5" engdesc="ucAbnormalType5" />
+        <PARAM name="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" type="enum" size="1" desc="枚举enAbnormalType6" engdesc="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" />
+        <PARAM name="ucAbnormalType6" type="tinyint" size="1" desc="数值ucAbnormalType6" engdesc="ucAbnormalType6" />
+        <PARAM name="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" type="enum" size="1" desc="枚举enAbnormalType7" engdesc="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" />
+        <PARAM name="ucAbnormalType7" type="tinyint" size="1" desc="数值ucAbnormalType7" engdesc="ucAbnormalType7" />
+        <PARAM name="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" type="enum" size="1" desc="枚举enAbnormalType8" engdesc="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" />
+        <PARAM name="ucAbnormalType8" type="tinyint" size="1" desc="数值ucAbnormalType8" engdesc="ucAbnormalType8" />
+        <PARAM name="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" type="enum" size="1" desc="枚举enAbnormalType9" engdesc="NRRC_CONNCTRL_CHR_NW_PARA_ABNORMAL_TYPE_ENUM" />
+        <PARAM name="ucAbnormalType9" type="tinyint" size="1" desc="数值ucAbnormalType9" engdesc="ucAbnormalType9" />
+        <PARAM name="NRRC_CHR_PCELL_INFO_STRU" type="class" />
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+    </SUBEVENT>
+    <SUBEVENT id="904226007" size="12" name="NRRC_EXTREME_SCENE" desc="事件NRRC_CHR_DIRECT_EXTREME_SCENE_STRU" engdesc="NRRC_CHR_DIRECT_EXTREME_SCENE_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NRRC_COMM_CHR_EXTREME_SCENE_ENUM" type="enum" size="2" desc="枚举enSceneType" engdesc="NRRC_COMM_CHR_EXTREME_SCENE_ENUM" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="ulPara1" type="int" size="4" desc="数值ulPara1" engdesc="ulPara1" />
+        <PARAM name="ulPara2" type="int" size="4" desc="数值ulPara2" engdesc="ulPara2" />
+    </SUBEVENT>
+    <SUBEVENT id="904226008" name="NRRC_ERRORLOG" desc="事件NRRC_ERRORLOG" engdesc="NRRC_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NRRC_COMM_CHR_EXTREME_SCENE_ENUM" type="enum" size="2" desc="枚举enSceneType" engdesc="NRRC_COMM_CHR_EXTREME_SCENE_ENUM" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="ulPara1" type="int" size="4" desc="数值ulPara1" engdesc="ulPara1" />
+        <PARAM name="ulPara2" type="int" size="4" desc="数值ulPara2" engdesc="ulPara2" />
+    </SUBEVENT>
+    <SUBEVENT id="904226009" size="28" name="NRRC_CHR_DIRECT_BAD_CELL_STRU" desc="事件NRRC_CHR_DIRECT_BAD_CELL_STRU" engdesc="NRRC_CHR_DIRECT_BAD_CELL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="badCellType" type="tinyint" size="1" desc="数值badCellType" engdesc="badCellType" />
+        <PARAM name="abnormalTimes" type="tinyint" size="1" desc="数值abnormalTimes" engdesc="abnormalTimes" />
+        <PARAM name="rsv_1" type="tinyint" size="1" desc="字符串rsv" engdesc="rsv" />
+        <PARAM name="NRRC_BAD_CellId" type="class" />
+        <PARAM name="NRRC_MEAS_CellResultInfo" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904224509" size="184" name="GAS_AP_GU_PING_PONG_RESTRAIN_R" desc="事件GAS_AP_GU_PING_PONG_RESTRAIN_RECORD_RPT_STRU" engdesc="GAS_AP_GU_PING_PONG_RESTRAIN_RECORD_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="recordNum" type="tinyint" size="1" desc="数值recordNum" engdesc="recordNum" />
+        <PARAM name="rsv" type="tinyint" size="1" desc="数值rsv" engdesc="rsv" />
+        <PARAM name="restrainTotalNum" type="smallint" size="2" desc="数值restrainTotalNum" engdesc="restrainTotalNum" />
+        <PARAM name="GasApGuPingPongRestrainRecordI" type="classArray" size="5" />
+    </SUBEVENT>
+    <SUBEVENT id="904223759" size="164" name="WAS_UL_PINGPONG_RESTRAIN" desc="事件WAS_UL_PINGPONG_RESTRAIN_CHR_RPT_STRU" engdesc="WAS_UL_PINGPONG_RESTRAIN_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="recordNum" type="tinyint" size="1" desc="数值recordNum" engdesc="recordNum" />
+        <PARAM name="rsv" type="tinyint" size="1" desc="数值rsv" engdesc="rsv" />
+        <PARAM name="restrainTotalNum" type="smallint" size="2" desc="数值restrainTotalNum" engdesc="restrainTotalNum" />
+        <PARAM name="WasErrLogW2LPingPongRestrainIn" type="classArray" size="5" />
+    </SUBEVENT>
+    <SUBEVENT id="904226251" size="256" name="NRNAS_NRMM_DECODE_MSG" desc="事件NRNAS_NRMM_DECODE_MSG_ERR_CHR_RPT_STRU" engdesc="NRNAS_NRMM_DECODE_MSG_ERR_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="decodeRslt" type="int" size="4" desc="数值decodeRslt" engdesc="decodeRslt" />
+        <PARAM name="msgType" type="tinyint" size="1" desc="数值msgType" engdesc="msgType" />
+        <PARAM name="reserve_2" type="tinyint" size="1" desc="字符串reserve" engdesc="reserve" />
+        <PARAM name="ieiErrNum" type="int" size="4" desc="数值ieiErrNum" engdesc="ieiErrNum" />
+        <PARAM name="NRNAS_IeiDecodeErr" type="classArray" size="5" />
+        <PARAM name="NRNAS_NrPositionInfo" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904226252" size="124" name="NRNAS_NRMM_ESCAPE" desc="事件NRNAS_NRMM_ESCAPE_CHR_RPT_STRU" engdesc="NRNAS_NRMM_ESCAPE_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="allCondNum" type="tinyint" size="1" desc="数值allCondNum" engdesc="allCondNum" />
+        <PARAM name="t3510CondNum" type="tinyint" size="1" desc="数值t3510CondNum" engdesc="t3510CondNum" />
+        <PARAM name="regRelCondNum" type="tinyint" size="1" desc="数值regRelCondNum" engdesc="regRelCondNum" />
+        <PARAM name="regRejReAttCondNum" type="tinyint" size="1" desc="数值regRejReAttCondNum" engdesc="regRejReAttCondNum" />
+        <PARAM name="regRejNotReAttCondNum" type="tinyint" size="1" desc="数值regRejNotReAttCondNum" engdesc="regRejNotReAttCondNum" />
+        <PARAM name="smcFailCondNum" type="tinyint" size="1" desc="数值smcFailCondNum" engdesc="smcFailCondNum" />
+        <PARAM name="srvRelCondNum" type="tinyint" size="1" desc="数值srvRelCondNum" engdesc="srvRelCondNum" />
+        <PARAM name="srvRejCondNum" type="tinyint" size="1" desc="数值srvRejCondNum" engdesc="srvRejCondNum" />
+        <PARAM name="regRej1315CondNum" type="tinyint" size="1" desc="数值regRej1315CondNum" engdesc="regRej1315CondNum" />
+        <PARAM name="deregReregRequiredCondNum" type="tinyint" size="1" desc="数值deregReregRequiredCondNum" engdesc="deregReregRequiredCondNum" />
+        <PARAM name="reserved_1" type="tinyint" size="1" desc="字符串reserved" engdesc="reserved" />
+        <PARAM name="NRNAS_NrmmEscapeConditionInfoC" type="classArray" size="4" />
+    </SUBEVENT>
+    <SUBEVENT id="904226253" size="256" name="NRNAS_PCF_DECODE_MSG" desc="事件NRNAS_PCF_DECODE_MSG_ERR_CHR_RPT_STRU" engdesc="NRNAS_PCF_DECODE_MSG_ERR_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="decodeRslt" type="int" size="4" desc="数值decodeRslt" engdesc="decodeRslt" />
+        <PARAM name="msgType" type="tinyint" size="1" desc="数值msgType" engdesc="msgType" />
+        <PARAM name="reserve_2" type="tinyint" size="1" desc="字符串reserve" engdesc="reserve" />
+        <PARAM name="ieiErrNum" type="int" size="4" desc="数值ieiErrNum" engdesc="ieiErrNum" />
+        <PARAM name="NRNAS_IeiDecodeErr" type="classArray" size="5" />
+        <PARAM name="NRNAS_NrPositionInfo" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904226254" size="256" name="NRNAS_NRSM_DECODE_MSG" desc="事件NRNAS_NRSM_DECODE_MSG_ERR_CHR_RPT_STRU" engdesc="NRNAS_NRSM_DECODE_MSG_ERR_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="decodeRslt" type="int" size="4" desc="数值decodeRslt" engdesc="decodeRslt" />
+        <PARAM name="msgType" type="tinyint" size="1" desc="数值msgType" engdesc="msgType" />
+        <PARAM name="reserve" type="tinyint" size="3" desc="字符串reserve" engdesc="reserve" />
+        <PARAM name="ieiErrNum" type="int" size="4" desc="数值ieiErrNum" engdesc="ieiErrNum" />
+        <PARAM name="NRNAS_IeiDecodeErr" type="classArray" size="5" />
+        <PARAM name="NRNAS_NrPositionInfo" type="class" />
+    </SUBEVENT>
+    <SUBEVENT id="904226255" size="196" name="NRNAS_NRSM_COMPATIBILITY" desc="事件NRNAS_NRSM_COMPATIBILITY_CHR_RPT_STRU" engdesc="NRNAS_NRSM_COMPATIBILITY_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="compatibilityChrNum" type="tinyint" size="1" desc="数值compatibilityChrNum" engdesc="compatibilityChrNum" />
+        <PARAM name="reserved_2" type="tinyint" size="1" desc="字符串reserved" engdesc="reserved" />
+        <PARAM name="NRNAS_DirectCompatibilityDetai" type="classArray" size="8" />
+    </SUBEVENT>
+    <SUBEVENT id="904221509" size="12" name="GUNAS_READ_6FAD_USIM_FILE_ABNO" desc="事件GUNAS_READ_6FAD_USIM_FILE_ABNORMAL_CHR_RPT_STRU" engdesc="GUNAS_READ_6FAD_USIM_FILE_ABNORMAL_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="simInfo_3" type="tinyint" size="1" desc="字符串simInfo" engdesc="simInfo" />
+        <PARAM name="rslt" type="smallint" size="2" desc="数值rslt" engdesc="rslt" />
+        <PARAM name="simMncLen" type="tinyint" size="1" desc="数值simMncLen" engdesc="simMncLen" />
+        <PARAM name="isMatchCustMncLen" type="tinyint" size="1" desc="数值isMatchCustMncLen" engdesc="isMatchCustMncLen" />
+        <PARAM name="mncLen" type="tinyint" size="1" desc="数值mncLen" engdesc="mncLen" />
+        <PARAM name="resv_2" type="tinyint" size="1" desc="字符串resv" engdesc="resv" />
+    </SUBEVENT>
+    <SUBEVENT id="904226256" size="328" name="NRNAS_NRMM_REG_ABNORMAL_STRU" desc="事件NRNAS_NRMM_REG_ABNORMAL_STRU" engdesc="NRNAS_NRMM_REG_ABNORMAL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="endSlice" type="int" size="4" desc="数值endSlice" engdesc="endSlice" />
+        <PARAM name="endCause" type="tinyint" size="1" desc="数值endCause" engdesc="endCause" />
+        <PARAM name="regFailTimes" type="tinyint" size="1" desc="数值regFailTimes" engdesc="regFailTimes" />
+        <PARAM name="reserve_1" type="tinyint" size="1" desc="字符串reserve" engdesc="reserve" />
+        <PARAM name="NRNAS_ERRLOG_NrmmRegAbnormalIn" type="classArray" size="10" />
+    </SUBEVENT>
+    <SUBEVENT id="904226257" size="196" name="NRNAS_NRMM_COMPATIBILITY" desc="事件NRNAS_NRMM_COMPATIBILITY_CHR_RPT_STRU" engdesc="NRNAS_NRMM_COMPATIBILITY_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="compatibilityChrNum" type="tinyint" size="1" desc="数值compatibilityChrNum" engdesc="compatibilityChrNum" />
+        <PARAM name="reserved_2" type="tinyint" size="1" desc="字符串reserved" engdesc="reserved" />
+        <PARAM name="NRNAS_DirectCompatibilityDetai" type="classArray" size="8" />
+    </SUBEVENT>
+    <SUBEVENT id="904226258" name="NRNAS_ERRORLOG" desc="事件NRNAS_ERRORLOG" engdesc="NRNAS_ERRORLOG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="compatibilityChrNum" type="tinyint" size="1" desc="数值compatibilityChrNum" engdesc="compatibilityChrNum" />
+        <PARAM name="reserved_2" type="tinyint" size="1" desc="字符串reserved" engdesc="reserved" />
+        <PARAM name="NRNAS_DirectCompatibilityDetai" type="classArray" size="8" />
+    </SUBEVENT>
+    <SUBEVENT id="904226258" size="196" name="NRNAS_NRSM_AIR_MSG_RETRANSMIT" desc="事件NRNAS_NRSM_AIR_MSG_RETRANSMIT_CHR_RPT_STRU" engdesc="NRNAS_NRSM_AIR_MSG_RETRANSMIT_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="succNum" type="smallint" size="2" desc="数值succNum" engdesc="succNum" />
+        <PARAM name="discardNum" type="tinyint" size="1" desc="数值discardNum" engdesc="discardNum" />
+        <PARAM name="rptChrNum" type="tinyint" size="1" desc="数值rptChrNum" engdesc="rptChrNum" />
+        <PARAM name="NRNAS_DirectAirMsgRetransmitDe" type="classArray" size="16" />
+    </SUBEVENT>
+    <SUBEVENT id="904221510" size="108" name="GUNAS_AUTH_TYPE_ADAPTATION" desc="事件GUNAS_AUTH_TYPE_ADAPTATION_CHR_RPT_STRU" engdesc="GUNAS_AUTH_TYPE_ADAPTATION_CHR_RPT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="apn_99" type="tinyint" size="1" desc="字符串apn" engdesc="apn" />
+        <PARAM name="triggerCause" type="int" size="4" desc="数值triggerCause" engdesc="triggerCause" />
+        <PARAM name="finalCause" type="int" size="4" desc="数值finalCause" engdesc="finalCause" />
+    </SUBEVENT>
+    <SUBEVENT name="CAS_RESOURCE_EXCEPTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulResExceptSlice" type="int" size="4" desc="数值ulResExceptSlice" engdesc="ulResExceptSlice" />
+        <PARAM name="RRM_PS_TASK_TYPE_ENUM" type="enum" size="2" desc="枚举enTaskType" engdesc="RRM_PS_TASK_TYPE_ENUM" />
+        <PARAM name="aucReserve_1" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_MNTN_GSM_CELL_AREA_IDENTIF" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GAS_LOG_GSM_CELL" type="class" />
+        <PARAM name="GAS_LOG_AREA_IDENTIFICATION" type="class" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_LOG_GSM_CELL" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GAS_OM_GSM_BAND_ENUM" type="enum" size="2" desc="枚举enBand" engdesc="GAS_OM_GSM_BAND_ENUM" />
+        <PARAM name="usArfcn" type="smallint" size="2" desc="数值usArfcn" engdesc="usArfcn" />
+        <PARAM name="ucNcc" type="tinyint" size="1" desc="数值ucNcc" engdesc="ucNcc" />
+        <PARAM name="ucBcc" type="tinyint" size="1" desc="数值ucBcc" engdesc="ucBcc" />
+        <PARAM name="aucReserve_1" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_LOG_AREA_IDENTIFICATION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+        <PARAM name="usCellId" type="smallint" size="2" desc="数值usCellId" engdesc="usCellId" />
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+        <PARAM name="ucRac" type="tinyint" size="1" desc="数值ucRac" engdesc="ucRac" />
+        <PARAM name="aucReserved_2" type="tinyint" size="1" desc="字符串aucReserved" engdesc="aucReserved" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_MNTN_RSRC_CHECK_EXCP_TASK" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucExcpTaskCnt" type="tinyint" size="1" desc="数值ucExcpTaskCnt" engdesc="ucExcpTaskCnt" />
+        <PARAM name="aucRsv_0" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="GAS_MNTN_RSRC_CHECK_EXCP_TASK_" type="classArray" size="16" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_MNTN_RSRC_CHECK_EXCP_TASK_" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="RRM_PS_TASK_TYPE_ENUM" type="enum" size="2" desc="枚举usExcpTaskType" engdesc="RRM_PS_TASK_TYPE_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_MNTN_CUSTOM_C1_CELL" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usArfcn" type="smallint" size="2" desc="数值usArfcn" engdesc="usArfcn" />
+        <PARAM name="ucNcc" type="tinyint" size="1" desc="数值ucNcc" engdesc="ucNcc" />
+        <PARAM name="ucBcc" type="tinyint" size="1" desc="数值ucBcc" engdesc="ucBcc" />
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+        <PARAM name="ucBcchRxlevMin" type="tinyint" size="1" desc="数值ucBcchRxlevMin" engdesc="ucBcchRxlevMin" />
+        <PARAM name="aucRsv_0" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="sRssi" type="smallint" size="2" desc="数值sRssi" engdesc="sRssi" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_MNTN_GSM_CELL_CALL_TIMES" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulCallTimes" type="int" size="4" desc="数值ulCallTimes" engdesc="ulCallTimes" />
+        <PARAM name="usCellId" type="smallint" size="2" desc="数值usCellId" engdesc="usCellId" />
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_AP_G2L_FAST_RESEL_HIT_STAT" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usReselSuccCountByCurrentCell" type="smallint" size="2" desc="数值usReselSuccCountByCurrentCell" engdesc="usReselSuccCountByCurrentCell" />
+        <PARAM name="usReselSuccCountByHistoryCell" type="smallint" size="2" desc="数值usReselSuccCountByHistoryCell" engdesc="usReselSuccCountByHistoryCell" />
+        <PARAM name="usReselSuccCountByLrrc" type="smallint" size="2" desc="数值usReselSuccCountByLrrc" engdesc="usReselSuccCountByLrrc" />
+        <PARAM name="usPingPongReselTimes" type="smallint" size="2" desc="数值usPingPongReselTimes" engdesc="usPingPongReselTimes" />
+        <PARAM name="usSibRcvFailCount" type="smallint" size="2" desc="数值usSibRcvFailCount" engdesc="usSibRcvFailCount" />
+        <PARAM name="usCellBarredCount" type="smallint" size="2" desc="数值usCellBarredCount" engdesc="usCellBarredCount" />
+        <PARAM name="usCellForbidCount" type="smallint" size="2" desc="数值usCellForbidCount" engdesc="usCellForbidCount" />
+        <PARAM name="usNotEplmnsCount" type="smallint" size="2" desc="数值usNotEplmnsCount" engdesc="usNotEplmnsCount" />
+        <PARAM name="usAccessRestrictCount" type="smallint" size="2" desc="数值usAccessRestrictCount" engdesc="usAccessRestrictCount" />
+        <PARAM name="usUnspecificCount" type="smallint" size="2" desc="数值usUnspecificCount" engdesc="usUnspecificCount" />
+        <PARAM name="usSCheckFailCount" type="smallint" size="2" desc="数值usSCheckFailCount" engdesc="usSCheckFailCount" />
+        <PARAM name="usArfcnNotSupportCount" type="smallint" size="2" desc="数值usArfcnNotSupportCount" engdesc="usArfcnNotSupportCount" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_AP_G2L_NORMAL_RESEL_HIT_ST" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usReselSuccCount" type="smallint" size="2" desc="数值usReselSuccCount" engdesc="usReselSuccCount" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="usSibRcvFailCount" type="smallint" size="2" desc="数值usSibRcvFailCount" engdesc="usSibRcvFailCount" />
+        <PARAM name="usCellBarredCount" type="smallint" size="2" desc="数值usCellBarredCount" engdesc="usCellBarredCount" />
+        <PARAM name="usCellForbidCount" type="smallint" size="2" desc="数值usCellForbidCount" engdesc="usCellForbidCount" />
+        <PARAM name="usNotEplmnsCount" type="smallint" size="2" desc="数值usNotEplmnsCount" engdesc="usNotEplmnsCount" />
+        <PARAM name="usAccessRestrictCount" type="smallint" size="2" desc="数值usAccessRestrictCount" engdesc="usAccessRestrictCount" />
+        <PARAM name="usUnspecificCount" type="smallint" size="2" desc="数值usUnspecificCount" engdesc="usUnspecificCount" />
+        <PARAM name="usSCheckFailCount" type="smallint" size="2" desc="数值usSCheckFailCount" engdesc="usSCheckFailCount" />
+        <PARAM name="usArfcnNotSupportCount" type="smallint" size="2" desc="数值usArfcnNotSupportCount" engdesc="usArfcnNotSupportCount" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_AP_G2L_PING_PONG_RESTRAIN_" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usAppearNum" type="smallint" size="2" desc="数值usAppearNum" engdesc="usAppearNum" />
+        <PARAM name="usGsmCellArfcn" type="smallint" size="2" desc="数值usGsmCellArfcn" engdesc="usGsmCellArfcn" />
+        <PARAM name="usGsmBsic" type="smallint" size="2" desc="数值usGsmBsic" engdesc="usGsmBsic" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="GAS_LOG_AREA_IDENTIFICATION" type="class" />
+        <PARAM name="ulLteArfcn" type="int" size="4" desc="数值ulLteArfcn" engdesc="ulLteArfcn" />
+        <PARAM name="usLteCellId" type="smallint" size="2" desc="数值usLteCellId" engdesc="usLteCellId" />
+        <PARAM name="ucLteArfcnSource" type="tinyint" size="1" desc="数值ucLteArfcnSource" engdesc="ucLteArfcnSource" />
+        <PARAM name="ucRsv" type="tinyint" size="1" desc="数值ucRsv" engdesc="ucRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_AP_GSM_ABNORMAL_AIR_DESC" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GAS_AP_AIR_MSG_BITS_FLOW_STRU" type="class" />
+        <PARAM name="GAS_AP_AIR_MSG_ABNORMAL_ENUM" type="enum" size="4" desc="枚举enAbnormalType" engdesc="GAS_AP_AIR_MSG_ABNORMAL_ENUM" />
+        <PARAM name="GAS_MNTN_GSM_CELL_AREA_IDENTIF" type="class" />
+    </SUBEVENT>
+    <SUBEVENT name="GAS_AP_AIR_MSG_BITS_FLOW_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usBitFlowLength" type="smallint" size="2" desc="数值usBitFlowLength" engdesc="usBitFlowLength" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="aucBitFlow_199" type="tinyint" size="1" desc="字符串aucBitFlow" engdesc="aucBitFlow" />
+    </SUBEVENT>
+    <SUBEVENT name="GasApGuPingPongRestrainRecordI" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="appearNum" type="smallint" size="2" desc="数值appearNum" engdesc="appearNum" />
+        <PARAM name="gsmCellArfcn" type="smallint" size="2" desc="数值gsmCellArfcn" engdesc="gsmCellArfcn" />
+        <PARAM name="gsmBsic" type="smallint" size="2" desc="数值gsmBsic" engdesc="gsmBsic" />
+        <PARAM name="rsv0_1" type="tinyint" size="1" desc="字符串rsv0" engdesc="rsv0" />
+        <PARAM name="GAS_LOG_AREA_IDENTIFICATION" type="class" />
+        <PARAM name="utranArfcn" type="smallint" size="2" desc="数值utranArfcn" engdesc="utranArfcn" />
+        <PARAM name="scramblingCode" type="smallint" size="2" desc="数值scramblingCode" engdesc="scramblingCode" />
+        <PARAM name="rsv1_7" type="tinyint" size="1" desc="字符串rsv1" engdesc="rsv1" />
+    </SUBEVENT>
+    <SUBEVENT name="GUCNAS_RESOURCE_CHECK_SESSION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GUCNAS_ERR_LOG_SESSION_TYPE_EXCEP_ENUM" type="enum" size="4" desc="枚举ulSessionType" engdesc="GUCNAS_ERR_LOG_SESSION_TYPE_EXCEP_ENUM" />
+        <PARAM name="ulRecordCnt" type="int" size="4" desc="数值ulRecordCnt" engdesc="ulRecordCnt" />
+    </SUBEVENT>
+    <SUBEVENT name="TAF_SSA_DECODE_FAIL_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulDecodeFailCause" type="int" size="4" desc="数值ulDecodeFailCause" engdesc="ulDecodeFailCause" />
+        <PARAM name="ucEncodingType" type="tinyint" size="1" desc="数值ucEncodingType" engdesc="ucEncodingType" />
+        <PARAM name="aucRsv_0" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="usRecordCount" type="smallint" size="2" desc="数值usRecordCount" engdesc="usRecordCount" />
+    </SUBEVENT>
+    <SUBEVENT name="NAS_MNTN_POSITION_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="MNTN_RAI_INFO_STRU" type="class" />
+        <PARAM name="ulCellId" type="int" size="4" desc="数值ulCellId" engdesc="ulCellId" />
+        <PARAM name="NAS_MNTN_SYS_SUBMODE_ENUM" type="enum" size="1" desc="枚举enSysSubMode" engdesc="NAS_MNTN_SYS_SUBMODE_ENUM" />
+        <PARAM name="ucRat" type="tinyint" size="1" desc="数值ucRat" engdesc="ucRat" />
+        <PARAM name="ucNetworkMode" type="tinyint" size="1" desc="数值ucNetworkMode" engdesc="ucNetworkMode" />
+        <PARAM name="ucSensorState" type="tinyint" size="1" desc="数值ucSensorState" engdesc="ucSensorState" />
+    </SUBEVENT>
+    <SUBEVENT name="MNTN_RAI_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="MNTN_PLMN_ID_STRU" type="class" />
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+        <PARAM name="usRac" type="smallint" size="2" desc="数值usRac" engdesc="usRac" />
+    </SUBEVENT>
+    <SUBEVENT name="MNTN_PLMN_ID_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+    </SUBEVENT>
+    <SUBEVENT name="GUNAS_APS_PS_CALL_ENTITY" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="GUNAS_APS_PS_CALL_ENTITY_RECORD_TYEP_ENUM" type="enum" size="1" desc="枚举enRecordType" engdesc="GUNAS_APS_PS_CALL_ENTITY_RECORD_TYEP_ENUM" />
+        <PARAM name="ucPdpId" type="tinyint" size="1" desc="数值ucPdpId" engdesc="ucPdpId" />
+        <PARAM name="ucNsapi" type="tinyint" size="1" desc="数值ucNsapi" engdesc="ucNsapi" />
+        <PARAM name="GUNAS_PDP_TYPE_ENUM" type="enum" size="1" desc="枚举enPdpType" engdesc="GUNAS_PDP_TYPE_ENUM" />
+        <PARAM name="ucTiFlag" type="tinyint" size="1" desc="数值ucTiFlag" engdesc="ucTiFlag" />
+        <PARAM name="ucTiValue" type="tinyint" size="1" desc="数值ucTiValue" engdesc="ucTiValue" />
+        <PARAM name="GUNAS_CHR_RAT_TYPE_ENUM" type="enum" size="1" desc="枚举enRatType" engdesc="GUNAS_CHR_RAT_TYPE_ENUM" />
+        <PARAM name="ucFsmMainId" type="tinyint" size="1" desc="数值ucFsmMainId" engdesc="ucFsmMainId" />
+        <PARAM name="ucFsmMainState" type="tinyint" size="1" desc="数值ucFsmMainState" engdesc="ucFsmMainState" />
+        <PARAM name="ucFsmSubId" type="tinyint" size="1" desc="数值ucFsmSubId" engdesc="ucFsmSubId" />
+        <PARAM name="ucFsmSubState" type="tinyint" size="1" desc="数值ucFsmSubState" engdesc="ucFsmSubState" />
+        <PARAM name="aucResv_0" type="tinyint" size="1" desc="字符串aucResv" engdesc="aucResv" />
+    </SUBEVENT>
+    <SUBEVENT name="NRNAS_IeiDecodeErr" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="tlvType" type="tinyint" size="1" desc="数值tlvType" engdesc="tlvType" />
+        <PARAM name="tagValue" type="tinyint" size="1" desc="数值tagValue" engdesc="tagValue" />
+        <PARAM name="subIeErrNum" type="tinyint" size="1" desc="数值subIeErrNum" engdesc="subIeErrNum" />
+        <PARAM name="reserve" type="tinyint" size="1" desc="数值reserve" engdesc="reserve" />
+        <PARAM name="NRNAS_IeiSubIeDecodeErr" type="classArray" size="5" />
+    </SUBEVENT>
+    <SUBEVENT name="NRNAS_IeiSubIeDecodeErr" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="errCause" type="int" size="4" desc="数值errCause" engdesc="errCause" />
+        <PARAM name="asnTblPos" type="int" size="4" desc="数值asnTblPos" engdesc="asnTblPos" />
+	
+    </SUBEVENT>
+    <SUBEVENT name="NRNAS_NrPositionInfo" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NRNAS_PlmnId" type="class" />
+        <PARAM name="NRNAS_NrTac" type="class" />
+        <PARAM name="NRNAS_NrCellidentity" type="class" />
+        <PARAM name="physCellId" type="smallint" size="2" desc="数值physCellId" engdesc="physCellId" />
+        <PARAM name="nrBand" type="smallint" size="2" desc="数值nrBand" engdesc="nrBand" />
+        <PARAM name="freqInfo" type="int" size="4" desc="数值freqInfo" engdesc="freqInfo" />
+    </SUBEVENT>
+    <SUBEVENT name="NRNAS_PlmnId" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="plmnId_2" type="tinyint" size="1" desc="字符串plmnId" engdesc="plmnId" />
+        <PARAM name="reserve" type="tinyint" size="1" desc="数值reserve" engdesc="reserve" />
+    </SUBEVENT>
+    <SUBEVENT name="NRNAS_NrTac" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="tac" type="tinyint" size="1" desc="数值tac" engdesc="tac" />
+        <PARAM name="tacCont" type="tinyint" size="1" desc="数值tacCont" engdesc="tacCont" />
+        <PARAM name="tacCont1" type="tinyint" size="1" desc="数值tacCont1" engdesc="tacCont1" />
+        <PARAM name="reserve_0" type="tinyint" size="1" desc="字符串reserve" engdesc="reserve" />
+    </SUBEVENT>
+    <SUBEVENT name="NRNAS_NrCellidentity" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="cellIdentityHighBit" type="int" size="4" desc="数值cellIdentityHighBit" engdesc="cellIdentityHighBit" />
+        <PARAM name="cellIdentityLowBit" type="int" size="4" desc="数值cellIdentityLowBit" engdesc="cellIdentityLowBit" />
+    </SUBEVENT>
+    <SUBEVENT name="NRNAS_NrmmEscapeConditionInfoC" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="escapeCondition" type="tinyint" size="1" desc="数值escapeCondition" engdesc="escapeCondition" />
+        <PARAM name="reserved_2" type="tinyint" size="1" desc="字符串reserved" engdesc="reserved" />
+        <PARAM name="NRNAS_NrPositionInfo" type="class" />
+    </SUBEVENT>
+    <SUBEVENT name="NRNAS_DirectCompatibilityDetai" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="compatibleType" type="smallint" size="2" desc="数值compatibleType" engdesc="compatibleType" />
+        <PARAM name="count" type="smallint" size="2" desc="数值count" engdesc="count" />
+        <PARAM name="para1" type="smallint" size="2" desc="数值para1" engdesc="para1" />
+        <PARAM name="para2" type="smallint" size="2" desc="数值para2" engdesc="para2" />
+        <PARAM name="plmnId_2" type="tinyint" size="1" desc="字符串plmnId" engdesc="plmnId" />
+        <PARAM name="tac" type="tinyint" size="1" desc="数值tac" engdesc="tac" />
+        <PARAM name="tacCont" type="tinyint" size="1" desc="数值tacCont" engdesc="tacCont" />
+        <PARAM name="tacCont1" type="tinyint" size="1" desc="数值tacCont1" engdesc="tacCont1" />
+        <PARAM name="physCellId" type="smallint" size="2" desc="数值physCellId" engdesc="physCellId" />
+        <PARAM name="cellIdentityHighBit" type="int" size="4" desc="数值cellIdentityHighBit" engdesc="cellIdentityHighBit" />
+        <PARAM name="cellIdentityLowBit" type="int" size="4" desc="数值cellIdentityLowBit" engdesc="cellIdentityLowBit" />
+    </SUBEVENT>
+    <SUBEVENT name="NRNAS_ERRLOG_NrmmRegAbnormalIn" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="sliceTime" type="int" size="4" desc="数值sliceTime" engdesc="sliceTime" />
+        <PARAM name="regType" type="tinyint" size="1" desc="数值regType" engdesc="regType" />
+        <PARAM name="integrityFlag" type="tinyint" size="1" desc="数值integrityFlag" engdesc="integrityFlag" />
+        <PARAM name="cause" type="smallint" size="2" desc="数值cause" engdesc="cause" />
+        <PARAM name="NRNAS_NrPositionInfo" type="class" />
+    </SUBEVENT>
+        <SUBEVENT name="NRNAS_DirectAirMsgRetransmitDe" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="msgType" type="tinyint" size="1" desc="数值msgType" engdesc="msgType" />
+        <PARAM name="pduSessionId" type="tinyint" size="1" desc="数值pduSessionId" engdesc="pduSessionId" />
+        <PARAM name="opId" type="tinyint" size="1" desc="数值opId" engdesc="opId" />
+        <PARAM name="pti" type="tinyint" size="1" desc="数值pti" engdesc="pti" />
+        <PARAM name="duraTime" type="int" size="4" desc="数值duraTime" engdesc="duraTime" />
+        <PARAM name="sendRslt" type="tinyint" size="1" desc="数值sendRslt" engdesc="sendRslt" />
+        <PARAM name="retransmitStrategy" type="tinyint" size="1" desc="数值retransmitStrategy" engdesc="retransmitStrategy" />
+        <PARAM name="retransmitRslt" type="tinyint" size="1" desc="数值retransmitRslt" engdesc="retransmitRslt" />
+        <PARAM name="accType" type="tinyint" size="1" desc="数值accType" engdesc="accType" />
+    </SUBEVENT>
+    <SUBEVENT name="TRRC_APP_STATE_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="TRRC_APP_PROTOCOL_STATE_ENUM" type="enum" size="1" desc="枚举enTrrcProtocolState" engdesc="TRRC_APP_PROTOCOL_STATE_ENUM" />
+        <PARAM name="TRRC_APP_RRC_STATE_ENUM" type="enum" size="1" desc="枚举enRrcState" engdesc="TRRC_APP_RRC_STATE_ENUM" />
+        <PARAM name="TRRC_APP_FLOW_CTRL_TYPE_ENUM" type="enum" size="2" desc="枚举enErrcFlowCtrlType" engdesc="TRRC_APP_FLOW_CTRL_TYPE_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT name="TRRC_APP_CS_RELEASE_CELL" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usCellId" type="smallint" size="2" desc="数值usCellId" engdesc="usCellId" />
+        <PARAM name="usFrequency" type="smallint" size="2" desc="数值usFrequency" engdesc="usFrequency" />
+        <PARAM name="TDS_APP_FREQ_BAND_LIST_ENUM" type="enum" size="1" desc="枚举enBandInfo" engdesc="TDS_APP_FREQ_BAND_LIST_ENUM" />
+        <PARAM name="cRscp" type="tinyint" size="1" desc="数值cRscp" engdesc="cRscp" />
+        <PARAM name="aucResv_1" type="tinyint" size="1" desc="字符串aucResv" engdesc="aucResv" />
+    </SUBEVENT>
+    <SUBEVENT name="TRRC_CS_CALL_MM_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+        <PARAM name="ucRac" type="tinyint" size="1" desc="数值ucRac" engdesc="ucRac" />
+        <PARAM name="ucResv" type="tinyint" size="1" desc="数值ucResv" engdesc="ucResv" />
+    </SUBEVENT>
+    <SUBEVENT name="PCH_CELL_INFO_REPORT_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="aucState" type="tinyint" size="1" desc="数值aucState" engdesc="aucState" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enConfigPchFlag" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+        <PARAM name="T_CellDesc_Tag" type="class" />
+    </SUBEVENT>
+    <SUBEVENT name="T_CellDesc_Tag" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="aucState" type="tinyint" size="1" desc="数值aucState" engdesc="aucState" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enConfigPchFlag" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+        <PARAM name="T_CellDesc_Tag" type="class" />
+    </SUBEVENT>
+    <SUBEVENT name="LRRC_OM_TAC_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucTac" type="tinyint" size="1" desc="数值ucTac" engdesc="ucTac" />
+        <PARAM name="ucTacCont" type="tinyint" size="1" desc="数值ucTacCont" engdesc="ucTacCont" />
+        <PARAM name="aucReserved_1" type="tinyint" size="1" desc="字符串aucReserved" engdesc="aucReserved" />
+    </SUBEVENT>
+    <SUBEVENT name="LPS_LOW_QUILITY_ABNORMAL_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="enMod3EqualCell" type="tinyint" size="1" desc="数值enMod3EqualCell" engdesc="enMod3EqualCell" />
+        <PARAM name="enNoIntraFreqHo" type="tinyint" size="1" desc="数值enNoIntraFreqHo" engdesc="enNoIntraFreqHo" />
+        <PARAM name="enNoInterFreqHo" type="tinyint" size="1" desc="数值enNoInterFreqHo" engdesc="enNoInterFreqHo" />
+        <PARAM name="enNoInterRATHo" type="tinyint" size="1" desc="数值enNoInterRATHo" engdesc="enNoInterRATHo" />
+        <PARAM name="enNoNcellMeasRpt" type="tinyint" size="1" desc="数值enNoNcellMeasRpt" engdesc="enNoNcellMeasRpt" />
+        <PARAM name="enNoNcellMeasCfg" type="tinyint" size="1" desc="数值enNoNcellMeasCfg" engdesc="enNoNcellMeasCfg" />
+        <PARAM name="enMeasRptTryFail" type="tinyint" size="1" desc="数值enMeasRptTryFail" engdesc="enMeasRptTryFail" />
+        <PARAM name="enUnknowInt" type="tinyint" size="1" desc="数值enUnknowInt" engdesc="enUnknowInt" />
+        <PARAM name="enRsv0" type="tinyint" size="1" desc="数值enRsv0" engdesc="enRsv0" />
+        <PARAM name="enRsv1" type="tinyint" size="1" desc="数值enRsv1" engdesc="enRsv1" />
+        <PARAM name="enRsv2" type="tinyint" size="1" desc="数值enRsv2" engdesc="enRsv2" />
+        <PARAM name="enRsv3" type="tinyint" size="1" desc="数值enRsv3" engdesc="enRsv3" />
+    </SUBEVENT>
+    <SUBEVENT name="LRRC_OM_AIR_SIGNAL_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usCellId" type="smallint" size="2" desc="数值usCellId" engdesc="usCellId" />
+        <PARAM name="usDLEarfcn" type="smallint" size="2" desc="数值usDLEarfcn" engdesc="usDLEarfcn" />
+        <PARAM name="sRsrp" type="smallint" size="2" desc="数值sRsrp" engdesc="sRsrp" />
+        <PARAM name="sRsrq" type="smallint" size="2" desc="数值sRsrq" engdesc="sRsrq" />
+        <PARAM name="usStrongestIntraCell" type="smallint" size="2" desc="数值usStrongestIntraCell" engdesc="usStrongestIntraCell" />
+        <PARAM name="sStrongestIntrRsrp" type="smallint" size="2" desc="数值sStrongestIntrRsrp" engdesc="sStrongestIntrRsrp" />
+        <PARAM name="usMod3EualIntraCell" type="smallint" size="2" desc="数值usMod3EualIntraCell" engdesc="usMod3EualIntraCell" />
+        <PARAM name="sMod3EualIntraRsrp" type="smallint" size="2" desc="数值sMod3EualIntraRsrp" engdesc="sMod3EualIntraRsrp" />
+        <PARAM name="ulTimeStamp" type="int" size="4" desc="数值ulTimeStamp" engdesc="ulTimeStamp" />
+        <PARAM name="sPusPwr" type="tinyint" size="1" desc="数值sPusPwr" engdesc="sPusPwr" />
+        <PARAM name="ucBler" type="tinyint" size="1" desc="数值ucBler" engdesc="ucBler" />
+        <PARAM name="ucMeasLevel" type="tinyint" size="1" desc="数值ucMeasLevel" engdesc="ucMeasLevel" />
+        <PARAM name="sSnr" type="tinyint" size="1" desc="数值sSnr" engdesc="sSnr" />
+        <PARAM name="LPS_OM_SENSOR_STAT_ENUM" type="enum" size="1" desc="枚举enSensorState" engdesc="LPS_OM_SENSOR_STAT_ENUM" />
+        <PARAM name="sResv" type="tinyint" size="1" desc="数值sResv" engdesc="sResv" />
+        <PARAM name="usResv" type="smallint" size="2" desc="数值usResv" engdesc="usResv" />
+    </SUBEVENT>
+    <SUBEVENT name="LRRC_OM_LAYER_EVENT_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="OM_PS_KEY_EVENT_ENUM" type="enum" size="2" desc="枚举usEvent" engdesc="OM_PS_KEY_EVENT_ENUM" />
+        <PARAM name="usRsv" type="smallint" size="2" desc="数值usRsv" engdesc="usRsv" />
+        <PARAM name="ulTimeStamp" type="int" size="4" desc="数值ulTimeStamp" engdesc="ulTimeStamp" />
+    </SUBEVENT>
+    <SUBEVENT name="LRRC_OM_MEASRPT_INFO" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulTimeStamp" type="int" size="4" desc="数值ulTimeStamp" engdesc="ulTimeStamp" />
+        <PARAM name="usSrvingCellId" type="smallint" size="2" desc="数值usSrvingCellId" engdesc="usSrvingCellId" />
+        <PARAM name="usSrvingEarfcn" type="smallint" size="2" desc="数值usSrvingEarfcn" engdesc="usSrvingEarfcn" />
+        <PARAM name="ulObjEarfcn" type="int" size="4" desc="数值ulObjEarfcn" engdesc="ulObjEarfcn" />
+        <PARAM name="RRC_APP_BOOL_ENUM" type="enum" size="1" desc="枚举enCnfFlg" engdesc="RRC_APP_BOOL_ENUM" />
+        <PARAM name="LRRC_OM_MEAS_RPT_TYPE_ENUM" type="enum" size="1" desc="枚举enEvtType" engdesc="LRRC_OM_MEAS_RPT_TYPE_ENUM" />
+        <PARAM name="ucIfScell" type="tinyint" size="1" desc="数值ucIfScell" engdesc="ucIfScell" />
+        <PARAM name="LRRC_OM_MEAS_OBJ_TYPE_ENUM" type="enum" size="1" desc="枚举enObjType" engdesc="LRRC_OM_MEAS_OBJ_TYPE_ENUM" />
+        <PARAM name="ucPcellRsrp" type="tinyint" size="1" desc="数值ucPcellRsrp" engdesc="ucPcellRsrp" />
+        <PARAM name="ucPcellRsrq" type="tinyint" size="1" desc="数值ucPcellRsrq" engdesc="ucPcellRsrq" />
+        <PARAM name="ucNcellEnergy" type="tinyint" size="1" desc="数值ucNcellEnergy" engdesc="ucNcellEnergy" />
+        <PARAM name="ucNcellQulity" type="tinyint" size="1" desc="数值ucNcellQulity" engdesc="ucNcellQulity" />
+        <PARAM name="ucNcellEnergySnd" type="tinyint" size="1" desc="数值ucNcellEnergySnd" engdesc="ucNcellEnergySnd" />
+        <PARAM name="ucRsv0" type="tinyint" size="1" desc="数值ucRsv0" engdesc="ucRsv0" />
+        <PARAM name="ucRsv1" type="tinyint" size="1" desc="数值ucRsv1" engdesc="ucRsv1" />
+        <PARAM name="ucRsv2" type="tinyint" size="1" desc="数值ucRsv2" engdesc="ucRsv2" />
+        <PARAM name="usNcellId" type="smallint" size="2" desc="数值usNcellId" engdesc="usNcellId" />
+        <PARAM name="usNcellIdSnd" type="smallint" size="2" desc="数值usNcellIdSnd" engdesc="usNcellIdSnd" />
+    </SUBEVENT>
+    <SUBEVENT name="LL2_OM_VOLTE_STAT_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMsTimeStamp" type="int" size="4" desc="数值ulMsTimeStamp" engdesc="ulMsTimeStamp" />
+        <PARAM name="LL2_OM_VOLTE_AUTOAN_EVENT_ENUM" type="enum" size="1" desc="枚举ucEvent" engdesc="LL2_OM_VOLTE_AUTOAN_EVENT_ENUM" />
+        <PARAM name="ucRtpPktCnt" type="tinyint" size="1" desc="数值ucRtpPktCnt" engdesc="ucRtpPktCnt" />
+        <PARAM name="ucRtpLossPktCnt" type="tinyint" size="1" desc="数值ucRtpLossPktCnt" engdesc="ucRtpLossPktCnt" />
+        <PARAM name="ucRohcDecompFailCnt" type="tinyint" size="1" desc="数值ucRohcDecompFailCnt" engdesc="ucRohcDecompFailCnt" />
+        <PARAM name="usTotalMACTb" type="smallint" size="2" desc="数值usTotalMACTb" engdesc="usTotalMACTb" />
+        <PARAM name="usCrcErrMACTb" type="smallint" size="2" desc="数值usCrcErrMACTb" engdesc="usCrcErrMACTb" />
+        <PARAM name="usRtpJitter" type="smallint" size="2" desc="数值usRtpJitter" engdesc="usRtpJitter" />
+        <PARAM name="usRsv0" type="smallint" size="2" desc="数值usRsv0" engdesc="usRsv0" />
+        <PARAM name="ulPdcpSendIpPktCnt" type="int" size="4" desc="数值ulPdcpSendIpPktCnt" engdesc="ulPdcpSendIpPktCnt" />
+        <PARAM name="ucSilenceFrameCnt" type="tinyint" size="1" desc="数值ucSilenceFrameCnt" engdesc="ucSilenceFrameCnt" />
+        <PARAM name="ucRsv" type="tinyint" size="1" desc="数值ucRsv" engdesc="ucRsv" />
+        <PARAM name="usRsv" type="smallint" size="2" desc="数值usRsv" engdesc="usRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="LRRC_VOLTE_SINGLE_CALL" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulGci" type="int" size="4" desc="数值ulGci" engdesc="ulGci" />
+        <PARAM name="LRRC_OM_TAC_STRU" type="class" />
+        <PARAM name="ucHour" type="tinyint" size="1" desc="数值ucHour" engdesc="ucHour" />
+        <PARAM name="ucMin" type="tinyint" size="1" desc="数值ucMin" engdesc="ucMin" />
+        <PARAM name="ucIfMoCall" type="tinyint" size="1" desc="数值ucIfMoCall" engdesc="ucIfMoCall" />
+        <PARAM name="ucRsv0" type="tinyint" size="1" desc="数值ucRsv0" engdesc="ucRsv0" />
+    </SUBEVENT>
+    <SUBEVENT name="LRRC_VOLTE_SINGLE_FAULT" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucHour" type="tinyint" size="1" desc="数值ucHour" engdesc="ucHour" />
+        <PARAM name="ucMin" type="tinyint" size="1" desc="数值ucMin" engdesc="ucMin" />
+        <PARAM name="ucSec" type="tinyint" size="1" desc="数值ucSec" engdesc="ucSec" />
+        <PARAM name="LPS_OM_SENSOR_STAT_ENUM" type="enum" size="1" desc="枚举enSensorState" engdesc="LPS_OM_SENSOR_STAT_ENUM" />
+        <PARAM name="LPS_OM_VOLTE_FAULT_CAUSE_ENUM" type="enum" size="2" desc="枚举enCause" engdesc="LPS_OM_VOLTE_FAULT_CAUSE_ENUM" />
+        <PARAM name="ucRsrq" type="tinyint" size="1" desc="数值ucRsrq" engdesc="ucRsrq" />
+        <PARAM name="ucRsrp" type="tinyint" size="1" desc="数值ucRsrp" engdesc="ucRsrp" />
+    </SUBEVENT>
+    <SUBEVENT name="LRRC_OM_SCELL_ID" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulGci" type="int" size="4" desc="数值ulGci" engdesc="ulGci" />
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+        <PARAM name="LRRC_OM_TAC_STRU" type="class" />
+        <PARAM name="usPhyCellId" type="smallint" size="2" desc="数值usPhyCellId" engdesc="usPhyCellId" />
+        <PARAM name="usUlEarfcn" type="smallint" size="2" desc="数值usUlEarfcn" engdesc="usUlEarfcn" />
+        <PARAM name="usDlEarfcn" type="smallint" size="2" desc="数值usDlEarfcn" engdesc="usDlEarfcn" />
+        <PARAM name="ucServerCellBandInd" type="tinyint" size="1" desc="数值ucServerCellBandInd" engdesc="ucServerCellBandInd" />
+        <PARAM name="ucRsv" type="tinyint" size="1" desc="数值ucRsv" engdesc="ucRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="LRRC_RRM_RES_CHECK" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulTimeStamp" type="int" size="4" desc="数值ulTimeStamp" engdesc="ulTimeStamp" />
+        <PARAM name="usTaskTypeCnt" type="smallint" size="2" desc="数值usTaskTypeCnt" engdesc="usTaskTypeCnt" />
+        <PARAM name="usRsv" type="smallint" size="2" desc="数值usRsv" engdesc="usRsv" />
+        <PARAM name="LRRC_DSDS_TASK_TYPE" type="classArray" size="8" />
+    </SUBEVENT>
+    <SUBEVENT name="LRRC_DSDS_TASK_TYPE" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="RRC_APP_RRM_PS_TASK_TYPE_ENUM" type="enum" size="2" desc="枚举enTaskType" engdesc="RRC_APP_RRM_PS_TASK_TYPE_ENUM" />
+        <PARAM name="LRRC_APP_SESSION_SRC_ENUM" type="enum" size="1" desc="枚举enSrcType" engdesc="LRRC_APP_SESSION_SRC_ENUM" />
+        <PARAM name="LRRC_APP_TASKTYPE_STATUS_ENUM" type="enum" size="1" desc="枚举enStatus" engdesc="LRRC_APP_TASKTYPE_STATUS_ENUM" />
+        <PARAM name="ucSessionSrcPidCnt" type="tinyint" size="1" desc="数值ucSessionSrcPidCnt" engdesc="ucSessionSrcPidCnt" />
+        <PARAM name="ucDelayRelFlg" type="tinyint" size="1" desc="数值ucDelayRelFlg" engdesc="ucDelayRelFlg" />
+        <PARAM name="aucResv_1" type="tinyint" size="1" desc="字符串aucResv" engdesc="aucResv" />
+    </SUBEVENT>
+    <SUBEVENT name="TLL2_LMAC_PREAMBLE_SPEC_NOT_MA" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="TLL2_LMAC_PREAMBLE_SPEC_NOT_MATCH_RESULT_ENUM" type="enum" size="1" desc="枚举enRaResult" engdesc="TLL2_LMAC_PREAMBLE_SPEC_NOT_MATCH_RESULT_ENUM" />
+        <PARAM name="ucRsv" type="tinyint" size="1" desc="数值ucRsv" engdesc="ucRsv" />
+        <PARAM name="usSelfAdjTaTimes" type="smallint" size="2" desc="数值usSelfAdjTaTimes" engdesc="usSelfAdjTaTimes" />
+        <PARAM name="LRRC_OM_SCELL_ID" type="class" />
+        <PARAM name="LMAC_OM_PRACH_CONFIG_STRU" type="class" />
+    </SUBEVENT>
+    <SUBEVENT name="LMAC_OM_PRACH_CONFIG_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucPrachConfigIndex" type="tinyint" size="1" desc="数值ucPrachConfigIndex" engdesc="ucPrachConfigIndex" />
+        <PARAM name="ucPrachFormat" type="tinyint" size="1" desc="数值ucPrachFormat" engdesc="ucPrachFormat" />
+        <PARAM name="ucHighSpeedFlag" type="tinyint" size="1" desc="数值ucHighSpeedFlag" engdesc="ucHighSpeedFlag" />
+        <PARAM name="ucZeroCorrelationZoneConfig" type="tinyint" size="1" desc="数值ucZeroCorrelationZoneConfig" engdesc="ucZeroCorrelationZoneConfig" />
+    </SUBEVENT>
+    <SUBEVENT name="OM_ERR_LOG_HEADER_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMsgModuleId" type="int" size="4" desc="数值ulMsgModuleId" engdesc="ulMsgModuleId" />
+        <PARAM name="usModemId" type="smallint" size="2" desc="数值usModemId" engdesc="usModemId" />
+        <PARAM name="usAlmId" type="smallint" size="2" desc="数值usAlmId" engdesc="usAlmId" />
+        <PARAM name="usAlmLevel" type="smallint" size="2" desc="数值usAlmLevel" engdesc="usAlmLevel" />
+        <PARAM name="usAlmType" type="smallint" size="2" desc="数值usAlmType" engdesc="usAlmType" />
+        <PARAM name="usAlmLowSlice" type="int" size="4" desc="数值usAlmLowSlice" engdesc="usAlmLowSlice" />
+        <PARAM name="usAlmHighSlice" type="int" size="4" desc="数值usAlmHighSlice" engdesc="usAlmHighSlice" />
+        <PARAM name="ulAlmLength" type="int" size="4" desc="数值ulAlmLength" engdesc="ulAlmLength" />
+    </SUBEVENT>
+    <SUBEVENT name="NRRC_CONNCTRL_MNTN_PCELL" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enPcellPresentFlg" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="aucReserved_6" type="tinyint" size="1" desc="字符串aucReserved" engdesc="aucReserved" />
+        <PARAM name="ulFreqInfo" type="int" size="4" desc="数值ulFreqInfo" engdesc="ulFreqInfo" />
+        <PARAM name="usBandInd" type="smallint" size="2" desc="数值usBandInd" engdesc="usBandInd" />
+        <PARAM name="usPhyCellId" type="smallint" size="2" desc="数值usPhyCellId" engdesc="usPhyCellId" />
+        <PARAM name="ulCgi" type="int" size="8" desc="数值ulCgi" engdesc="ulCgi" />
+    </SUBEVENT>
+    <SUBEVENT name="NRRC_CHR_PCELL_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enPcellPresentFlg" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enCgiValidFlg" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="aucRsv_5" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="ulFreqInfo" type="int" size="4" desc="数值ulFreqInfo" engdesc="ulFreqInfo" />
+        <PARAM name="usBandInd" type="smallint" size="2" desc="数值usBandInd" engdesc="usBandInd" />
+        <PARAM name="usPhyCellId" type="smallint" size="2" desc="数值usPhyCellId" engdesc="usPhyCellId" />
+        <PARAM name="ulCgi" type="int" size="8" desc="数值ulCgi" engdesc="ulCgi" />
+    </SUBEVENT>
+    <SUBEVENT name="NRRC_CONNCTRL_OUT_OF_SYNC_INFO" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NRRC_CHR_PCELL_INFO_STRU" type="class" />
+        <PARAM name="ulOutOfSyncNum" type="int" size="4" desc="数值ulOutOfSyncNum" engdesc="ulOutOfSyncNum" />
+        <PARAM name="ulInSyncNum" type="int" size="4" desc="数值ulInSyncNum" engdesc="ulInSyncNum" />
+    </SUBEVENT>
+    <SUBEVENT name="NRRC_CONNCTRL_CELL_MEAS" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="sRsrp" type="smallint" size="2" desc="数值sRsrp" engdesc="sRsrp" />
+        <PARAM name="sRsrq" type="smallint" size="2" desc="数值sRsrq" engdesc="sRsrq" />
+        <PARAM name="sRssi" type="smallint" size="2" desc="数值sRssi" engdesc="sRssi" />
+        <PARAM name="sSValue" type="smallint" size="2" desc="数值sSValue" engdesc="sSValue" />
+        <PARAM name="sRValue" type="smallint" size="2" desc="数值sRValue" engdesc="sRValue" />
+        <PARAM name="sSqual" type="smallint" size="2" desc="数值sSqual" engdesc="sSqual" />
+    </SUBEVENT>
+    <SUBEVENT name="NRRC_MEAS_CELL_RESULT" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="sRsrp" type="smallint" size="2" desc="数值sRsrp" engdesc="sRsrp" />
+        <PARAM name="sRsrq" type="smallint" size="2" desc="数值sRsrq" engdesc="sRsrq" />
+        <PARAM name="sSinr" type="smallint" size="2" desc="数值sSinr" engdesc="sSinr" />
+        <PARAM name="usRsv" type="smallint" size="2" desc="数值usRsv" engdesc="usRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="NRRC_CONNCTRL_RA" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="RRC_MAC_RA_TYPE_ENUM" type="enum" size="1" desc="枚举enRaType" engdesc="RRC_MAC_RA_TYPE_ENUM" />
+        <PARAM name="RRC_MAC_RA_CAUSE_ENUM" type="enum" size="1" desc="枚举enRaCause" engdesc="RRC_MAC_RA_CAUSE_ENUM" />
+        <PARAM name="usMsg3Size" type="smallint" size="2" desc="数值usMsg3Size" engdesc="usMsg3Size" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enNL2ErrIndFlg" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="ucPblSentNum" type="tinyint" size="1" desc="数值ucPblSentNum" engdesc="ucPblSentNum" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enMaxTxPowerReached" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enContentionDetected" engdesc="PS_BOOL_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT name="NRRC_CONNCTRL_RF_EXCEPT_TASK" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usTaskNum" type="smallint" size="2" desc="数值usTaskNum" engdesc="usTaskNum" />
+        <PARAM name="aucReserved_1" type="tinyint" size="1" desc="字符串aucReserved" engdesc="aucReserved" />
+        <PARAM name="NRRC_CONNCTRL_RF_TASK" type="classArray" size="16" />
+    </SUBEVENT>
+    <SUBEVENT name="NRRC_CONNCTRL_RF_TASK" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulSrcPid" type="int" size="4" desc="数值ulSrcPid" engdesc="ulSrcPid" />
+        <PARAM name="NRRC_NRMM_SESSION_TYPE_ENUM" type="enum" size="2" desc="枚举enSessionType" engdesc="NRRC_NRMM_SESSION_TYPE_ENUM" />
+        <PARAM name="RRM_PS_TASK_TYPE_ENUM" type="enum" size="2" desc="枚举enTaskType" engdesc="RRM_PS_TASK_TYPE_ENUM" />
+        <PARAM name="NRRC_CONNCTRL_CHR_DSDS_TASK_APPLY_STATUS_ENUM" type="enum" size="1" desc="枚举enTaskStatus" engdesc="NRRC_CONNCTRL_CHR_DSDS_TASK_APPLY_STATUS_ENUM" />
+        <PARAM name="aucReserved_2" type="tinyint" size="1" desc="字符串aucReserved" engdesc="aucReserved" />
+    </SUBEVENT>
+    <SUBEVENT name="NRRC_BAD_CellId" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="nrarfcn" type="int" size="4" desc="数值nrarfcn" engdesc="nrarfcn" />
+        <PARAM name="freqInfo" type="int" size="4" desc="数值freqInfo" engdesc="freqInfo" />
+        <PARAM name="BandInd" type="smallint" size="2" desc="数值BandInd" engdesc="BandInd" />
+        <PARAM name="phyCellId" type="smallint" size="2" desc="数值phyCellId" engdesc="phyCellId" />
+        <PARAM name="ssbScsType" type="tinyint" size="1" desc="数值ssbScsType" engdesc="ssbScsType" />
+        <PARAM name="reserved_2" type="tinyint" size="1" desc="字符串reserved" engdesc="reserved" />
+    </SUBEVENT>
+    <SUBEVENT name="NRRC_MEAS_CellResultInfo" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="sRsrp" type="smallint" size="2" desc="数值sRsrp" engdesc="sRsrp" />
+        <PARAM name="sRsrq" type="smallint" size="2" desc="数值sRsrq" engdesc="sRsrq" />
+        <PARAM name="sSinr" type="smallint" size="2" desc="数值sSinr" engdesc="sSinr" />
+        <PARAM name="rsv" type="smallint" size="2" desc="数值rsv" engdesc="rsv" />
+    </SUBEVENT>
+    <SUBEVENT name="NAS_MM_PLMN_ID_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="aucPlmnId_2" type="tinyint" size="1" desc="字符串aucPlmnId" engdesc="aucPlmnId" />
+        <PARAM name="ucRsv" type="tinyint" size="1" desc="数值ucRsv" engdesc="ucRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="NAS_MM_LAC_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucLac" type="tinyint" size="1" desc="数值ucLac" engdesc="ucLac" />
+        <PARAM name="ucLacCnt" type="tinyint" size="1" desc="数值ucLacCnt" engdesc="ucLacCnt" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="NAS_MM_TAC_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucTac" type="tinyint" size="1" desc="数值ucTac" engdesc="ucTac" />
+        <PARAM name="ucTacCnt" type="tinyint" size="1" desc="数值ucTacCnt" engdesc="ucTacCnt" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="LNAS_ERRLOG_POSITION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="LNAS_OM_ERRLOG_PLMN_ID_STRU" type="class" />
+        <PARAM name="LNAS_OM_ERRLOG_TAC_STRU" type="class" />
+        <PARAM name="ulCellId" type="int" size="4" desc="数值ulCellId" engdesc="ulCellId" />
+        <PARAM name="ulArfcn" type="int" size="4" desc="数值ulArfcn" engdesc="ulArfcn" />
+        <PARAM name="aulLteBand_7" type="int" size="4" desc="字符串aulLteBand" engdesc="aulLteBand" />
+    </SUBEVENT>
+    <SUBEVENT name="LNAS_OM_ERRLOG_PLMN_ID_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="aucPlmnId_2" type="tinyint" size="1" desc="字符串aucPlmnId" engdesc="aucPlmnId" />
+        <PARAM name="ucRsv" type="tinyint" size="1" desc="数值ucRsv" engdesc="ucRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="LNAS_OM_ERRLOG_TAC_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ucTac" type="tinyint" size="1" desc="数值ucTac" engdesc="ucTac" />
+        <PARAM name="ucTacCnt" type="tinyint" size="1" desc="数值ucTacCnt" engdesc="ucTacCnt" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="LEMM_INFO_ATTACH_TAU_FAIL" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="LNAS_EMM_OM_FAIL_TYPE_ENUM" type="enum" size="1" desc="枚举ucFailType" engdesc="LNAS_EMM_OM_FAIL_TYPE_ENUM" />
+        <PARAM name="ucCnCause" type="tinyint" size="1" desc="数值ucCnCause" engdesc="ucCnCause" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="LEMM_INFO_ESCAPE_CONDITION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="LNAS_ERRLOG_POSITION" type="class" />
+        <PARAM name="EMM_OM_ESCAPE_CONDITION_ENUM" type="enum" size="1" desc="枚举enEscapeCondition" engdesc="EMM_OM_ESCAPE_CONDITION_ENUM" />
+        <PARAM name="ucRsv1" type="tinyint" size="1" desc="数值ucRsv1" engdesc="ucRsv1" />
+        <PARAM name="ucRsv2" type="tinyint" size="1" desc="数值ucRsv2" engdesc="ucRsv2" />
+        <PARAM name="ucRsv3" type="tinyint" size="1" desc="数值ucRsv3" engdesc="ucRsv3" />
+    </SUBEVENT>
+    <SUBEVENT name="WAS_MNTN_LOG_ACCESS_LONG" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="WAS_MNTN_LOG_SERV_CELL_WHOLE" type="class" />
+        <PARAM name="WAS_MNTN_LOG_ACCESS_POWER" type="class" />
+    </SUBEVENT>
+    <SUBEVENT name="WAS_MNTN_LOG_SERV_CELL_WHOLE" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="PS_BOOL_ENUM" type="enum" size="1" desc="枚举enIsLocInfoFromBestCell" engdesc="PS_BOOL_ENUM" />
+        <PARAM name="aucReserve_2" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+        <PARAM name="WAS_MNTN_LOG_SERV_CELL" type="class" />
+        <PARAM name="ulServCellIdentity" type="int" size="4" desc="数值ulServCellIdentity" engdesc="ulServCellIdentity" />
+        <PARAM name="sServCellEcN0" type="smallint" size="2" desc="数值sServCellEcN0" engdesc="sServCellEcN0" />
+        <PARAM name="sServCellRscp" type="smallint" size="2" desc="数值sServCellRscp" engdesc="sServCellRscp" />
+    </SUBEVENT>
+    <SUBEVENT name="WAS_MNTN_LOG_SERV_CELL" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+        <PARAM name="usPrimScramblCode" type="smallint" size="2" desc="数值usPrimScramblCode" engdesc="usPrimScramblCode" />
+        <PARAM name="usDlUarfcn" type="smallint" size="2" desc="数值usDlUarfcn" engdesc="usDlUarfcn" />
+        <PARAM name="usFreqBandNo" type="smallint" size="2" desc="数值usFreqBandNo" engdesc="usFreqBandNo" />
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+        <PARAM name="ucRac" type="tinyint" size="1" desc="数值ucRac" engdesc="ucRac" />
+        <PARAM name="aucReserve_2" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+    </SUBEVENT>
+    <SUBEVENT name="WAS_MNTN_LOG_ACCESS_POWER" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="cUeTxPwrMaxRach" type="tinyint" size="1" desc="数值cUeTxPwrMaxRach" engdesc="cUeTxPwrMaxRach" />
+        <PARAM name="cUlInterf" type="tinyint" size="1" desc="数值cUlInterf" engdesc="cUlInterf" />
+        <PARAM name="cConstVal" type="tinyint" size="1" desc="数值cConstVal" engdesc="cConstVal" />
+        <PARAM name="aucReserved" type="varchar" size="1" desc="字符串aucReserved" engdesc="aucReserved" />
+    </SUBEVENT>
+    <SUBEVENT name="WAS_MNTN_LOG_RESOURCE_CHECK_EX" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulExceptionTaskCnt" type="int" size="4" desc="数值ulExceptionTaskCnt" engdesc="ulExceptionTaskCnt" />
+        <PARAM name="WAS_MNTN_LOG_RRM_PS_TASK_TYPE" type="classArray" size="16" />
+    </SUBEVENT>
+    <SUBEVENT name="WAS_MNTN_LOG_RRM_PS_TASK_TYPE" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="RRM_PS_TASK_TYPE_ENUM" type="enum" size="2" desc="枚举enRrmPsTaskName" engdesc="RRM_PS_TASK_TYPE_ENUM" />
+    </SUBEVENT>
+    <SUBEVENT name="WAS_MNTN_LOG_WOOS_SRCH_SECTION" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="WAS_MNTN_RRC_NAS_RAT_TYPE_ENUM" type="enum" size="4" desc="枚举ulRat" engdesc="WAS_MNTN_RRC_NAS_RAT_TYPE_ENUM" />
+        <PARAM name="ulStartTick" type="int" size="4" desc="数值ulStartTick" engdesc="ulStartTick" />
+        <PARAM name="ulEndTick" type="int" size="4" desc="数值ulEndTick" engdesc="ulEndTick" />
+        <PARAM name="WAS_MNTN_OOS_SEARCH_TYPE_ENUM" type="enum" size="1" desc="枚举enSearchType" engdesc="WAS_MNTN_OOS_SEARCH_TYPE_ENUM" />
+        <PARAM name="ucCurrRecValidFlg" type="tinyint" size="1" desc="数值ucCurrRecValidFlg" engdesc="ucCurrRecValidFlg" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="WAS_MNTN_LOG_W2W_RESEL_SLOW" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usServCellDlUarfcn" type="smallint" size="2" desc="数值usServCellDlUarfcn" engdesc="usServCellDlUarfcn" />
+        <PARAM name="usServCellPrimScramblCode" type="smallint" size="2" desc="数值usServCellPrimScramblCode" engdesc="usServCellPrimScramblCode" />
+        <PARAM name="ulServCellIdentity" type="int" size="4" desc="数值ulServCellIdentity" engdesc="ulServCellIdentity" />
+        <PARAM name="ulW2WReselTimeLenth" type="int" size="4" desc="数值ulW2WReselTimeLenth" engdesc="ulW2WReselTimeLenth" />
+        <PARAM name="WAS_MNTN_W2W_RESEL_RESULT_ENUM" type="enum" size="1" desc="枚举enW2WReselRslt" engdesc="WAS_MNTN_W2W_RESEL_RESULT_ENUM" />
+        <PARAM name="aucReserve_2" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+    </SUBEVENT>
+    <SUBEVENT name="WAS_MNTN_LOG_END_SESSION_CELL" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+        <PARAM name="usCSEndSessionCnt" type="smallint" size="2" desc="数值usCSEndSessionCnt" engdesc="usCSEndSessionCnt" />
+        <PARAM name="ulServCellIdentity" type="int" size="4" desc="数值ulServCellIdentity" engdesc="ulServCellIdentity" />
+    </SUBEVENT>
+    <SUBEVENT name="WasErrLogW2LPingPongRestrainIn" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="appearNum" type="smallint" size="2" desc="数值appearNum" engdesc="appearNum" />
+        <PARAM name="aucRsv_1" type="tinyint" size="1" desc="字符串aucRsv" engdesc="aucRsv" />
+        <PARAM name="WasErrLogLocationInfoStru" type="class" />
+        <PARAM name="WasErrLogW2LPingPongRestrainLC" type="class" />
+    </SUBEVENT>
+    <SUBEVENT name="WasErrLogLocationInfoStru" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="ulMcc" type="int" size="4" desc="数值ulMcc" engdesc="ulMcc" />
+        <PARAM name="ulMnc" type="int" size="4" desc="数值ulMnc" engdesc="ulMnc" />
+        <PARAM name="usLac" type="smallint" size="2" desc="数值usLac" engdesc="usLac" />
+        <PARAM name="ucRac" type="tinyint" size="1" desc="数值ucRac" engdesc="ucRac" />
+        <PARAM name="aucReserve_0" type="tinyint" size="1" desc="字符串aucReserve" engdesc="aucReserve" />
+        <PARAM name="ulServCellIdentity" type="int" size="4" desc="数值ulServCellIdentity" engdesc="ulServCellIdentity" />
+        <PARAM name="usDlUarfch" type="smallint" size="2" desc="数值usDlUarfch" engdesc="usDlUarfch" />
+        <PARAM name="usPrimScramblCode" type="smallint" size="2" desc="数值usPrimScramblCode" engdesc="usPrimScramblCode" />
+    </SUBEVENT>
+    <SUBEVENT name="WasErrLogW2LPingPongRestrainLC" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="lteArfcn" type="int" size="4" desc="数值lteArfcn" engdesc="lteArfcn" />
+        <PARAM name="lteCellId" type="smallint" size="2" desc="数值lteCellId" engdesc="lteCellId" />
+        <PARAM name="aRsv_1" type="tinyint" size="1" desc="字符串aRsv" engdesc="aRsv" />
+    </SUBEVENT>
+    <SUBEVENT name="FAKE_NODEB_INFO_STRU" faultType="STATICS" faultLevel="CRITICAL" privacyLevel="PUBLIC">
+        <PARAM name="NAS_MM_PLMN_ID_STRU" type="class" />
+        <PARAM name="NAS_MM_LAC_STRU" type="class" />
+        <PARAM name="NAS_MM_TAC_STRU" type="class" />
+        <PARAM name="ulCellId" type="int" size="4" desc="数值ulCellId" engdesc="ulCellId" />
+        <PARAM name="aulLteBand_7" type="int" size="4" desc="字符串aulLteBand" engdesc="aulLteBand" />
+        <PARAM name="ulArfcn" type="int" size="4" desc="数值ulArfcn" engdesc="ulArfcn" />
+        <PARAM name="physCellId" type="smallint" size="2" desc="数值physCellId" engdesc="physCellId" />
+        <PARAM name="bandWidth" type="tinyint" size="1" desc="数值bandWidth" engdesc="bandWidth" />
+        <PARAM name="rsv" type="tinyint" size="1" desc="数值rsv" engdesc="rsv" />
+    </SUBEVENT>
+</HISI_DIRECT_REPORT>

@@ -1,0 +1,75 @@
+
+############################## BSP OM组 start#########################################
+#dump
+CFG_CONFIG_MODEM_FULL_DUMP = NO
+CFG_CONFIG_MODEM_MINI_DUMP = YES
+CFG_CONFIG_MODEM_DUMP_BLACKLIST = YES
+CFG_DIAG_VERSION_ENG = NO
+
+#watchpoint
+CFG_CONFIG_WATCHPOINT = NO
+
+#coresight
+CFG_CONFIG_BALONG_CORESIGHT = NO
+
+#chr
+CFG_FEATURE_CHR_OM = FEATURE_OFF
+CFG_FEATURE_CHR_NR = YES
+
+#netlink
+CFG_CONFIG_DIAG_NETLINK = NO
+############################## BSP OM组 end###########################################
+
+############################## BSP OS组 start#########################################
+CFG_CONFIG_EDMA_DEBUG = NO
+CFG_CONFIG_MEM_DEBUG = NO
+CFG_CONFIG_PERF_STAT_DEBUG= NO
+
+#sysbus
+CFG_CONFIG_SYSBUS = NO
+CFG_CONFIG_SYSBUS_NRCCPU = NO
+CFG_CONFIG_SYSBUS_HAC = NO
+############################## BSP OS组 end###########################################
+
+############################## BSP 2组 start#########################################
+CFG_CONFIG_MODEM_ASLR_DEBUG = NO
+############################## BSP 2组 end###########################################
+
+############################## BSP 低功耗组 start#########################################
+CFG_CONFIG_RSRACC_DEBUG = NO
+CFG_CPUFREQ_DEBUG_INTERFACE= NO
+CFG_CONFIG_NRCCPU_PM_DEBUG = NO
+CFG_CONFIG_LRCCPU_PM_DEBUG = NO
+CFG_CONFIG_NRDSP_FULL_DUMP = NO
+CFG_CONFIG_NRDSP_MINI_DUMP = YES
+
+#clk
+CFG_CONFIG_BALONG_CCLK_DEBUG = NO
+############################## BSP 低功耗组 end###########################################
+
+############################## BSP 4组 start#########################################
+
+############################## BSP 4组 end###########################################
+
+############################## BSP 开源商用组 start#########################################
+CFG_CONFIG_PM_OM_DEBUG= NO
+############################## BSP 开源商用组 end###########################################
+
+############################## BSP MCD组 start#########################################
+#cshell & uart
+CFG_CONFIG_CSHELL = NO
+CFG_CONFIG_NR_CSHELL = NO
+CFG_CONFIG_UART_SHELL = NO
+CFG_CONFIG_OS_INCLUDE_SHELL = NO
+
+#icc
+CFG_CONFIG_ICC_DEBUG = NO
+############################## BSP MCD组 end###########################################
+
+############################## BSP VI组 start#########################################
+# llt ecdc report
+CFG_CONFIG_LLT_MDRV = NO
+CFG_CONFIG_ECDC = NO
+CFG_CONFIG_DYNMEM_REPORT = NO
+############################## BSP VI组 end###########################################
+

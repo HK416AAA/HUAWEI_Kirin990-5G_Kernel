@@ -1,0 +1,18 @@
+#gucnas user config 
+#Memcpy_s失败时是否复位，只在ENG版本复位，USER版本将第二和第四个参数取小后重新做拷贝，USER版本配置为OFF
+CFG_FEATURE_MEMCPY_REBOOT_CFG                   = FEATURE_OFF
+
+#是否允许使用AT命令写NV操作等商用分支拉出去之后再移至此处，USER版本配置为NO
+CFG_FEATURE_AT_NV_WRITE_SUPPORT                 = NO
+
+#是否读取LOG脱敏配置信息等商用分支拉出去之后再移至此处，USER版本配置为NO
+CFG_FEATURE_READ_LOG_FILTER_CFG                 = NO
+
+#CBT、装备等APPVCOM口是否可用，只有在ENG版本中才允许使用，USER版本配置为OFF
+CFG_FEATURE_DEBUG_APP_PORT                      = FEATURE_OFF
+
+#CBT、装备、测试等AT命令是否可用，只有在ENG版本中才允许使用，USER版本配置为OFF
+CFG_FEATURE_PHONE_ENG_AT_CMD                    = FEATURE_OFF
+
+#维测信息中打印地址的代码是否可用，只有在ENG版本中才允许使用，USER版本配置为OFF
+CFG_FEATURE_DEBUG_PRINT_ADDRESS                 = FEATURE_OFF
